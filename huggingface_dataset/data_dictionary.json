@@ -1,0 +1,41 @@
+{
+  "reviewed_events": {
+    "id": "Stable event identifier; not a date encoding",
+    "state": "Canonical Indian state",
+    "title": "Reviewed action headline",
+    "date": "Event date: ISO day, month or year; empty means unknown",
+    "date_precision": "day, month, year or unknown",
+    "date_basis": "Evidence and reasoning for event date",
+    "publication_date": "Publication date of selected reporting source, not event date",
+    "source_name": "Publisher of selected reporting source",
+    "source_url": "URL of selected reporting source",
+    "summary": "Original analytical summary of the supported action",
+    "category": "Principal action category",
+    "stage": "Evidence-supported milestone stage",
+    "initiative": "Reviewed grouping of related actions",
+    "confidence": "Qualitative support, not a probability or impact score",
+    "limitations": "Record-specific uncertainty",
+    "source_count": "Number of linked documents, not independent witnesses",
+    "has_primary_source": "At least one primary document attached",
+    "source_ids": "JSON array of source IDs in CSV; native array in JSONL"
+  },
+  "source_documents": {
+    "id": "Source primary key",
+    "url": "Original source URL",
+    "publisher": "Publisher or issuing body",
+    "title": "Original source title",
+    "published_date": "Source publication date, if known",
+    "accessed_date": "Research retrieval date",
+    "source_type": "Evidence classification",
+    "retrieval_status": "Recorded research retrieval outcome",
+    "updated_date": "Separate update date if known",
+    "retrieval_method": "Recorded retrieval method, if supplied",
+    "date_conflict": "Documented date discrepancy, if any"
+  },
+  "event_sources": {
+    "event_id": "Foreign key to reviewed_events.id",
+    "source_id": "Foreign key to source_documents.id",
+    "merge_reason": "Reason for evidence association; not a duplicate classification"
+  },
+  "null_policy": "Empty CSV fields mean missing/not recorded. Unknown event dates require date_precision=unknown."
+}

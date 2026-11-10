@@ -16,9 +16,9 @@ def main():
         export=Path(store.export(ROOT/'ledger-exports'))
         shutil.copytree(export,destination/'datasets',dirs_exist_ok=True)
         audit=store.audit()
-    names=['ledger.py','date_rules.py','collect_durable.py','collectors.py','pipeline.py','matching.py',
+    names=['ledger.py','date_rules.py','normalization.py','collect_durable.py','collectors.py','pipeline.py','matching.py',
            'extract_ledger.py','extract_documents.py','history_store.py','sync_tracker.py','build_ledger_bundle.py',
-           'README.md','requirements-extraction.txt','docs/LEDGER_OPERATIONS.md','docs/TRACKER_INTEGRATION_FINDINGS.md',
+           'README.md','requirements-extraction.txt','docs/NORMALIZATION.md','docs/LEDGER_OPERATIONS.md','docs/TRACKER_INTEGRATION_FINDINGS.md',
            'docs/DATA_SYSTEM_REVIEW.md','docs/COLLECTION_RELIABILITY.md','docs/DEDUP_EVALUATION.md',
            'evaluation/event_pairs.json','evaluation/source_titles.json','evaluation/title_matching_results.json','data/tracker_integration_audit.json',
            'data/events.json','dist/app.js','proposals/durable-collection.yml',

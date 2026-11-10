@@ -1,0 +1,18 @@
+{
+  "research_cutoff": "2026-11-10",
+  "counts": {
+    "events": 85,
+    "sources": 113,
+    "links": 137
+  },
+  "files": {
+    "data_dictionary.json": "40e5444e55c9eff7b47c47511d08388faf305278c577ff40b387243cc428ca60",
+    "event_sources.csv": "6e512c7fd57c458bee0d80898f2b1a12eabcf917e8b4e085291001a2a73ff971",
+    "METHODOLOGY.md": "d582a58c7d343810a1454b295eed9321a7776ab33a5c753ce24a1a56eeabe988",
+    "NORMALIZATION.md": "bb4d79f421260cc6171e68ee4e7d3fbce71ac5da8f115bbdd8992458ca73ac9a",
+    "README.md": "e498da7dbe8f856ea125fb7cd12547153297d318fd549461eaab4aebb4d91bcb",
+    "reviewed_events.csv": "403bbe20478c80ec4355991a34e999e793bfed82d03cfc33e9546ca6f92b9fea",
+    "reviewed_events.jsonl": "bbd752b378aa91a4353bd16754d1ca6b4ac993cf9ed824e67edd138c6297c9b8",
+    "source_documents.csv": "1c970ce858ff6a02e352f866c321804d812c771b48910d0c5506372e4517a327"
+  }
+}

@@ -8,19 +8,21 @@ def run(*args):return subprocess.check_output(args,cwd=ROOT).decode().strip()
 
 def main():
     if run('git','status','--porcelain'):raise RuntimeError('Commit all release changes before packaging')
-    DEST.mkdir(exist_ok=True)
+    DEST.mkdir(parents=True,exist_ok=True)
     sha=run('git','rev-parse','HEAD')
     source=DEST/'state-ai-policy-source.zip';bundle=DEST/'state-ai-policy-history.bundle'
     subprocess.run(['git','archive','--format=zip','--output',str(source),'HEAD'],cwd=ROOT,check=True)
     # The source bundle includes development history. Candidate data history is a separate remote branch and checkpoint.
     subprocess.run(['git','bundle','create',str(bundle),'main'],cwd=ROOT,check=True)
     subprocess.run(['git','bundle','verify',str(bundle)],cwd=ROOT,check=True,capture_output=True)
-    for dirname in ['data','docs','dist']:
+    for dirname in ['data','docs','dist','huggingface_dataset']:
         shutil.copytree(ROOT/dirname,DEST/({'output':'reports','dist':'offline-dashboard'}.get(dirname,dirname)),dirs_exist_ok=True)
     (DEST/'reports').mkdir(exist_ok=True)
     for asset in (ROOT/'output').iterdir():
-        if asset.is_file() and asset.suffix.lower() in ['.pdf','.png','.zip']:
+        if asset.is_file() and asset.suffix.lower() in ['.pdf','.png','.zip','.html']:
             shutil.copy2(asset,DEST/'reports'/asset.name)
+    shutil.copytree(ROOT/'output/figures',DEST/'figures',dirs_exist_ok=True)
+    shutil.copytree(ROOT/'output/figures',DEST/'reports/figures',dirs_exist_ok=True)
     shutil.copy2(ROOT/'README.md',DEST/'PROJECT_README.md')
     intro='''# Submission: AI-related policy activity across Indian states
 
@@ -30,11 +32,16 @@ Research window: 1 January 2024 to 10 November 2026
 Live dashboard: https://vishnu0906.github.io/state-ai-policy-observatory/
 Public source and commit history: https://github.com/VISHNU0906/state-ai-policy-observatory
 
-Start with reports/Research_Report.pdf and reports/Rationale.pdf.
+Submission Google Doc: https://docs.google.com/document/d/1D2oONWv0jaM9RBpK6ak79ZqeVRC90CnHwukn5x4e18Y/edit
+
+Start with reports/Technical_Submission.pdf and reports/Rationale.pdf.
 The main dataset is data/events.csv. Source evidence is data/sources.csv.
 Provider comparison and integration details are in reports/Collection_Architecture.pdf.
 The persistent ledger, candidate tables and recovery tools are in reports/Data_System_Checkpoint_2026-11-10.zip.
 Read docs/LEDGER_OPERATIONS.md and docs/RELEASE.md for the verified collection and review boundaries.
+figures/ contains four reproducible PNG/SVG figures and their underlying values.
+huggingface_dataset/ contains an upload-ready dataset card, CSV/JSONL tables and dictionary.
+docs/SUBMISSION_CHECKLIST.md lists the remaining upload, access and submission steps.
 Open offline-dashboard/index.html for a local copy of the dashboard.
 
 Extract state-ai-policy-source.zip to run the code. Python 3.11+ is sufficient:

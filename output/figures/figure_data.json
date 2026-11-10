@@ -1,0 +1,81 @@
+{
+  "reviewed_events": 85,
+  "state_counts": {
+    "Andhra Pradesh": 8,
+    "Assam": 6,
+    "Gujarat": 8,
+    "Karnataka": 7,
+    "Kerala": 6,
+    "Madhya Pradesh": 6,
+    "Maharashtra": 7,
+    "Odisha": 7,
+    "Rajasthan": 8,
+    "Tamil Nadu": 8,
+    "Telangana": 6,
+    "Uttar Pradesh": 8
+  },
+  "primary_attached": {
+    "Andhra Pradesh": 1,
+    "Assam": 4,
+    "Gujarat": 7,
+    "Karnataka": 4,
+    "Kerala": 6,
+    "Madhya Pradesh": 4,
+    "Maharashtra": 5,
+    "Odisha": 6,
+    "Rajasthan": 7,
+    "Tamil Nadu": 6,
+    "Telangana": 4,
+    "Uttar Pradesh": 5
+  },
+  "categories": {
+    "Policy & strategy": 19,
+    "Responsible AI": 5,
+    "Partnerships": 24,
+    "Institutions & capacity": 23,
+    "Public-sector deployment": 10,
+    "Funding": 4
+  },
+  "date_precision": {
+    "day": 78,
+    "month": 3,
+    "unknown": 4
+  },
+  "provider_health": [
+    {
+      "provider": "exa",
+      "status": "ok",
+      "queries": 12,
+      "capped": 12
+    },
+    {
+      "provider": "gdelt",
+      "status": "failed",
+      "queries": 1,
+      "capped": 0
+    },
+    {
+      "provider": "gdelt",
+      "status": "skipped_provider_stopped",
+      "queries": 11,
+      "capped": 0
+    },
+    {
+      "provider": "google-rss",
+      "status": "ok",
+      "queries": 12,
+      "capped": 12
+    },
+    {
+      "provider": "tavily",
+      "status": "ok",
+      "queries": 12,
+      "capped": 10
+    }
+  ],
+  "run_id": "752d6a81-4228-41ef-9d78-45b4945a947b",
+  "source_files": [
+    "data/events.csv",
+    "runs/durable-system-verification.json"
+  ]
+}
