@@ -1,0 +1,882 @@
+{
+  "schema_version": "1.0",
+  "created_date": "2026-11-10",
+  "status": "completed bounded adjudication set; pending independent human review",
+  "unit": "Pair of source-specific event claims, identified by production candidate_id = event_id::source_id",
+  "corpus": {
+    "path": "data/events.json",
+    "sha256": "0846b8b13a5b001e57d9a337ccde14b4a574d7e7d83b1f3fb01fdf44052653b1",
+    "events_at_review": 85,
+    "sources_at_review": 113
+  },
+  "adjudication": {
+    "reviewer": "research_west research agent",
+    "method": "Manual claim-level review of reviewed production event records and source evidence summaries; no inferred labels from arbitrary co-association alone. No independent human adjudication is claimed.",
+    "scope": "Diagnostic development set, not random sample or unseen held-out benchmark.",
+    "label_values": [
+      "same_event",
+      "different_event"
+    ],
+    "article_identity_note": "Different source records do not prove distinct underlying articles. same_underlying_article is null unless both claims use the identical source record. Print/web equivalence and syndication require a separate content comparison.",
+    "leakage_warning": "Event IDs, shared cluster membership, canonical summaries and adjudicated reasons reveal labels. Use IDs only to look up documents; do not supply them as matching features."
+  },
+  "counts": {
+    "same_event": 12,
+    "different_event": 22,
+    "unscored": 8
+  },
+  "pairs": [
+    {
+      "pair_id": "EP-001",
+      "left": {
+        "candidate_id": "mh-google-mou-2024::west-s01",
+        "event_id": "mh-google-mou-2024",
+        "source_id": "west-s01"
+      },
+      "right": {
+        "candidate_id": "mh-google-mou-2024::west-s02",
+        "event_id": "mh-google-mou-2024",
+        "source_id": "west-s02"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Both reports describe the 8 February 2024 Maharashtra-Google signing. Different publishers and wording do not create a second agreement.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-002",
+      "left": {
+        "candidate_id": "mh-microsoft-mou-2025::west-s05",
+        "event_id": "mh-microsoft-mou-2025",
+        "source_id": "west-s05"
+      },
+      "right": {
+        "candidate_id": "mh-microsoft-mou-2025::west-s06",
+        "event_id": "mh-microsoft-mou-2025",
+        "source_id": "west-s06"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Both report the Maharashtra-Microsoft agreement for three proposed AI centres; the HT account supplies the 1 April signing date.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-003",
+      "left": {
+        "candidate_id": "gj-ibm-cluster-mou-2024::west-s15",
+        "event_id": "gj-ibm-cluster-mou-2024",
+        "source_id": "west-s15"
+      },
+      "right": {
+        "candidate_id": "gj-ibm-cluster-mou-2024::west-s16",
+        "event_id": "gj-ibm-cluster-mou-2024",
+        "source_id": "west-s16"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "IBM release and PTI reporting identify the 29 June 2024 Gujarat-IBM AI-cluster MoU, despite the newspaper also covering other agreements.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-004",
+      "left": {
+        "candidate_id": "rj-ai-policy-approval-2025::central-s02",
+        "event_id": "rj-ai-policy-approval-2025",
+        "source_id": "central-s02"
+      },
+      "right": {
+        "candidate_id": "rj-ai-policy-approval-2025::central-s03",
+        "event_id": "rj-ai-policy-approval-2025",
+        "source_id": "central-s03"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "CMO release and next-day IANS reporting describe the 30 December 2025 cabinet approval. The later publication day is not a second decision.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-005",
+      "left": {
+        "candidate_id": "rj-nlu-mou-2026::central-s18",
+        "event_id": "rj-nlu-mou-2026",
+        "source_id": "central-s18"
+      },
+      "right": {
+        "candidate_id": "rj-nlu-mou-2026::central-s17",
+        "event_id": "rj-nlu-mou-2026",
+        "source_id": "central-s17"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "NLU announcement and partner-specific ET reporting describe the same responsible AI agreement signed on 6 January 2026.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-006",
+      "left": {
+        "candidate_id": "tg-2025-google::tg-google-news",
+        "event_id": "tg-2025-google",
+        "source_id": "tg-google-news"
+      },
+      "right": {
+        "candidate_id": "tg-2025-google::tg-google-et",
+        "event_id": "tg-2025-google",
+        "source_id": "tg-google-et"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Both reports describe the Telangana-Google MoU exchanged on 13 February 2025; shared announcement dependence is possible.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-007",
+      "left": {
+        "candidate_id": "TN-2024-03::S-TN-03",
+        "event_id": "TN-2024-03",
+        "source_id": "S-TN-03"
+      },
+      "right": {
+        "candidate_id": "TN-2024-03::S-TN-04",
+        "event_id": "TN-2024-03",
+        "source_id": "S-TN-04"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Tamil Nadu government release and newspaper report cover the same Google AI-ecosystem MoU exchange.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-008",
+      "left": {
+        "candidate_id": "AP-2026-01::S-AP-09",
+        "event_id": "AP-2026-01",
+        "source_id": "S-AP-09"
+      },
+      "right": {
+        "candidate_id": "AP-2026-01::S-AP-10",
+        "event_id": "AP-2026-01",
+        "source_id": "S-AP-10"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Both 10 November 2026 reports describe the same Andhra Pradesh cabinet approval of Robotics and Physical AI Policy; underlying notification remains unverified.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-009",
+      "left": {
+        "candidate_id": "as-2025-google::as-google-official",
+        "event_id": "as-2025-google",
+        "source_id": "as-google-official"
+      },
+      "right": {
+        "candidate_id": "as-2025-google::as-google-news",
+        "event_id": "as-2025-google",
+        "source_id": "as-google-news"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Government signatory account and newspaper describe the 11 November 2025 Assam-Google Cloud signing. Updated page date does not create another event.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-010",
+      "left": {
+        "candidate_id": "up-2026-amgreen::up-amg-gov",
+        "event_id": "up-2026-amgreen",
+        "source_id": "up-amg-gov"
+      },
+      "right": {
+        "candidate_id": "up-2026-amgreen::up-amg-partner",
+        "event_id": "up-2026-amgreen",
+        "source_id": "up-amg-partner"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Both releases report the 20 January 2026 Invest UP-AM Group MoU for the Greater Noida AI-compute hub. Conflicting completion forecasts do not imply different signings.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-011",
+      "left": {
+        "candidate_id": "od-2025-ai-training::od-training-news",
+        "event_id": "od-2025-ai-training",
+        "source_id": "od-training-news"
+      },
+      "right": {
+        "candidate_id": "od-2025-ai-training::od-training-reprint",
+        "event_id": "od-2025-ai-training",
+        "source_id": "od-training-reprint"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Newsroom Odisha and the Hans India report hosted by Wadhwani describe the first Odisha government AI workshop on 16 April 2025; 21 April is the reprint posting date.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-012",
+      "left": {
+        "candidate_id": "up-2025-google::up-google-ht",
+        "event_id": "up-2025-google",
+        "source_id": "up-google-ht"
+      },
+      "right": {
+        "candidate_id": "up-2025-google::up-google-clip",
+        "event_id": "up-2025-google",
+        "source_id": "up-google-clip"
+      },
+      "label": "same_event",
+      "same_event": true,
+      "case_type": "same_event_reports",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "HT web article and HT clipping hosted by Invest UP describe the same 7 January 2025 agriculture-network signing. Hosting and headline variations do not establish a second agreement.",
+      "limitations": "Same-event reporting does not imply independent sourcing or verified delivery.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-013",
+      "left": {
+        "candidate_id": "rj-ai-draft-consultation-2025::central-s01",
+        "event_id": "rj-ai-draft-consultation-2025",
+        "source_id": "central-s01"
+      },
+      "right": {
+        "candidate_id": "rj-ai-policy-approval-2025::central-s02",
+        "event_id": "rj-ai-policy-approval-2025",
+        "source_id": "central-s02"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Public consultation on a draft and cabinet approval are different actions; unknown draft-upload day must not be replaced by approval date.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-014",
+      "left": {
+        "candidate_id": "rj-ai-policy-approval-2025::central-s02",
+        "event_id": "rj-ai-policy-approval-2025",
+        "source_id": "central-s02"
+      },
+      "right": {
+        "candidate_id": "rj-ai-policy-launch-2026::central-s04",
+        "event_id": "rj-ai-policy-launch-2026",
+        "source_id": "central-s04"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "30 December cabinet approval and 6 January public launch are separate policy milestones.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-015",
+      "left": {
+        "candidate_id": "mh-ai-policy-cabinet-2026::west-s09",
+        "event_id": "mh-ai-policy-cabinet-2026",
+        "source_id": "west-s09"
+      },
+      "right": {
+        "candidate_id": "mh-ai-policy-gr-2026::west-s10",
+        "event_id": "mh-ai-policy-gr-2026",
+        "source_id": "west-s10"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "29 April cabinet approval differs from 6 May Government Resolution issuance, although both concern Maharashtra AI Policy 2026.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-016",
+      "left": {
+        "candidate_id": "gj-microsoft-coe-mou-2024::west-s16",
+        "event_id": "gj-microsoft-coe-mou-2024",
+        "source_id": "west-s16"
+      },
+      "right": {
+        "candidate_id": "gj-coe-inauguration-2025::west-s19",
+        "event_id": "gj-coe-inauguration-2025",
+        "source_id": "west-s19"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "June 2024 Microsoft agreement and January 2025 centre inauguration are separate milestones; inauguration report recalls the agreement.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-017",
+      "left": {
+        "candidate_id": "gj-taskforce-2024::west-s17",
+        "event_id": "gj-taskforce-2024",
+        "source_id": "west-s17"
+      },
+      "right": {
+        "candidate_id": "gj-implementation-cell-2026::west-s18",
+        "event_id": "gj-implementation-cell-2026",
+        "source_id": "west-s18"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "related_institutions_distinct_action",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "December 2024 taskforce constitution and March 2026 implementation-cell creation establish different administrative bodies.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-018",
+      "left": {
+        "candidate_id": "gj-action-plan-2025::west-s21",
+        "event_id": "gj-action-plan-2025",
+        "source_id": "west-s21"
+      },
+      "right": {
+        "candidate_id": "gj-implementation-cell-2026::west-s18",
+        "event_id": "gj-implementation-cell-2026",
+        "source_id": "west-s18"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "July 2025 action-plan resolution and March 2026 implementation-cell circular differ; the later circular references the earlier resolution.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-019",
+      "left": {
+        "candidate_id": "TN-2024-02::S-TN-02",
+        "event_id": "TN-2024-02",
+        "source_id": "S-TN-02"
+      },
+      "right": {
+        "candidate_id": "TN-2024-04::S-TN-01",
+        "event_id": "TN-2024-04",
+        "source_id": "S-TN-01"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "February mission budget announcement and October order with implementation sanction are distinct actions.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-020",
+      "left": {
+        "candidate_id": "up-2026-mission-announcement::up-mission-pib",
+        "event_id": "up-2026-mission-announcement",
+        "source_id": "up-mission-pib"
+      },
+      "right": {
+        "candidate_id": "up-2026-budget::up-budget-gov",
+        "event_id": "up-2026-budget",
+        "source_id": "up-budget-gov"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "January mission announcement and February annual budget provision differ in action and financial meaning.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-021",
+      "left": {
+        "candidate_id": "up-2026-budget::up-budget-gov",
+        "event_id": "up-2026-budget",
+        "source_id": "up-budget-gov"
+      },
+      "right": {
+        "candidate_id": "up-2026-mission-approval::up-mission-approval",
+        "event_id": "up-2026-mission-approval",
+        "source_id": "up-mission-approval"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_initiative_distinct_milestone",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "February annual budget and October cabinet approval are distinct mission milestones.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-022",
+      "left": {
+        "candidate_id": "gj-ibm-cluster-mou-2024::west-s16",
+        "event_id": "gj-ibm-cluster-mou-2024",
+        "source_id": "west-s16"
+      },
+      "right": {
+        "candidate_id": "gj-microsoft-coe-mou-2024::west-s16",
+        "event_id": "gj-microsoft-coe-mou-2024",
+        "source_id": "west-s16"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "same_source_record",
+      "same_underlying_article": true,
+      "reason": "One newspaper article reports separate IBM AI-cluster and Microsoft centre agreements signed on the same date; identical article identity cannot merge their event claims.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-023",
+      "left": {
+        "candidate_id": "rj-google-mou-2026::central-s17",
+        "event_id": "rj-google-mou-2026",
+        "source_id": "central-s17"
+      },
+      "right": {
+        "candidate_id": "rj-iit-delhi-mou-2026::central-s17",
+        "event_id": "rj-iit-delhi-mou-2026",
+        "source_id": "central-s17"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "same_source_record",
+      "same_underlying_article": true,
+      "reason": "One report identifies Google public-service pilots and IIT Delhi research/capacity agreements separately; same ceremony is not same instrument.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-024",
+      "left": {
+        "candidate_id": "rj-iit-delhi-mou-2026::central-s17",
+        "event_id": "rj-iit-delhi-mou-2026",
+        "source_id": "central-s17"
+      },
+      "right": {
+        "candidate_id": "rj-nlu-mou-2026::central-s18",
+        "event_id": "rj-nlu-mou-2026",
+        "source_id": "central-s18"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "IIT Delhi research/capacity agreement and NLU legal/ethical collaboration have different counterparties and scopes despite same date.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-025",
+      "left": {
+        "candidate_id": "mp-indiaai-labs-mou-2026::central-s13",
+        "event_id": "mp-indiaai-labs-mou-2026",
+        "source_id": "central-s13"
+      },
+      "right": {
+        "candidate_id": "mp-bhashini-mou-2026::central-s14",
+        "event_id": "mp-bhashini-mou-2026",
+        "source_id": "central-s14"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "IndiaAI labs and BHASHINI multilingual-service MoUs at the 15 January conference are different agreements.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-026",
+      "left": {
+        "candidate_id": "mp-nasscom-coe-mou-2026::central-s15",
+        "event_id": "mp-nasscom-coe-mou-2026",
+        "source_id": "central-s15"
+      },
+      "right": {
+        "candidate_id": "mp-bhashini-mou-2026::central-s14",
+        "event_id": "mp-bhashini-mou-2026",
+        "source_id": "central-s14"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Nasscom centre agreement and BHASHINI multilingual governance agreement differ in counterparty and deliverable.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-027",
+      "left": {
+        "candidate_id": "od-2026-hcl-technology-mou::od-hcl-gov",
+        "event_id": "od-2026-hcl-technology-mou",
+        "source_id": "od-hcl-gov"
+      },
+      "right": {
+        "candidate_id": "od-2026-hcl-sarvam-data-mou::od-hcl-gov",
+        "event_id": "od-2026-hcl-sarvam-data-mou",
+        "source_id": "od-hcl-gov"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "same_source_record",
+      "same_underlying_article": true,
+      "reason": "One state release explicitly reports two MoUs: HCLTech technology centre and tripartite HCLTech-Sarvam AI data centre. Shared date and HCLTech partner do not collapse the instruments.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-028",
+      "left": {
+        "candidate_id": "tg-2025-google::tg-google-news",
+        "event_id": "tg-2025-google",
+        "source_id": "tg-google-news"
+      },
+      "right": {
+        "candidate_id": "tg-2025-microsoft::tg-ms-news",
+        "event_id": "tg-2025-microsoft",
+        "source_id": "tg-ms-news"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_distinct_agreements",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Telangana signed distinct Google cross-sector AI and Microsoft skilling/centre agreements on 13 February 2025.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-029",
+      "left": {
+        "candidate_id": "mh-microsoft-mou-2025::west-s05",
+        "event_id": "mh-microsoft-mou-2025",
+        "source_id": "west-s05"
+      },
+      "right": {
+        "candidate_id": "AP-2025-01::S-AP-02",
+        "event_id": "AP-2025-01",
+        "source_id": "S-AP-02"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "similar_terms_different_states",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Maharashtra and Andhra Pradesh Microsoft agreements have different state signatories, dates and scopes.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-030",
+      "left": {
+        "candidate_id": "rj-google-mou-2026::central-s17",
+        "event_id": "rj-google-mou-2026",
+        "source_id": "central-s17"
+      },
+      "right": {
+        "candidate_id": "as-2025-google::as-google-news",
+        "event_id": "as-2025-google",
+        "source_id": "as-google-news"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "similar_terms_different_states",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Rajasthan and Assam Google partnerships concern different state governments and signing dates.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-031",
+      "left": {
+        "candidate_id": "KL-2026-01::S-KL-09",
+        "event_id": "KL-2026-01",
+        "source_id": "S-KL-09"
+      },
+      "right": {
+        "candidate_id": "mp-state-ai-mission-announced-2026::central-s16",
+        "event_id": "mp-state-ai-mission-announced-2026",
+        "source_id": "central-s16"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_date_different_states",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Both dates are 20 February 2026, but Kerala cabinet IT policy approval and Madhya Pradesh planned AI Mission announcement are different state actions and stages.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-032",
+      "left": {
+        "candidate_id": "TN-2024-03::S-TN-03",
+        "event_id": "TN-2024-03",
+        "source_id": "S-TN-03"
+      },
+      "right": {
+        "candidate_id": "AP-2024-01::S-AP-01",
+        "event_id": "AP-2024-01",
+        "source_id": "S-AP-01"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "similar_terms_different_states",
+      "source_document_identity": "different_source_records",
+      "same_underlying_article": null,
+      "reason": "Tamil Nadu and Andhra Pradesh Google AI agreements are separate state actions despite similar ecosystem and skills language.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-033",
+      "left": {
+        "candidate_id": "KA-2025-02::S-KA-03",
+        "event_id": "KA-2025-02",
+        "source_id": "S-KA-03"
+      },
+      "right": {
+        "candidate_id": "KA-2025-03::S-KA-03",
+        "event_id": "KA-2025-03",
+        "source_id": "S-KA-03"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_document_distinct_budget_actions",
+      "source_document_identity": "same_source_record",
+      "same_underlying_article": true,
+      "reason": "One Karnataka budget separately proposes AI/GIS attendance and digital agricultural service centres; a budget document is not a single event.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    },
+    {
+      "pair_id": "EP-034",
+      "left": {
+        "candidate_id": "KL-2024-01::S-KL-01",
+        "event_id": "KL-2024-01",
+        "source_id": "S-KL-01"
+      },
+      "right": {
+        "candidate_id": "KL-2024-02::S-KL-01",
+        "event_id": "KL-2024-02",
+        "source_id": "S-KL-01"
+      },
+      "label": "different_event",
+      "same_event": false,
+      "case_type": "same_document_distinct_programmes",
+      "source_document_identity": "same_source_record",
+      "same_underlying_article": true,
+      "reason": "KITE annual report recounts both teacher training and Class 7 curriculum change. Same source document and related education goals do not make these the same action.",
+      "limitations": "This is a claim-level distinction. A whole-document comparison cannot distinguish separate claims inside one document; the system should split claims or abstain.",
+      "review_status": "researcher_adjudicated_pending_independent_human_review"
+    }
+  ],
+  "unscored_cases": [
+    {
+      "case_id": "UC-01",
+      "left": {
+        "candidate_id": "mh-marvel-approval-2024::west-s03",
+        "event_id": "mh-marvel-approval-2024",
+        "source_id": "west-s03"
+      },
+      "right": {
+        "candidate_id": "mh-marvel-approval-2024::west-s04",
+        "event_id": "mh-marvel-approval-2024",
+        "source_id": "west-s04"
+      },
+      "label": null,
+      "reason": "Contemporaneous cabinet approval report versus later NITI feature about establishment and operation; source association is broader context, not a duplicate approval report.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-02",
+      "left": {
+        "candidate_id": "gj-microsoft-coe-mou-2024::west-s16",
+        "event_id": "gj-microsoft-coe-mou-2024",
+        "source_id": "west-s16"
+      },
+      "right": {
+        "candidate_id": "gj-microsoft-coe-mou-2024::west-s19",
+        "event_id": "gj-microsoft-coe-mou-2024",
+        "source_id": "west-s19"
+      },
+      "label": null,
+      "reason": "Signing account versus later inauguration report recalling the agreement; cannot label whole documents as duplicate reports of signing.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-03",
+      "left": {
+        "candidate_id": "gj-coe-inauguration-2025::west-s19",
+        "event_id": "gj-coe-inauguration-2025",
+        "source_id": "west-s19"
+      },
+      "right": {
+        "candidate_id": "gj-coe-inauguration-2025::west-s20",
+        "event_id": "gj-coe-inauguration-2025",
+        "source_id": "west-s20"
+      },
+      "label": null,
+      "reason": "Inauguration report versus 2026 funding/modalities circular with retrospective launch reference.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-04",
+      "left": {
+        "candidate_id": "gj-action-plan-2025::west-s21",
+        "event_id": "gj-action-plan-2025",
+        "source_id": "west-s21"
+      },
+      "right": {
+        "candidate_id": "gj-action-plan-2025::west-s18",
+        "event_id": "gj-action-plan-2025",
+        "source_id": "west-s18"
+      },
+      "label": null,
+      "reason": "Action-plan news versus later implementation-cell circular used to verify resolution date.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-05",
+      "left": {
+        "candidate_id": "TN-2024-02::S-TN-02",
+        "event_id": "TN-2024-02",
+        "source_id": "S-TN-02"
+      },
+      "right": {
+        "candidate_id": "TN-2024-02::S-TN-01",
+        "event_id": "TN-2024-02",
+        "source_id": "S-TN-01"
+      },
+      "label": null,
+      "reason": "Budget report versus later sanction order recalling the budget announcement.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-06",
+      "left": {
+        "candidate_id": "mh-ai-policy-gr-2026::west-s10",
+        "event_id": "mh-ai-policy-gr-2026",
+        "source_id": "west-s10"
+      },
+      "right": {
+        "candidate_id": "mh-ai-policy-gr-2026::west-s11",
+        "event_id": "mh-ai-policy-gr-2026",
+        "source_id": "west-s11"
+      },
+      "label": null,
+      "reason": "Policy resolution versus document index with conflicting date metadata. Index is not an article report.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-07",
+      "left": {
+        "candidate_id": "rj-ai-policy-launch-2026::central-s04",
+        "event_id": "rj-ai-policy-launch-2026",
+        "source_id": "central-s04"
+      },
+      "right": {
+        "candidate_id": "rj-ai-policy-launch-2026::central-s05",
+        "event_id": "rj-ai-policy-launch-2026",
+        "source_id": "central-s05"
+      },
+      "label": null,
+      "reason": "Launch release versus current undated portal. Live portal corroborates existence, not an independent launch report.",
+      "review_status": "excluded_from_scoring"
+    },
+    {
+      "case_id": "UC-08",
+      "left": {
+        "candidate_id": "up-2025-datalabs::up-labs-parliament",
+        "event_id": "up-2025-datalabs",
+        "source_id": "up-labs-parliament"
+      },
+      "right": {
+        "candidate_id": "up-2025-datalabs::up-mission-pib",
+        "event_id": "up-2025-datalabs",
+        "source_id": "up-mission-pib"
+      },
+      "label": null,
+      "reason": "Parliament dates the agreement September 2025; PIB describes a January 2026 ceremony without resolving renewal or expansion. Do not force an event-equivalence gold label for these documents.",
+      "review_status": "excluded_from_scoring"
+    }
+  ],
+  "limitations": [
+    "Reviewed corpus selection is not a representative sample of news traffic.",
+    "Some positive pairs may share a press release or cabinet briefing; event equivalence is not independent corroboration.",
+    "One source can contain several events; document identity and event identity must remain separate.",
+    "No performance metrics have been computed or asserted.",
+    "Source ledger stores evidence summaries, not necessarily complete article snapshots; extraction testing requires separately captured document text.",
+    "Labels are researcher-assigned and revisable when instruments, dates or scopes are clarified."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "snapshot_sha256": "36575190cafc04f9f6502ee3008860f400ee91272aa563c7fe2e72573130fb58",
+  "observed_at": "2026-11-10T16:22:28.015373+00:00",
+  "files": {
+    "data/out/records.csv": "fc7019dc2854fbeb787c9e9bb6f2144b3b161d1678985d53b7e21b00d8313873",
+    "data/out/record_sources.csv": "0811228378200fabe3cb26caaf67d4e6a9e038c5f27544563a07fd5e6d2e58a3",
+    "data/out/rejected.csv": "9ac498f5d67819b34a475b311ee8742bd88808e478b401865a417abf7f4a2478",
+    "data/review/dedup_pairs.csv": "90ef4e8c30de78291df909be97d896e03f19a7e8ac4ca67834484c3dc4839ac7",
+    "data/review/review_notes_draft.csv": "0cdc16322cf77a1c65f3f1c21b609762b93aa308d45ff65d2b60b04c119416ce",
+    "data/review/overrides.csv": "d09fd6b004aac639919c22db7b968f603050198cb22122c2d44dc4bbd4499985",
+    "pipeline/dedupe.py": "56cd2295b30d0b8ccb771bf7e72e3a8defbda5fdbe35a5583a02e8f549eeaca9",
+    "scripts/eval_dedupe.py": "195c043d1c7517cdb417436446233c92f940713430fed8c4a6e3fe75e8a871fc",
+    "README.md": "3cf31c74126326741680ec782b1a0b207a18a0db452fc7a5e8cfe307e382cf22"
+  },
+  "records": 550,
+  "source_links": 1086,
+  "rejected": 8387,
+  "proposed_states": {
+    "Andhra Pradesh": 60,
+    "Assam": 16,
+    "Bihar": 25,
+    "Gujarat": 44,
+    "Karnataka": 95,
+    "Kerala": 49,
+    "Madhya Pradesh": 12,
+    "Maharashtra": 65,
+    "Odisha": 34,
+    "Rajasthan": 13,
+    "Tamil Nadu": 36,
+    "Telangana": 64,
+    "Uttar Pradesh": 37
+  },
+  "source_link_aggregator_count": 980,
+  "representative_aggregator_count": 0,
+  "dedup_evaluation": {
+    "pairs": 140,
+    "shared_headlines_across_even_odd_halves": 31,
+    "interpretation": "Shared documents mean this is not an independent document-level holdout. Labels and test-selection history require separate review."
+  },
+  "dedupe_literal_backspace_bytes": 2,
+  "review_boundary": "All external records are imported as proposals, regardless of the external review label. Report dates do not become event dates.",
+  "new_import": true
+}

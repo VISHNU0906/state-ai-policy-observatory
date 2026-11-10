@@ -10,6 +10,8 @@ import xml.etree.ElementTree as ET
 
 KEYS={'tavily':'TAVILY_API_KEY','newsapi':'NEWSAPI_API_KEY','gnews':'GNEWS_API_KEY','exa':'EXA_API_KEY','crustdata':'CRUSTDATA_API_KEY'}
 HOST_PROVIDERS={'api.tavily.com':'tavily','api.exa.ai':'exa','newsapi.org':'newsapi','gnews.io':'gnews','api.crustdata.com':'crustdata','api.firecrawl.dev':'firecrawl'}
+# The durable runner supplies a transactional reservation callback. Legacy CLI keeps its file ledger.
+ATTEMPT_RESERVER = None
 
 def reserve_attempt(url):
     """Conservative monthly request limits, counting retries and failed attempts.
@@ -19,6 +21,9 @@ def reserve_attempt(url):
     """
     provider=HOST_PROVIDERS.get(urlsplit(url).hostname)
     if not provider:return
+    if ATTEMPT_RESERVER is not None:
+        ATTEMPT_RESERVER(provider)
+        return
     cap=int(os.environ.get(provider.upper()+'_MONTHLY_REQUEST_CAP','720'))
     path=ROOT/'.cache'/'provider-usage.json'
     usage=json.loads(path.read_text()) if path.exists() else {}
@@ -79,7 +84,7 @@ def discover(provider,state,start,end,limit):
         stamp=lambda s:int(datetime.fromisoformat(s).replace(tzinfo=timezone.utc).timestamp())
         obj=api('https://api.crustdata.com/web/search/live',{'Authorization':'Bearer '+key,'x-api-version':'2025-11-01'},{'query':q,'sources':['news'],'location':'IN','start_date':stamp(start),'end_date':stamp(end),'page':1,'human_mode':False})
         if obj.get('success') is False:raise RuntimeError('Provider reported unsuccessful search')
-        return [{'title':a.get('title'),'url':a.get('url'),'published_at_raw':None,'publisher':a.get('source'),'snippet':a.get('snippet'),'url_kind':'publisher'} for a in obj.get('results',[])[:limit]]
+        return [{'title':a.get('title'),'url':a.get('url'),'published_at_raw':None,'publisher':None,'provider_channel':a.get('source'),'snippet':a.get('snippet'),'url_kind':'publisher'} for a in obj.get('results',[])[:limit]]
     raise ValueError('Unsupported provider: '+provider)
 
 def run(args):

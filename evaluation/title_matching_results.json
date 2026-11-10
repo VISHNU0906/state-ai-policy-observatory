@@ -1,0 +1,588 @@
+{
+  "rule_version": "title-review-v1",
+  "threshold": 0.45,
+  "labelled_pairs": 34,
+  "positive_pairs": 12,
+  "suggested_true_pairs": 3,
+  "suggested_distinct_pairs": 6,
+  "suggestion_precision": 0.3333333333333333,
+  "suggestion_recall": 0.25,
+  "results": [
+    {
+      "pair_id": "EP-001",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.299253,
+      "shared_tokens": [
+        "google",
+        "maharashtra"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-002",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.109329,
+      "shared_tokens": [
+        "microsoft"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-003",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.259981,
+      "shared_tokens": [
+        "gujarat",
+        "ibm"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-004",
+      "label": "same_event",
+      "suggested": true,
+      "score": 0.464633,
+      "shared_tokens": [
+        "2026",
+        "cabinet",
+        "ml",
+        "policy",
+        "rajasthan"
+      ],
+      "left_stage_cues": [
+        "approved"
+      ],
+      "right_stage_cues": [
+        "approved"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-005",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.188208,
+      "shared_tokens": [
+        "governance",
+        "rajasthan"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-006",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.262832,
+      "shared_tokens": [
+        "google",
+        "sectors",
+        "telangana"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-007",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.074873,
+      "shared_tokens": [
+        "google"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-008",
+      "label": "same_event",
+      "suggested": true,
+      "score": 0.487889,
+      "shared_tokens": [
+        "ap",
+        "cabinet",
+        "major"
+      ],
+      "left_stage_cues": [
+        "approved"
+      ],
+      "right_stage_cues": [
+        "approved"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-009",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.122041,
+      "shared_tokens": [
+        "assam"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-010",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.14829,
+      "shared_tokens": [
+        "pradesh",
+        "uttar"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-011",
+      "label": "same_event",
+      "suggested": false,
+      "score": 0.224005,
+      "shared_tokens": [
+        "workshop"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-012",
+      "label": "same_event",
+      "suggested": true,
+      "score": 0.811428,
+      "shared_tokens": [
+        "cloud",
+        "google",
+        "launch",
+        "network",
+        "powered",
+        "up"
+      ],
+      "left_stage_cues": [
+        "launched"
+      ],
+      "right_stage_cues": [
+        "launched"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-013",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.149917,
+      "shared_tokens": [
+        "policy",
+        "rajasthan"
+      ],
+      "left_stage_cues": [
+        "proposed"
+      ],
+      "right_stage_cues": [
+        "approved"
+      ],
+      "warnings": [
+        "different_stage_cues",
+        "different_numeric_claims"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-014",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.127407,
+      "shared_tokens": [
+        "rajasthan"
+      ],
+      "left_stage_cues": [
+        "approved"
+      ],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-015",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.340905,
+      "shared_tokens": [
+        "2026",
+        "maharashtra",
+        "policy"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [
+        "different_numeric_claims"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-016",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.221588,
+      "shared_tokens": [
+        "gujarat",
+        "microsoft"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [
+        "launched"
+      ],
+      "warnings": [
+        "different_stage_cues"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-017",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.312855,
+      "shared_tokens": [
+        "24",
+        "dst",
+        "file",
+        "governance"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [
+        "different_numeric_claims"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-018",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.231073,
+      "shared_tokens": [
+        "governance",
+        "implementation"
+      ],
+      "left_stage_cues": [
+        "approved",
+        "proposed"
+      ],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-019",
+      "label": "different_event",
+      "suggested": true,
+      "score": 0.572894,
+      "shared_tokens": [
+        "mission",
+        "nadu",
+        "tamil"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-020",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.132025,
+      "shared_tokens": [
+        "pradesh",
+        "uttar"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-021",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.0,
+      "shared_tokens": [],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "approved"
+      ],
+      "warnings": [
+        "different_numeric_claims"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-022",
+      "label": "different_event",
+      "suggested": true,
+      "score": 1.0,
+      "shared_tokens": [
+        "development",
+        "gujarat",
+        "ibm",
+        "microsoft",
+        "mous",
+        "nasscom",
+        "signs"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-023",
+      "label": "different_event",
+      "suggested": true,
+      "score": 1.0,
+      "shared_tokens": [
+        "2026",
+        "aligns",
+        "governance",
+        "how",
+        "mission",
+        "ml",
+        "policy",
+        "rajasthan",
+        "skilling"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-024",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.188208,
+      "shared_tokens": [
+        "governance",
+        "rajasthan"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-025",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.209338,
+      "shared_tokens": [
+        "madhya",
+        "pradesh"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-026",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.095784,
+      "shared_tokens": [
+        "mou"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-027",
+      "label": "different_event",
+      "suggested": true,
+      "score": 1.0,
+      "shared_tokens": [
+        "digital",
+        "enters",
+        "era",
+        "hcltech",
+        "innovation",
+        "odisha",
+        "partnerships",
+        "sarvam"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-028",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.13509,
+      "shared_tokens": [
+        "telangana"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [
+        "proposed"
+      ],
+      "warnings": [
+        "different_stage_cues"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-029",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.199356,
+      "shared_tokens": [
+        "microsoft",
+        "signs"
+      ],
+      "left_stage_cues": [
+        "signed"
+      ],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-030",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.0,
+      "shared_tokens": [],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-031",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.0,
+      "shared_tokens": [],
+      "left_stage_cues": [
+        "approved"
+      ],
+      "right_stage_cues": [],
+      "warnings": [
+        "different_numeric_claims"
+      ],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-032",
+      "label": "different_event",
+      "suggested": false,
+      "score": 0.109557,
+      "shared_tokens": [
+        "google"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [
+        "signed"
+      ],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-033",
+      "label": "different_event",
+      "suggested": true,
+      "score": 1.0,
+      "shared_tokens": [
+        "2025",
+        "26",
+        "budget"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    },
+    {
+      "pair_id": "EP-034",
+      "label": "different_event",
+      "suggested": true,
+      "score": 1.0,
+      "shared_tokens": [
+        "2024",
+        "25",
+        "annual",
+        "report"
+      ],
+      "left_stage_cues": [],
+      "right_stage_cues": [],
+      "warnings": [],
+      "automatic_merge": false
+    }
+  ],
+  "limitations": "Diagnostic development labels from research agents, pending independent human review. Not representative or held out. Uses source headlines only, no event IDs, summaries, shared event membership or label reasons as features. These are review-queue metrics, not automatic merge accuracy."
+}
