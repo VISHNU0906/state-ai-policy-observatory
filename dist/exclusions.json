@@ -1,5 +1,87 @@
 [
   {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
+    "title": "National YUVA AI for All programme at Jaipur conference",
+    "reason": "National programme launched at a Rajasthan venue is not a Rajasthan-only commitment; one-million learner number must not be assigned to the state.",
+    "screening": "retrieved"
+  },
+  {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215098&lang=1&reg=3",
+    "title": "Madhya Pradesh SpaceTech Policy 2026",
+    "reason": "Adjacent technology policy; retrieved announcement does not establish a sufficiently specific AI action to include as a separate AI-policy event.",
+    "screening": "retrieved"
+  },
+  {
+    "url": "https://www.tendersontime.com/india/details/invitation-proposals-establishment-and-operationalization-artificial-intelligence-centre-excellence-900309c/",
+    "title": "Rajasthan AI CoE tender aggregator",
+    "reason": "Aggregator posting October 15 follows stated May 21 deadline. Official tender list confirms a call but exact issue date and original document not retrieved; omitted in favour of two directly retrieved AI infrastructure documents.",
+    "screening": "search_result_only"
+  },
+  {
+    "url": "https://risl.rajasthan.gov.in/tenders/pdf/RIAL_EoI_Agritech_18042023.pdf",
+    "title": "Rajasthan agri-tech centre EOI",
+    "reason": "2023 document outside the 2024 onward window.",
+    "screening": "search_result_only"
+  },
+  {
+    "url": "https://risl.rajasthan.gov.in/tenders/pdf/RFP_RCAT_Bharatpur_31052024.pdf",
+    "title": "R-CAT Bharatpur civil works tender",
+    "reason": "Advanced technical training centre housed in an AI department; retrieved search evidence does not clearly establish an AI-specific intervention. Not included merely on department name.",
+    "screening": "search_result_only"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/advayantechnologies_rajasthan-is-about-to-put-1000-crore-into-activity-7365586246561132544-2UiQ",
+    "title": "Claim of ₹1,000 crore Rajasthan AI spending",
+    "reason": "Social commentary with unsupported expenditure assertion; not converted into a state budget allocation.",
+    "screening": "search_result_only"
+  },
+  {
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
+    "title": "Unresolved Wadhwani agreement mention at Rajasthan conference",
+    "reason": "PIB names Wadhwani alongside other partners in a collective sentence. Retrieved follow-up establishes distinct Google, IIT Delhi and NLU agreements, but not the scope or independent identity of a fourth Wadhwani instrument. Mention retained in source evidence; no separate event inferred.",
+    "screening": "retrieved"
+  },
+  {
+    "state": "Odisha",
+    "url": "https://www.newindianexpress.com/states/odisha/2024/Aug/11/similipal-tiger-reserve-deploys-ai-cameras-to-combat-poaching-wildfires",
+    "reason": "Search result body says trial started March 2023. Not recast as a new 2024 launch merely because of article date."
+  },
+  {
+    "state": "Odisha",
+    "url": "https://www.newindianexpress.com/states/odisha/2025/Jan/06/another-150-ai-cameras-to-prevent-ritual-hunt-in-similipal-tiger-reserve",
+    "reason": "Fetched report establishes a planned camera expansion but not exact decision timing; kept as lead rather than inventing a 6 January event date or claiming 150 cameras installed."
+  },
+  {
+    "state": "Odisha",
+    "url": "https://www.etvbharat.com/en/state/odisha-govt-inks-mou-with-hcltech-sarvam-ai-for-setting-up-ai-excellence-centres-in-state-enn26072406146",
+    "reason": "Secondary lead mixes amounts and centres. Replaced with fetched primary HCLTech and Chief Minister releases distinguishing data centre from technology delivery centre."
+  },
+  {
+    "state": "Odisha",
+    "url": "https://www.sarvam.ai/stories/ekstep",
+    "reason": "Undated partner case study reports Odisha farmer feedback calls but timing of rollout is not established; not assigned a fabricated launch date."
+  },
+  {
+    "state": "Assam",
+    "url": "https://ajmaliasacademy.in/digital-transformation-and-ai-in-assam/",
+    "reason": "Exam-preparation article calls AI-IT Policy launched. No executed policy instrument verified; primary official's MoU account and contemporaneous newspaper describe pending policy. Excluded as enacted-policy evidence."
+  },
+  {
+    "state": "Assam",
+    "url": "https://itpolicy.assam.gov.in/",
+    "reason": "Portal is for Information Technology and Electronics Policy Assam 2017, effective 2018. Not evidence of an AI-IT Policy enacted in 2025."
+  },
+  {
+    "state": "Assam",
+    "url": "https://assamtribune.com/assam/assam-signs-pact-with-google-to-build-ai-capabilities-to-set-up-centre-of-excellence-1597654",
+    "reason": "Search lead dated 12 November says today; official signatory expressly dates signing 11 November, corroborated by Tuesday in Times of India. Stronger dating used."
+  },
+  {
+    "state": "Assam",
+    "url": "https://assambidhansabha.org/assets/uploads/reports/report_1741596706_QMVQF.pdf",
+    "reason": "Pig AI Mission in paragraph 139 means artificial insemination, not artificial intelligence. Explicitly excluded by semantic screening."
+  },
+  {
     "state": "Telangana",
     "url": "https://regulations.ai/regulations/RAI-IN-TE-ATSDIXX-2024",
     "reason": "Aggregator describes strategy launch as 6 September 2024; stronger contemporaneous body text identifies Thursday 5 September. Not used as evidence."
@@ -83,6 +165,46 @@
     "title": "Tamil Nadu 2026–27 mission expansion",
     "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/it_e_pn_2026_27.pdf",
     "reason": "Verified direction in policy note but precise budget/event date not independently resolved during bounded research; do not use retrieval date as event date."
+  },
+  {
+    "title": "AP Microsoft Kaizala and older ICRISAT pilots",
+    "url": "https://news.microsoft.com/en-in/microsoft-and-icrisats-intelligent-cloud-pilot-for-agriculture-in-andhra-pradesh-increase-crop-yield-for-farmers",
+    "reason": "Search surfaced old projects surrounded by 2025 navigation links. No new in-window state action established."
+  },
+  {
+    "title": "Google's USD 15 billion AI hub announcement",
+    "url": "https://blog.google/intl/en-in/company-news/our-first-ai-hub-in-india-powered-by-a-15-billion-investment",
+    "reason": "Corporate investment alone does not establish the specific state action. Kept outside this bounded set rather than attributing the full private investment to state policy spending."
+  },
+  {
+    "title": "AP general IVRS feedback programme",
+    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ivrs-to-directly-collect-opinions-from-beneficiaries-cm-naidu-1843129",
+    "reason": "Automated telephone feedback is not necessarily AI; retrieved reporting did not establish a substantive AI component."
+  },
+  {
+    "title": "AP AI healthcare and agriculture savings targets at workshop",
+    "url": "https://wadhwanifoundation.org/press/ap-govt-set-to-adopt-ai-for-governance-transformation/",
+    "reason": "Political forecasts of lower healthcare and agriculture costs are not verified measured outcomes; excluded from event summary and metrics."
+  },
+  {
+    "title": "Kerala AI training for Lakshadweep teachers",
+    "url": "https://www.thehindu.com/news/national/kerala/kite-launches-online-ai-training-for-lakshadweep-teachers/article69913715.ece",
+    "reason": "Delivery geography is Lakshadweep. Excluded to keep state coverage geographically consistent instead of counting a Kerala agency's work elsewhere."
+  },
+  {
+    "title": "Samagra Plus AI award",
+    "url": "https://www.deshabhimani.com/deshabhimani-english-/kerala-news/kerala-kite-wins-education-technology-transformation-award-samagra-plus-ai-78527",
+    "reason": "Award is not a policy action or reliable launch date. Claims of freedom from algorithmic bias are not accepted without evaluation."
+  },
+  {
+    "title": "K-AI services and startup proposals in June 2026",
+    "url": "https://newsfirstprime.com/nation/kerala-unveils-ai-push-in-governance-drafts-state-policy-for-responsible-use-12065157",
+    "reason": "Lead indicates proposed solutions under review. Not added as a separate deployed-service event without stronger primary detail."
+  },
+  {
+    "title": "AP general innovation policy incentives",
+    "url": "https://apit.ap.gov.in/assets/files/2025ITC_36424_MS9_E.pdf",
+    "reason": "AI is one listed deep-technology category. The more directly AI-capable data-centre policy guidelines provide clearer scope for this sample."
   },
   {
     "url": "https://regulations.ai/regulations/RAI-IN-MA-MAHMA20-2025",

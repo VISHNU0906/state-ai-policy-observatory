@@ -11,3 +11,5 @@ node_modules/
 .env
 .env.local
 *.log
+scheduled-runs/
+tmp/

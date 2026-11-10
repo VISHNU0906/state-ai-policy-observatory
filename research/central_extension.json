@@ -1,0 +1,631 @@
+{
+  "events": [
+    {
+      "id": "rj-ai-draft-consultation-2025",
+      "state": "Rajasthan",
+      "title": "Rajasthan opens draft AI policy for public consultation",
+      "event_date": null,
+      "date_precision": "unknown",
+      "date_basis": "News published 14 July 2025 says draft was uploaded and stakeholder consultation held; exact upload date not established.",
+      "publication_date": "2025-07-14",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "The IT department invited feedback on its draft AI Policy 2025, covering government uses, skills, research and digital infrastructure.",
+      "initiative": "Rajasthan AI ML Policy",
+      "source_ids": [
+        "central-s01"
+      ],
+      "confidence": "medium",
+      "limitations": "This was a draft, not final adoption. Publication date is kept separate from unknown release date; some search snippets show July 15 while article footer says July 14."
+    },
+    {
+      "id": "rj-ai-policy-approval-2025",
+      "state": "Rajasthan",
+      "title": "Rajasthan cabinet approves AI ML Policy 2026",
+      "event_date": "2025-12-30",
+      "date_precision": "day",
+      "date_basis": "CMO release explicitly dates Tuesday cabinet meeting 30 December 2025.",
+      "publication_date": "2025-12-30",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "The cabinet approved a policy for AI use in government, education and industry, including privacy, explainable decisions, departmental oversight and a proposed AI centre.",
+      "initiative": "Rajasthan AI ML Policy",
+      "source_ids": [
+        "central-s02",
+        "central-s03"
+      ],
+      "confidence": "high",
+      "limitations": "Approval precedes public launch on January 6. Policy safeguards are stated requirements, not independently verified enforcement."
+    },
+    {
+      "id": "rj-ai-policy-launch-2026",
+      "state": "Rajasthan",
+      "title": "Rajasthan launches AI ML Policy and state AI portal",
+      "event_date": "2026-01-06",
+      "date_precision": "day",
+      "date_basis": "PIB release dated January 7 explicitly identifies conference and policy launch on January 6.",
+      "publication_date": "2026-01-07",
+      "category": "Policy & strategy",
+      "stage": "launched",
+      "summary": "Rajasthan publicly launched AI ML Policy 2026 and its AI portal at the regional AI conference in Jaipur.",
+      "initiative": "Rajasthan AI ML Policy",
+      "source_ids": [
+        "central-s04",
+        "central-s05"
+      ],
+      "confidence": "high",
+      "limitations": "Launch is a distinct milestone after cabinet approval, not proof every policy programme is running. The national one-million-learner programme at the event is excluded from Rajasthan-specific targets."
+    },
+    {
+      "state": "Rajasthan",
+      "event_date": "2026-01-06",
+      "date_precision": "day",
+      "date_basis": "PIB explicitly dates the signing event to 6 January 2026; partner-specific scope is supplied by retrieved reporting.",
+      "publication_date": "2026-01-07",
+      "stage": "signed",
+      "id": "rj-google-mou-2026",
+      "title": "Rajasthan signs Google agreement for AI public-service pilots",
+      "summary": "Rajasthan signed an MoU with Google for AI and ML pilots in health, agriculture, transport and citizen services, with advice on cloud and AI implementation.",
+      "initiative": "Rajasthan Google AI pilots",
+      "source_ids": [
+        "central-s04",
+        "central-s17"
+      ],
+      "confidence": "medium",
+      "category": "Partnerships",
+      "limitations": "Partner-specific scope is described in fetched reporting and signing is corroborated by PIB. The executed agreement and completed pilots were not retrieved."
+    },
+    {
+      "state": "Rajasthan",
+      "event_date": "2026-01-06",
+      "date_precision": "day",
+      "date_basis": "PIB explicitly dates the signing event to 6 January 2026; partner-specific scope is supplied by retrieved reporting.",
+      "publication_date": "2026-01-07",
+      "stage": "signed",
+      "id": "rj-iit-delhi-mou-2026",
+      "title": "Rajasthan signs IIT Delhi agreement for AI research and capacity",
+      "summary": "Rajasthan signed an MoU with IIT Delhi covering AI research, skills, startup mentoring, hackathons and a proposed AI Centre of Excellence.",
+      "initiative": "Rajasthan IIT Delhi AI collaboration",
+      "source_ids": [
+        "central-s04",
+        "central-s17"
+      ],
+      "confidence": "medium",
+      "category": "Partnerships",
+      "limitations": "Partner-specific scope is described in fetched reporting and signing is corroborated by PIB. The agreement does not establish an operating centre or completed training."
+    },
+    {
+      "state": "Rajasthan",
+      "event_date": "2026-01-06",
+      "date_precision": "day",
+      "date_basis": "NLU Jodhpur explicitly states its bilateral MoU was signed and exchanged on 6 January 2026; its announcement was published 7 January.",
+      "publication_date": "2026-01-07",
+      "stage": "signed",
+      "id": "rj-nlu-mou-2026",
+      "title": "Rajasthan and NLU Jodhpur sign responsible AI agreement",
+      "summary": "Rajasthan and NLU Jodhpur signed an agreement for legal and ethical AI policy advice, AI and law training, startup mentoring and research on privacy and accountability.",
+      "initiative": "Rajasthan NLU responsible AI collaboration",
+      "source_ids": [
+        "central-s18",
+        "central-s04",
+        "central-s17"
+      ],
+      "confidence": "high",
+      "category": "Responsible AI",
+      "limitations": "The university confirms execution and scope. Planned legal advice, training and research do not establish completed oversight assessments or legally binding AI rules."
+    },
+    {
+      "id": "rj-ai-datacentre-eoi-2026",
+      "state": "Rajasthan",
+      "title": "Rajasthan invites interest in upgrading state data centre for AI",
+      "event_date": "2026-01-13",
+      "date_precision": "day",
+      "date_basis": "Official expression-of-interest header and notice dated 13 January 2026.",
+      "publication_date": null,
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "The IT department issued a call for interested bidders to upgrade its existing state data centre for intensive AI workloads and associated power and cooling requirements.",
+      "initiative": "Rajasthan AI data centre infrastructure",
+      "source_ids": [
+        "central-s06"
+      ],
+      "confidence": "high",
+      "limitations": "The document labels itself a draft expression of interest and says it is not an agreement. It establishes a planning step, not a contract award or operational capacity."
+    },
+    {
+      "id": "rj-gpu-tender-2026",
+      "state": "Rajasthan",
+      "title": "Rajasthan issues GPU server tender for state data centre",
+      "event_date": "2026-03-24",
+      "date_precision": "day",
+      "date_basis": "Official RFP reference and document-availability start both date March 24 2026.",
+      "publication_date": null,
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "RISL invited bids for GPU servers supporting AI workloads at the state data centre, with an estimated procurement value of ₹9 crore including taxes.",
+      "initiative": "Rajasthan GPU procurement BSDC-095",
+      "source_ids": [
+        "central-s07"
+      ],
+      "confidence": "high",
+      "limitations": "Tender value is an estimate, not spending or an awarded contract. A revised RFP retains the original notice date; later bid-deadline extensions are not new policy events."
+    },
+    {
+      "id": "mp-ai-datacentre-support-2024",
+      "state": "Madhya Pradesh",
+      "title": "State-backed AI data centre project announced near Indore",
+      "event_date": null,
+      "date_precision": "unknown",
+      "date_basis": "RackBank release dated October 24 reports CM foundation stone and state incentives but omits precise ceremony and subsidy-approval dates.",
+      "publication_date": "2024-10-24",
+      "category": "Funding",
+      "stage": "announced",
+      "summary": "RackBank reported state electricity and investment-policy incentives for its AI data centre near Indore, alongside a foundation-stone ceremony involving the chief minister.",
+      "initiative": "RackBank Indore AI data centre",
+      "source_ids": [
+        "central-s09"
+      ],
+      "confidence": "medium",
+      "limitations": "Included because explicit state support is reported, not simply because a private project is located in MP. No subsidy sanction order, disbursement, installed capacity or operational date independently verified."
+    },
+    {
+      "id": "mp-ai-city-announcement-2025",
+      "state": "Madhya Pradesh",
+      "title": "Madhya Pradesh announces Knowledge and AI City in Bhopal",
+      "event_date": "2025-11-13",
+      "date_precision": "day",
+      "date_basis": "April 2026 news retrospectively dates announcement November 13 2025; November 2025 commentary corroborates an announcement that month.",
+      "publication_date": "2025-11-26",
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "The state announced a proposed Knowledge and AI City in Bhopal to bring together research, educational institutions, startups and computing infrastructure.",
+      "initiative": "Bhopal Knowledge and AI City",
+      "source_ids": [
+        "central-s10",
+        "central-s11",
+        "central-s12"
+      ],
+      "confidence": "medium",
+      "limitations": "Exact announcement date relies on retrospective news. Reports describe 2,000 then 3,700 acres; no settled acreage or completed development is asserted. The two news reports share a quoted advocate and are not fully independent."
+    },
+    {
+      "id": "mp-indiaai-labs-mou-2026",
+      "state": "Madhya Pradesh",
+      "title": "Madhya Pradesh signs IndiaAI agreement for 30 Data and AI Labs",
+      "event_date": "2026-01-15",
+      "date_precision": "day",
+      "date_basis": "PIB same-day report identifies MoU signed at January 15 regional conference.",
+      "publication_date": "2026-01-15",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "IndiaAI Mission and Madhya Pradesh signed an agreement to support 30 Data and AI Labs through the state technical education, skills and employment department.",
+      "initiative": "Madhya Pradesh IndiaAI Data and AI Labs",
+      "source_ids": [
+        "central-s13"
+      ],
+      "confidence": "high",
+      "limitations": "30 is the planned state allocation under this agreement, not a verified number of operating labs. The national 570-lab target is not counted as MP activity."
+    },
+    {
+      "id": "mp-bhashini-mou-2026",
+      "state": "Madhya Pradesh",
+      "title": "Madhya Pradesh signs BHASHINI multilingual governance agreement",
+      "event_date": "2026-01-15",
+      "date_precision": "day",
+      "date_basis": "Dedicated PIB release confirms same-day signing during the January 15 conference.",
+      "publication_date": "2026-01-15",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "The state and Digital India BHASHINI Division agreed to integrate translation and AI language tools into government platforms to widen access across Indian languages.",
+      "initiative": "Madhya Pradesh BHASHINI integration",
+      "source_ids": [
+        "central-s14",
+        "central-s13"
+      ],
+      "confidence": "high",
+      "limitations": "The MoU enables future integration. It does not verify that all platforms or services were already available in multiple languages."
+    },
+    {
+      "id": "mp-nasscom-coe-mou-2026",
+      "state": "Madhya Pradesh",
+      "title": "MPSeDC signs nasscom agreement for AI Centre of Excellence",
+      "event_date": "2026-01-15",
+      "date_precision": "day",
+      "date_basis": "Official agency post says signed at regional conference; PIB independently dates the conference and confirms nasscom MoU announcement.",
+      "publication_date": "2026-01-22",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "MPSeDC and nasscom signed an agreement to establish an AI Centre of Excellence supporting public-sector adoption, startup development, training and research.",
+      "initiative": "Madhya Pradesh nasscom AI Centre of Excellence",
+      "source_ids": [
+        "central-s15",
+        "central-s13"
+      ],
+      "confidence": "high",
+      "limitations": "January 22 is the agency post date, not signing date. Agreement does not prove the centre was staffed or opened."
+    },
+    {
+      "id": "mp-state-ai-mission-announced-2026",
+      "state": "Madhya Pradesh",
+      "title": "Chief minister announces planned State AI Mission",
+      "event_date": "2026-02-20",
+      "date_precision": "day",
+      "date_basis": "Pioneer report dated Saturday February 21 says the chief minister announced it Friday.",
+      "publication_date": "2026-02-21",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "The chief minister announced plans for a State AI Mission supporting public services and agriculture, education and healthcare, including future use at Simhastha 2028.",
+      "initiative": "Madhya Pradesh State AI Mission",
+      "source_ids": [
+        "central-s16"
+      ],
+      "confidence": "medium",
+      "limitations": "Future intent is retained as announced; no final policy notification, approved mission budget or completed deployment is established by this report."
+    }
+  ],
+  "sources": [
+    {
+      "id": "central-s01",
+      "url": "https://government.economictimes.indiatimes.com/news/policy/rajasthan-draft-ai-policy-2025-proposes-centre-of-excellence-multi-level-governance-structure/122435234",
+      "publisher": "ETGovernment",
+      "title": "Rajasthan Draft AI Policy 2025 proposes centre of excellence, multi-level governance structure",
+      "published_date": "2025-07-14",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The draft has been uploaded on the department’s website for public consultation",
+      "evidence_summary": "Article says DoIT&C uploaded draft for public consultation and held a stakeholder workshop. Published footer is July 14 at 20:29 IST, while some search snippets say July 15. Exact draft-upload date not established.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s02",
+      "url": "https://cmo.rajasthan.gov.in/pressreleasedetail/231202",
+      "publisher": "Chief Minister's Office, Rajasthan",
+      "title": "Cabinet decisions including approval of Rajasthan AI ML Policy 2026",
+      "published_date": "2025-12-30",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "राजस्थान एआई एमएल पॉलिसी- 2026 का अनुमोदन",
+      "evidence_summary": "Hindi cabinet release dated Jaipur, 30 December describes Tuesday cabinet approval of AI ML Policy 2026. Covers privacy, fairness, explainability, use cases, nodal officers, skills and a proposed centre.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s03",
+      "url": "https://ddnews.gov.in/en/rajasthan-cabinet-approves-ai-ml-policy-2026-promotes-ethical-and-responsible-ai/",
+      "publisher": "DD News / IANS",
+      "title": "Rajasthan Cabinet approves AI-ML Policy 2026, promotes ethical and responsible AI",
+      "published_date": "2025-12-31",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Rajasthan Cabinet has approved",
+      "evidence_summary": "IANS report dated December 31 corroborates approval and responsible AI provisions. It is next-day reporting, not evidence the cabinet meeting occurred December 31.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s04",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
+      "publisher": "Press Information Bureau, Ministry of Electronics and IT",
+      "title": "Rajasthan Hosts Regional AI Impact Conference",
+      "published_date": "2026-01-07",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "held on Tuesday, 06th January 2026",
+      "evidence_summary": "Official release explicitly dates conference January 6; records AI ML Policy 2026 and AI portal launch and MoUs with Google, IIT Delhi, NLU Jodhpur and Wadhwani Foundation. National YUVA AI literacy programme is not Rajasthan-only.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s05",
+      "url": "https://ai.rajasthan.gov.in",
+      "publisher": "Department of IT and Communication, Rajasthan",
+      "title": "AI Rajasthan portal",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Rajasthan AI/ML Policy 2026",
+      "evidence_summary": "Live government portal corroborates AI ML Policy 2026 and its three themes: government use, skills and industry incentives. Page labels prospective initiatives; no independent completion measurement.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s06",
+      "url": "https://risl.rajasthan.gov.in/tenders/pdf/DraftRFPdatacenteraiupgrage230126141512.pdf",
+      "publisher": "Department of IT and Communication, Rajasthan",
+      "title": "Expression of Interest for Upgradation of existing Rajasthan State Data Centre into AI based Data Center",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Dated: 13-01-2026",
+      "evidence_summary": "Official document header and bid notice dated 13 January 2026. Describes upgrading RSDC Phase I for AI workloads and inviting interested bidders. Body labels it Draft EoI and states it is not an agreement.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s07",
+      "url": "https://risl.rajasthan.gov.in/uploads/tenders/924cfd3d-e99e-42e1-ac75-ec0be93851ad.pdf",
+      "publisher": "RajCOMP Info Services Limited, Rajasthan",
+      "title": "RFP for Procurement of GPU Servers at RSDC",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Rs. 9.00 crores (Rupees Nine Crores only)",
+      "evidence_summary": "Official RFP ref BSDC-095 dated March 24 2026; bid-document availability begins same day. Estimated procurement cost ₹9 crore including taxes. Project section explicitly specifies AI, ML and language model workloads. Not a contract award.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s09",
+      "url": "https://www.prnewswire.com/in/news-releases/chief-minister-dr-mohan-yadav-laid-the-foundation-stone-for-indias-first-purpose-built-ai-data-center-in-madhya-pradesh-302285576.html",
+      "publisher": "RackBank via PR Newswire",
+      "title": "Chief Minister laid foundation stone for AI data centre in Madhya Pradesh",
+      "published_date": "2024-10-24",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "receiving state-issued subsidies and incentives",
+      "evidence_summary": "Company release says the state supported its Indore AI data centre through electricity and investment-policy incentives, quotes the additional chief secretary and records CM foundation stone. Actual subsidy order and ceremony date absent. Capacity and commissioning claims are not independently verified.",
+      "source_type": "primary_partner",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s10",
+      "url": "https://government.economictimes.indiatimes.com/blog/bhopal-announces-2000-acre-knowledge-ai-city-advancing-its-position-in-indias-tech-landscape/125585164",
+      "publisher": "ETGovernment, opinion by Manoj Meek",
+      "title": "Bhopal announces 2,000-acre knowledge and AI City",
+      "published_date": "2025-11-26",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "government’s decision to develop a 2,000-acre Knowledge & AI City",
+      "evidence_summary": "Contemporaneous commentary by CREDAI Bhopal president describes state announcement. Not independent of the same expert quoted by later Bhaskar report. Government decision is the included claim; promotional outcome forecasts excluded.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s11",
+      "url": "https://www.bhaskarenglish.in/local/mp/bhopal/news/bhopal-knowledge-ai-city-dpr-design-proposals-137774016.html",
+      "publisher": "Dainik Bhaskar English",
+      "title": "Knowledge and AI City to come up on 3,700 acres; BDA invites proposals",
+      "published_date": "2026-04-24",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on 13 November 2025",
+      "evidence_summary": "Article retrospectively dates initial government announcement November 13 2025 and describes BDA seeking planning proposals. New 3,700-acre description differs from 2,000-acre earlier proposal; acreage not used as settled measure.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s12",
+      "url": "https://mpsedc.mp.gov.in/cms/Uploaded_Document/News%20Letters%20Of%20IT%20Investment%20Promotion/June%20Newsletter%202026.pdf",
+      "publisher": "MPSeDC Tech Invest MP newsletter",
+      "title": "Tech Invest MP, June 2026",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "EKAI (Education, Knowledge and AI) City",
+      "evidence_summary": "Government-hosted June newsletter carries a secondary summary, credited to Magicbricks, describing approval of EKAI City in Bhopal. Used only to corroborate continuing initiative, not as a primary budget sanction or exact event-date source.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s13",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215098&lang=1&reg=3",
+      "publisher": "Press Information Bureau, Ministry of Electronics and IT",
+      "title": "Madhya Pradesh Regional AI Impact Conference concludes in Bhopal",
+      "published_date": "2026-01-15",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "will support the establishment of 30 Data and AI Labs",
+      "evidence_summary": "Official same-day report says state and IndiaAI signed for 30 Data and AI Labs. Lists other MoUs; does not establish labs already opened. National target 570 labs is not MP allocation.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s14",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215030&lang=1&reg=3",
+      "publisher": "Press Information Bureau, Digital India BHASHINI Division",
+      "title": "Signing of MoU between Madhya Pradesh and Digital India BHASHINI Division",
+      "published_date": "2026-01-15",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "signing of a Memorandum of Understanding",
+      "evidence_summary": "Separate same-day partner government release explicitly confirms signing for translation APIs and multilingual AI across state platforms. Also records intention to bring a future AI policy, not adopted policy.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s15",
+      "url": "https://www.linkedin.com/posts/mpsedc_mousigning-mpsedc-mou-activity-7420028785070112768-wwDl",
+      "publisher": "MPSeDC official LinkedIn account",
+      "title": "MPSeDC signs nasscom MoU for AI Centre of Excellence",
+      "published_date": "2026-01-22",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "to establish an AI Centre of Excellence",
+      "evidence_summary": "Fetched official agency post explicitly says signed at Regional AI Impact Conference 2026 to establish AI CoE. Event date resolves through PIB January 15 conference report; post date January 22 must not substitute for signing.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s16",
+      "url": "https://dailypioneer.com/news/mp-cm-yadav-announces-ai-mission-ahead-of-simhastha-2028",
+      "publisher": "The Pioneer",
+      "title": "MP CM Yadav announces AI mission ahead of Simhastha 2028",
+      "published_date": "2026-02-21",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "will soon roll out an “AI mission”",
+      "evidence_summary": "Report dated Saturday February 21 says CM announced Friday that state will soon roll out an AI mission and use AI for governance and Simhastha 2028. Commitment, not a completed mission launch.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "central-s17",
+      "url": "https://government.economictimes.indiatimes.com/news/digital-india/rajasthans-ai-ml-policy-2026-pioneering-governance-and-skill-development/126411395",
+      "publisher": "ETGovernment",
+      "title": "How Rajasthan AI ML Policy 2026 aligns governance and skilling with India AI mission",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The state government signed Memorandums of Understanding",
+      "evidence_summary": "Fetched article separately identifies Google pilots and implementation advice, IIT Delhi research and skills plus a proposed centre, and NLU ethical AI capacity building. Visible update date is 9 January 2026; first-publication day was not exposed in fetched body.",
+      "source_type": "news",
+      "retrieval_status": "retrieved",
+      "updated_date": "2026-01-09"
+    },
+    {
+      "id": "central-s18",
+      "url": "https://nlujodhpur.ac.in/news/362",
+      "publisher": "National Law University Jodhpur",
+      "title": "NLU Jodhpur partners with Government of Rajasthan for responsible AI governance",
+      "published_date": "2026-01-07",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "signed and exchanged on 06 th January 2026",
+      "evidence_summary": "Dated university announcement explicitly confirms bilateral DoIT&C agreement signed and exchanged 6 January 2026. Scope includes legal and ethical policy advice, AI and law training, startup mentoring, and privacy/accountability research.",
+      "source_type": "primary_partner",
+      "retrieval_status": "retrieved"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
+      "title": "National YUVA AI for All programme at Jaipur conference",
+      "reason": "National programme launched at a Rajasthan venue is not a Rajasthan-only commitment; one-million learner number must not be assigned to the state.",
+      "screening": "retrieved"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215098&lang=1&reg=3",
+      "title": "Madhya Pradesh SpaceTech Policy 2026",
+      "reason": "Adjacent technology policy; retrieved announcement does not establish a sufficiently specific AI action to include as a separate AI-policy event.",
+      "screening": "retrieved"
+    },
+    {
+      "url": "https://www.tendersontime.com/india/details/invitation-proposals-establishment-and-operationalization-artificial-intelligence-centre-excellence-900309c/",
+      "title": "Rajasthan AI CoE tender aggregator",
+      "reason": "Aggregator posting October 15 follows stated May 21 deadline. Official tender list confirms a call but exact issue date and original document not retrieved; omitted in favour of two directly retrieved AI infrastructure documents.",
+      "screening": "search_result_only"
+    },
+    {
+      "url": "https://risl.rajasthan.gov.in/tenders/pdf/RIAL_EoI_Agritech_18042023.pdf",
+      "title": "Rajasthan agri-tech centre EOI",
+      "reason": "2023 document outside the 2024 onward window.",
+      "screening": "search_result_only"
+    },
+    {
+      "url": "https://risl.rajasthan.gov.in/tenders/pdf/RFP_RCAT_Bharatpur_31052024.pdf",
+      "title": "R-CAT Bharatpur civil works tender",
+      "reason": "Advanced technical training centre housed in an AI department; retrieved search evidence does not clearly establish an AI-specific intervention. Not included merely on department name.",
+      "screening": "search_result_only"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/advayantechnologies_rajasthan-is-about-to-put-1000-crore-into-activity-7365586246561132544-2UiQ",
+      "title": "Claim of ₹1,000 crore Rajasthan AI spending",
+      "reason": "Social commentary with unsupported expenditure assertion; not converted into a state budget allocation.",
+      "screening": "search_result_only"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
+      "title": "Unresolved Wadhwani agreement mention at Rajasthan conference",
+      "reason": "PIB names Wadhwani alongside other partners in a collective sentence. Retrieved follow-up establishes distinct Google, IIT Delhi and NLU agreements, but not the scope or independent identity of a fourth Wadhwani instrument. Mention retained in source evidence; no separate event inferred.",
+      "screening": "retrieved"
+    }
+  ],
+  "queries": [
+    {
+      "id": "central-q01",
+      "query": "Rajasthan government artificial intelligence policy 2024 2025 2026",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q02",
+      "query": "Madhya Pradesh government artificial intelligence policy 2024 2025 2026",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q03",
+      "query": "Madhya Pradesh government AI policy centre excellence Bhopal January 15 2026 MoU digital 2025",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q04",
+      "query": "Madhya Pradesh artificial intelligence government centre 2024 2025 budget AI mission",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q05",
+      "query": "Rajasthan government artificial intelligence budget 2024 2025 centre excellence",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q06",
+      "query": "Rajasthan AI Google IIT Delhi Wadhwani January 6 2026 memorandum",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q07",
+      "query": "Madhya Pradesh AI city 2025 expression interest Bhopal government",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q08",
+      "query": "Rajasthan RISL GPU servers procurement AI Centre of Excellence tender 24 March 2026",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q09",
+      "query": "Rajasthan F 4.13(14)/RISL/Tech/454 2026 AI Centre Excellence",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q10",
+      "query": "site:risl.rajasthan.gov.in Artificial Intelligence Centre of Excellence",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q11",
+      "query": "Madhya Pradesh State AI Mission announced February 2026 Mohan Yadav date official",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q12",
+      "query": "Bhopal 13 November 2025 AI city government",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q13",
+      "query": "Madhya Pradesh AI policy 2026 approved",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q14",
+      "query": "Rajasthan AI 2026 September October government",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q15",
+      "query": "Rajasthan Cabinet Approves AI ML Policy 2026 DD News December 2025",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "central-q16",
+      "query": "Rajasthan January 6 2026 MoUs Google IIT Delhi National Law University Wadhwani separate agreements",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "Rajasthan and Madhya Pradesh records are selected for direct state action. Coverage is not exhaustive.",
+    "Rajasthan chronology distinguishes draft consultation, cabinet approval 30 December 2025, and public launch 6 January 2026. These are milestones in one policy lifecycle, not three distinct policies.",
+    "Rajasthan infrastructure records document actual procurement preparation. Announced is the allowed stage used for tender issue; no contract award or operation is implied.",
+    "AI data centre upgrade call is marked Draft EoI in its body. GPU RFP is a separate reference and scope. Do not merge only because both mention Rajasthan State Data Centre.",
+    "Madhya Pradesh regional conference contains separate lab, language-services and CoE agreements. Each has distinct partner and purpose, plus specific primary support; conference attendance itself is not an event.",
+    "MPSeDC's official social post was fetched in full, not inferred from a snippet. Agency post date and conference signing date remain separate.",
+    "MPSeDC June newsletter reproduces external reporting and is classified news despite government hosting. Its estimated investment claim is not used as sanctioned expenditure.",
+    "News descriptions of Bhopal AI City acreage change over time. Neither acreage nor alleged Central investment enters the event summary as an established outcome.",
+    "RackBank is an explicit boundary case: included solely for reported state subsidies and CM involvement, with medium confidence. Vendor promotional capacity, first-of-kind and performance claims excluded.",
+    "Latest-period searches did not establish a final MP AI policy notification. This does not demonstrate that none exists; event stage reflects source evidence, not assumed current status.",
+    "Search results and failed retrievals were screened rather than invented into evidence. MP newsletter succeeded through Tavily after Exa timeout; GPU PDF retrieved through Exa after Tavily failure.",
+    "Local article dates preferred to template date or UTC search metadata. Unknown exact consultation and financial support dates remain null.",
+    "No em dashes used in authored event prose.",
+    "Audit refinement: replaced rj-ai-partnerships-2026 with separate Google, IIT Delhi and NLU agreements after retrieving partner-specific scopes and NLU execution confirmation. Wadhwani remains an unresolved mention rather than an inferred fourth agreement. Event unit is the distinct action, counterparty and milestone; clauses within each agreement remain combined."
+  ]
+}

@@ -1,5 +1,199 @@
 [
   {
+    "id": "central-q01",
+    "query": "Rajasthan government artificial intelligence policy 2024 2025 2026",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q02",
+    "query": "Madhya Pradesh government artificial intelligence policy 2024 2025 2026",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q03",
+    "query": "Madhya Pradesh government AI policy centre excellence Bhopal January 15 2026 MoU digital 2025",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q04",
+    "query": "Madhya Pradesh artificial intelligence government centre 2024 2025 budget AI mission",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q05",
+    "query": "Rajasthan government artificial intelligence budget 2024 2025 centre excellence",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q06",
+    "query": "Rajasthan AI Google IIT Delhi Wadhwani January 6 2026 memorandum",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q07",
+    "query": "Madhya Pradesh AI city 2025 expression interest Bhopal government",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q08",
+    "query": "Rajasthan RISL GPU servers procurement AI Centre of Excellence tender 24 March 2026",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q09",
+    "query": "Rajasthan F 4.13(14)/RISL/Tech/454 2026 AI Centre Excellence",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q10",
+    "query": "site:risl.rajasthan.gov.in Artificial Intelligence Centre of Excellence",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q11",
+    "query": "Madhya Pradesh State AI Mission announced February 2026 Mohan Yadav date official",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q12",
+    "query": "Bhopal 13 November 2025 AI city government",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q13",
+    "query": "Madhya Pradesh AI policy 2026 approved",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q14",
+    "query": "Rajasthan AI 2026 September October government",
+    "provider": "Tavily",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q15",
+    "query": "Rajasthan Cabinet Approves AI ML Policy 2026 DD News December 2025",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "central-q16",
+    "query": "Rajasthan January 6 2026 MoUs Google IIT Delhi National Law University Wadhwani separate agreements",
+    "provider": "Exa",
+    "searched_date": "2026-11-10"
+  },
+  {
+    "id": "east-q01",
+    "query": "Odisha government artificial intelligence policy 2025 2026 cabinet official",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q02",
+    "query": "Assam government artificial intelligence policy 2024 2025 2026 official",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q03",
+    "query": "Odisha government AI centre excellence Wadhwani Intel 2024 2025 2026",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q04",
+    "query": "Assam government AI Ankita launch May 2025 deepfake laboratory 2025 budget official",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q05",
+    "query": "site:assam.gov.in artificial intelligence 2025 2026 budget",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q06",
+    "query": "site:sarvam.ai Odisha sovereign AI park July 2026",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q07",
+    "query": "site:hcltech.com Odisha July 2026 government AI development centre",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q08",
+    "query": "Assam Budget 2024 February 12 Centre Excellence Artificial Intelligence",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q09",
+    "query": "site:finance.assam.gov.in \"2025-26\" \"agri-hubs\"",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q10",
+    "query": "Odisha forest department AI cameras Similipal 2024 2025 deployed",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q11",
+    "query": "Assam Google Cloud November 11 2025 MoU official",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q12",
+    "query": "Assam GPU cluster L40S July 2026 government data centre",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q13",
+    "query": "Assam budget speech 2025 26 pdf AI powered agri hubs deepfake",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
+    "id": "east-q14",
+    "query": "Odisha AI policy 2025 HCLTech July 24 2026 state government press release",
+    "provider": "Exa",
+    "date": "2026-11-10",
+    "purpose": "Locate primary documents, verify dates and distinguish proposed from implemented AI actions"
+  },
+  {
     "id": "nd-q01",
     "query": "site:telangana.gov.in AI September 2024 strategy Microsoft 2025 TGDeX",
     "date": "2026-11-10",
@@ -266,6 +460,132 @@
     "provider": "Exa",
     "searched_on": "2026-11-10",
     "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+  },
+  {
+    "query": "Andhra Pradesh government Microsoft artificial intelligence MoU 2025 2026",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Andhra Pradesh artificial intelligence policy 2024 2025 RTGS",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala government artificial intelligence policy 2024 2025 2026",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala KITE artificial intelligence teachers training 2024 2025",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "site:blog.google Andhra Pradesh government AI December 2024",
+    "provider": "Tavily",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "site:news.microsoft.com Andhra Pradesh 2025 AI",
+    "provider": "Tavily",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "site:kite.kerala.gov.in AI 2024 training 80000",
+    "provider": "Tavily",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "site:prdlive.kerala.gov.in artificial intelligence 2025 KITE",
+    "provider": "Tavily",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Andhra Pradesh NVIDIA MoU June 2025 AI government",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Andhra Pradesh Google December 5 2024 AI MoU",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala IBM conclave AI policy July 12 2024",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala Samagra AI launch 2025",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Andhra Pradesh AI policy 2026 cabinet government governance",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Andhra Pradesh AI IVRS citizen feedback 2025 launched",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala AI Essentials February 2025 launched KITE date",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala AI class 7 textbooks May 2024 government",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "site:wadhwanifoundation.org Andhra Pradesh AI April 2025",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "site:ap.gov.in artificial intelligence policy 2025 NVIDIA",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala IT Policy 2026 cabinet approved date AI",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Kerala K AI June 12 2025 launched responsible",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+  },
+  {
+    "query": "Andhra Pradesh AWARE launched June 2025 AI government platform",
+    "provider": "Exa",
+    "searched_on": "2026-11-10",
+    "purpose": "Discovery. Included claims verified through Exa full-page fetch."
   },
   {
     "id": "west-q01",

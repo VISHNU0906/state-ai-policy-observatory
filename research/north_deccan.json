@@ -388,12 +388,13 @@
       "url": "https://www.hindustantimes.com/cities/lucknow-news/up-govt-google-cloud-launch-ai-powered-agri-network-101736273606574.html",
       "publisher": "Hindustan Times",
       "title": "UP govt, Google Cloud launch AI-powered agri network",
-      "published_date": "2025-01-08",
+      "published_date": null,
       "accessed_date": "2026-11-10",
       "evidence_excerpt": "has signed an MoU with Google Cloud (India)",
-      "evidence_summary": "Describes Gemini-powered agricultural network and agreement; updated 8 January, underlying article first published 7 January per search metadata.",
+      "evidence_summary": "Describes the agreement for a Gemini-powered agricultural network. Visible page says updated 8 January 2025 at 05:46 IST; extractor publication metadata says 7 January without time zone. Original publication day is unresolved, so published_date is null. The dated print clipping separately establishes 8 January publication.",
       "source_type": "news",
-      "retrieval_status": "fetched"
+      "retrieval_status": "fetched",
+      "updated_date": "2025-01-08"
     },
     {
       "id": "up-google-clip",
@@ -736,6 +737,7 @@
     "Search coverage is English-led with a bilingual Telangana official release. Missing activity is not absence of policy, and no outcome league table is justified.",
     "Important unresolved conflicts: AM Group compute hub 2028 vs 2030 full-capacity target; TGDeX launch inventory 500+ vs 1000+; UP labs MoU execution versus later ceremony. Retained explicitly.",
     "Six Telangana records include no standalone AI-specific budget figure: ₹774 crore in state IT budget is sector-wide, not valid as AI allocation.",
-    "Firecrawl returned: For more credits, you can upgrade your plan at https://firecrawl.dev/pricing or try changing the request limit to a lower value."
+    "Firecrawl returned: For more credits, you can upgrade your plan at https://firecrawl.dev/pricing or try changing the request limit to a lower value.",
+    "QA correction: up-google-ht original publication date is unknown because a visible update timestamp and unzoned extractor publication metadata differ. The 8 January print clipping supplies the event publication_date; signing remains 7 January from its Tuesday wording."
   ]
 }

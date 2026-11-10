@@ -1,0 +1,314 @@
+{
+  "run_id": "20261110T151118Z",
+  "window": {
+    "from": "2026-11-02",
+    "to_exclusive": "2026-11-09"
+  },
+  "request_cap_per_provider": 2,
+  "automatic_paid_fallback": false,
+  "candidates": [
+    {
+      "title": "'India's First AI Scam? CM Vijay's Govt Accuses DMK Of Using Artificial Intelligence To Generate Low-Quality Books - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdlRVR1RUU1IzaVNkM1BNYXNycTgxRmZvT2YyWTkzRjAwaWNUWTZWMzJjS1VuTTlHR0FQNlhNN1lwRzVGM05BU2taNXNXWDhKOWZvOTNpV0pOaUo4ZjA3MUoyMW9xX21kN0Z3X21YWDdyZlhEbkFUSzhtM1d5YkJILW10eXdhYUtGN25jVXRRbVRrRlRWaXpCVmdHOWhxMzhDVEk4TUxFZzc5YjNVQ2pxNDBDRXh1Y21EdmtDXzR3MFh3V2wxb3RRbDNzNW1WVXIxYWlPOTNmUUtQUGpmT2l3N25EOExnRXhqcE1qUdIB9AFBVV95cUxQM1pMbV91cTZXT3VHSDVZMHBkQmFhWUpMa2pTdUc1YjBWNjZjMVZNYmZ4VmVZMDRxUGV3RzZSNjQwT1hvMHAxTjZFNFlPTmdQWDhBbHhJZWNmWjB4UXVMRnJMcEJRRk5pYWJ6MVg2QU13Z2VyN1lySXNneE9URDctZDE4R0lMZW1ZakZQam85MjJ2NUU1a0loX3NLRU93UnNGb3RGb3ZxUW92X1lrNnY5TEJrLTAyNG9JZVREZWh6U3pYdW9CeEY0OTlRcWttWldlT2w3OXN5cG5PTGxiRklCcTJrMFRzTnFnRFNKcE1kTTFEM285?oc=5",
+      "published_at_raw": "Sat, 07 Nov 2026 13:35:24 GMT",
+      "publisher": "NDTV Profit",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "02c9f6daf22e51fa22d5",
+      "query_state": "Tamil Nadu",
+      "provider": "google-rss",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "AI in Your Pocket: 5 Ways Artificial Intelligence Is Changing Everyday Life in India - DD News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQU5OcHN5WHZGanRpY2pib2FMQ2h6ZF9QRTI4V3RkdlhjZmsyY1J5ajZ1RVRMazZ4WnlOc2hLSERzTWVram5WN002UnFSa1RIVnBZUWRLeXc5eXZHbGcteV9PV2hSYS0yaUhsSzVDZ3Q5T3lrTE1jZENickVGWnFSSVFXdmJoODN6ZmN2OTgtd01QMGdLLWx5THd0TGdFam1fbTZlZ25sMGphX1h4d0E?oc=5",
+      "published_at_raw": "Fri, 06 Nov 2026 04:46:00 GMT",
+      "publisher": "DD News",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "a5ce4122bebf04959c55",
+      "query_state": "Tamil Nadu",
+      "provider": "google-rss",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "'Books By Trisha Vijay, AI Misuse': Tamil Nadu Minister Alleges Corruption During DMK Regime In Purchase Of Library Books - ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNQi1OVHBiTzBYUnIwZUl1QjVQQVNDWXBmaFhJb3hBMmxVcmc5bXFVNmRDZXgwVHRZWEFfM0h5Q3BVWUpmaGdQUjMzTmg0SkhCVUNvWHZyNUUySVBGTV80R3pza2phNW5qY0Z2MHd3SEZRYk0wdzgxRGxWb2JiMXVwdlNiVkMxUHNUOWh6bTllS3lNXzZzclNuMFZVdUR2MW9vU0ItakQxeVpCXzhvdy16MTNxYjdCMGJqUjBtanp6VkYyc2FKMnpZYTM4djE3RU5LOGJ6SmdQbFRrRmQwSHM5azdHSG5TdUp1NTJJOWdVeGI3akhGakpTa3c4a9IBgAJBVV95cUxNVFR2Zkh6bTVnbXVNaXo1YVBTNWxlbFJyS1A3SUVWY21OTFR3d3czeld5Mi1iVFVjc2pzM3RoOGtKWFdqVk5zMDljeE95aEluODBhQmhxc2hxaGVYeU9LX0xhOVlZcDA0NnBzV29UTUhlMFZqcmlib1B6b1lYYjZNTUFoN2tjR2FJMDRtYzNlOUc1aGVNYkZIZkRoeW9nbWk2emNsSVRKbkZyRlB3eVBxOEdZNmpOOXlRSFdzZkI3R2thWjczR0pObVFqV1FvLVFSNThXTGRvRkJRRy1TZmhHRmktR05lZ1U4MjNQeFlHOWRkUXRxRHZhYWZvTmt5UWNj?oc=5",
+      "published_at_raw": "Sat, 07 Nov 2026 11:48:51 GMT",
+      "publisher": "ETV Bharat",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "b7a07683a337229f4a0e",
+      "query_state": "Tamil Nadu",
+      "provider": "google-rss",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "Tamil Nadu Minister Alleges Artificial Intelligence Corruption in Libraries - India News Network",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ1VBbHZxZURxTWdsaVB6VW5TWGZsRUdPOFljajMxYkJlaVEyWEdyUlk1aE1sM1N5OEJZMlFsWFJQTFYwOXpOemxFczN1WXJIay0xbmVNR0xLYmc1VkFncVZxMW5FZGppS3lhWUc2MWFGbFVPVnBjQmw1NXFaeldwX21oMkdFV0dsZGhxakdJYUxuMDZEaTdYNjdVbXU4b0ZadWhjM0gzakozb3VWNXI3RUVfd2F6MGhu?oc=5",
+      "published_at_raw": "Mon, 09 Nov 2026 05:16:08 GMT",
+      "publisher": "India News Network",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "e91fade24743dc91b2fe",
+      "query_state": "Tamil Nadu",
+      "provider": "google-rss",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "Tamil Nadu minister accuses DMK of AI-assisted corruption in library book purchases - The News Minute",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSENVdldHNEc0NEdvVWRfLXpxNjdkUVVVdWNjU3AxYzhhNERmTzlmb09Iek1HOUpzdGRnWlNJbzlRT0xkakpiMm9uTjJET09VaV8tcXBEQmkzZ0dpU3B3dWdram9tek1iMVp2NUhUT2tGYXVyVjJmakd1LXJqUXRlb1RlTFZKQURYM2tCc1YycThHRFgtWlpta2Y5Mjd6bGdfSnFlRzJIRWU0SVNiQ0t2TUZoaUsxWFZ5RHpOREdrM0MwUdIBzwFBVV95cUxOYXhXQndZQTJucWlHa3JRMlA3VmxCRlMtLWJhNHNlT2d2cnVuYmNRaFoxNDdDbFp4RGc4QzFLZXZuUkJXQkZNZVFadjVrdkVXSmJESklENGJ4c1VuejFhdENEY21seUxGMkM0bG1KNTNZbzh4TnBQeWJubUYzYXEySUxILUIzZjZXRVhMdk9kMHRJS1NVZ2FxUUxjaWJwakdNam9aSXRGVy00UlZhQnFWNWtKOWQ0NXA2XzFvNF9GYWhUdmhXeFlVbmxfeExaSU0?oc=5",
+      "published_at_raw": "Sun, 08 Nov 2026 05:19:44 GMT",
+      "publisher": "The News Minute",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "a56afff1754650c49a68",
+      "query_state": "Tamil Nadu",
+      "provider": "google-rss",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "TWO-DAY WORKSHOP ON AI IMPLEMENTATION HELD FOR GOVERNMENT OFFICIALS - DIPR Nagaland",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFh4VlRzN2FIVlh4b1Rja2lNVC1FaFdnZVdXbVA3OVJBYl8yT1dSeTRUZXpaZzlCOUhEa1F1X3RWNThXcmRaY3llTTJPcGpXNHo4M2FwbDBEQURKZDR6bFBnOV9FT1U3cExSV2xVOWU3bXlSbnZxOXNKU1FqcnZxbUN0VGxDZnc4VFc3b043YktPd2tQVVprb1lSZw?oc=5",
+      "published_at_raw": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "publisher": "DIPR Nagaland",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "2541232e9091a275c65e",
+      "query_state": "Gujarat",
+      "provider": "google-rss",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "title": "Six Gujarat startups secure Rs 287 crore in four months - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUzhDWV92M2F2MjJOYTdjMkpmRUlrUWxoWVVlYnlBcjQtLVMxaEdnamFpR0FSTjlKX3BjQnBUMjk4dEtyZzdjLThsZkRuR3Zud3NPckJ4Wl9ZY01IeF9xci1DbjRXRFJKenoxUlhFS2hEV0xtS0FVdk5HaldBblFCa19tRnZBSHA3Z1VzXzdwWmpSUDVTZzhrTUJVUEo0eEFoMU55aUlaMVI1RGwxOGNuaGQyVTMtQVlQcHBRMkoyd2F3SWxYSDRTdy1TSVTSAdIBQVVfeXFMT0J1RjVyQXBLaEF5ejlrSDFYS1dSZ25ONFJCYkduWEloUEFSeTBKM2pWeE81WWdKcUY0V0NieG1XVF9jSEt2aWdrdWZ0TTctZ1FlYklDZ1BTcGdSTnN0RzFsRnlmWjVHLW8zbHNnV1BFdk5vMjNiaXBGd3oxT0I4TWplU2FtQm1TOHlBSTlHVzgxaXZFTElGVFl0VWpZUm92RGtVdEdfdjVSeV92SzhPTEQ4Sk9MRkFjS0dSbTgydkVMdkJGbXZ1bGZGOEN0SW5scFV3?oc=5",
+      "published_at_raw": "Sat, 07 Nov 2026 18:59:00 GMT",
+      "publisher": "The Times of India",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "30840761c42cc7bb6c26",
+      "query_state": "Gujarat",
+      "provider": "google-rss",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "title": "Tech Expo Gujarat 2026 12 Entrepreneurs Unite for a Non-Profit Mission to Accelerate Gujarat’s Technology and AI Ecosystem - The Week",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPUEQ4S0JpLW1JbVFSQzJfeE1CdE9QZUM5X1NEdUs0QTRvU2ZqR1piVElaOS1RU0hXZ2VtQlcxNUtJRURmeVQ4bndsQmh4NVNpU1EtZ25hNk9kbEJvQ3ZLWXlGOU5jLTNoR3d4T3g2bF9ZS1l4Y0xWVHFETE52RkdqbTREWmlJZ285a3dUcUhwZ1ZZU1pEMS00OVVUU3hLa1hKVzhUdHJtMTNZSzhOOVo0QTFIaWNmakxOTW9sNUVVR2ZxdkpqZEVnMlZhYXJpSHlFdnpfWWlsSUkteXphUTMtd0hmUFhUVVc1ZlhhQjNxR0dYcDRFTDllVTd1YlpUeld6anE1cFpCaENZRm9iSlVTT9IBlgJBVV95cUxOX0pfUlRRdVFkZFFIUEYyUXdiSlVpd0JETUQ1RFBFejJBZWVHaWxHbkZZVms1VzJ0V0p6a1NXU3JmVmJRNHVBR3VhbWwyMkxaZFQ3dUdTZS1HQW4tM0l2OFNZa1lnRmJxMmdTeFl4Sk9zTnh2eV8xblBHclBXZld3YUFTMDAtT2lzY2dKVkFoRFg0UUxBYnRZSnN2T295VlBCbFBfLWZsME55WjR5VXRwcUNIMXpLaGhxODEtcEp3cndXQVdGZlotclF1blQtM1R5T0U0b2N0WlNpZkpVdFU5QmIxdDA4X3ctSllOMU5HM3RKaU45dHVfTHhjeU05aXdnbGlmemhfY3NqQlVrS3VWY0RSSVh5Zw?oc=5",
+      "published_at_raw": "Tue, 03 Nov 2026 12:43:09 GMT",
+      "publisher": "The Week",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "b412cc15909c8531222e",
+      "query_state": "Gujarat",
+      "provider": "google-rss",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "title": "Several Singaporean and South Korean companies express interest in investing in Gujarat - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcHdlMHVjTEdwNTNOZkY4eFJCT2NGMnVDX2lDbTY1SkJRWUN2WUZlNGNXRnBOV1Y5Z3p2ZERSNXBHMTdhcHotZC12eWpOM2prT2Vxdk4zeVQ0RUpkc3lWWXp4RHdQNGJuMlgwTVJNLUZoTWhQLWFuNUdydk1VVjR4bEtzMXhBaEJUMjN4SlJMa0piVk9BNWg2TkFCTnY2aENhTThtaldyckhndVFzVnlQTi1WLVNRS0NkNHQ2MHVPTWpDeDFiUVdRbWtYQ3FrNTFmN0dNcTNXVkRBb05y?oc=5",
+      "published_at_raw": "Fri, 06 Nov 2026 08:20:42 GMT",
+      "publisher": "TradingView",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "fb7885313261757fde59",
+      "query_state": "Gujarat",
+      "provider": "google-rss",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "title": "Landmark Treatise on Artificial Intelligence and Maritime Law, Authored by Snr..Adv. V.J. Mathew, Released in Kochi - Passionate In Marketing",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaXM5aHdXS1UzRU43d3dqOTRFQjl1TXhMZnlydi1iWEc1akJoc0pDZC0wNzVIX1JiaHdqV2doNmZOakZ6TWVKMmNxQTBvWkg3ZEFFRGlRWXFtRGhGc3ZOWmN3bi13Y2otc0VsbzUyRHVCbVZQbGhxLXdvbkhfelZuNmpZeGM3UF9IbzRtY3BLcm9aWHRMU09SRXc2MHNvZVNVODEyS09WNVh6c0V4aExkQnhBR1A3eDcxLU9jTkNvcFNqRExnYk1WcUJGTlpqME9WYlUxMHozUVJvSGhoMzlFbTFydw?oc=5",
+      "published_at_raw": "Mon, 09 Nov 2026 04:17:52 GMT",
+      "publisher": "Passionate In Marketing",
+      "url_kind": "aggregator_redirect",
+      "candidate_id": "94c7400a0cb59c1eaffa",
+      "query_state": "Gujarat",
+      "provider": "google-rss",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "google-rss"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "title": "ఈ గ్రంథ రచయిత్రి .. త్రిష విజయ్‌ | Trisha Vijay Named as Book Author Periyar Library Fake Books Row",
+      "url": "https://www.andhrajyothy.com/2026/national/trisha-vijay-named-as-book-author-periyar-library-fake-books-row-1574393.html",
+      "published_at_raw": null,
+      "discovered_at_provider": "20261107T220000Z",
+      "publisher": "andhrajyothy.com",
+      "language": "Telugu",
+      "url_kind": "publisher",
+      "candidate_id": "100c490d8997b10c1274",
+      "query_state": "Tamil Nadu",
+      "provider": "gdelt",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "gdelt"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "T . N . government constitutes Tamil Nadu Investment Promotion Commission",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-government-constitutes-tamil-nadu-investment-promotion-commission/article71672997.ece",
+      "published_at_raw": null,
+      "discovered_at_provider": "20261106T090000Z",
+      "publisher": "thehindu.com",
+      "language": "English",
+      "url_kind": "publisher",
+      "candidate_id": "6507fe6d604a271341da",
+      "query_state": "Tamil Nadu",
+      "provider": "gdelt",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "gdelt"
+      ],
+      "query_states": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "title": "Several Singaporean and South Korean companies express interest in investing in Gujarat",
+      "url": "http://www.calcuttanews.net/news/279415813/several-singaporean-and-south-korean-companies-express-interest-in-investing-in-gujarat",
+      "published_at_raw": null,
+      "discovered_at_provider": "20261106T123000Z",
+      "publisher": "calcuttanews.net",
+      "language": "English",
+      "url_kind": "publisher",
+      "candidate_id": "3985328721b723929076",
+      "query_state": "Gujarat",
+      "provider": "gdelt",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "gdelt"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    },
+    {
+      "title": "Stocks to watch , Nov 6 : Adani Ports , Rajesh Power , Hexaware Tech , Blue Cloud , HCC , STL Networks , Knowledge Marine , Ashoka Buildcon , Lokesh Machines , Anondita",
+      "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-nov-6-adani-ports-rajesh-power-hexaware-tech-blue-cloud-hcc-stl-networks-knowledge-marine-ashoka-buildcon-lokesh-machines-anondita/article71672628.ece",
+      "published_at_raw": null,
+      "discovered_at_provider": "20261106T030000Z",
+      "publisher": "thehindubusinessline.com",
+      "language": "English",
+      "url_kind": "publisher",
+      "candidate_id": "123b5c14bc5f4dfbce8e",
+      "query_state": "Gujarat",
+      "provider": "gdelt",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI mission\" OR \"AI policy\")",
+      "review_status": "pending",
+      "event_date": null,
+      "discovered_by": [
+        "gdelt"
+      ],
+      "query_states": [
+        "Gujarat"
+      ]
+    }
+  ],
+  "provider_runs": [
+    {
+      "provider": "google-rss",
+      "state": "Tamil Nadu",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "provider": "google-rss",
+      "state": "Gujarat",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "provider": "gdelt",
+      "state": "Tamil Nadu",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "provider": "gdelt",
+      "state": "Gujarat",
+      "status": "ok",
+      "count": 2
+    }
+  ],
+  "observations": 14,
+  "unique_urls": 14,
+  "note": "URL dedup only. Cross-provider article identity and event identity require review. No coverage or accuracy estimate is implied."
+}

@@ -16,25 +16,25 @@
     "Telangana",
     "Uttar Pradesh"
   ],
-  "events": 44,
-  "sources": 59,
-  "source_observations": 72,
-  "duplicate_observations_collapsed": 28,
-  "with_primary_source": 31,
+  "events": 85,
+  "sources": 113,
+  "source_observations": 137,
+  "additional_source_links": 52,
+  "with_primary_source": 59,
   "categories": {
-    "Policy & strategy": 9,
-    "Responsible AI": 2,
-    "Institutions & capacity": 12,
-    "Funding": 3,
-    "Partnerships": 12,
-    "Public-sector deployment": 6
+    "Policy & strategy": 19,
+    "Responsible AI": 5,
+    "Partnerships": 24,
+    "Institutions & capacity": 23,
+    "Public-sector deployment": 10,
+    "Funding": 4
   },
   "stages": {
-    "approved": 13,
-    "launched": 8,
-    "announced": 10,
-    "signed": 12,
-    "operational": 1
+    "approved": 20,
+    "signed": 25,
+    "operational": 3,
+    "announced": 23,
+    "launched": 14
   },
   "coverage_note": "Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance."
 }

@@ -1,0 +1,170 @@
+[
+  {
+    "left": "up-2026-mission-approval",
+    "right": "up-2026-budget",
+    "title_similarity": 0.41,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "up-2026-mission-approval",
+    "right": "up-2026-mission-announcement",
+    "title_similarity": 0.613,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "od-2026-hcl-technology-mou",
+    "right": "od-2026-hcl-sarvam-data-mou",
+    "title_similarity": 0.409,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "od-2026-hcl-technology-mou",
+    "right": "od-2026-sarvam",
+    "title_similarity": 0.5,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "od-2026-hcl-sarvam-data-mou",
+    "right": "od-2026-sarvam",
+    "title_similarity": 0.274,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "mh-ai-policy-gr-2026",
+    "right": "mh-ai-policy-cabinet-2026",
+    "title_similarity": 0.633,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "mh-ai-policy-cabinet-2026",
+    "right": "mh-agri-policy-2025",
+    "title_similarity": 0.795,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "mh-ai-policy-cabinet-2026",
+    "right": "mh-marvel-approval-2024",
+    "title_similarity": 0.674,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "rj-gpu-tender-2026",
+    "right": "rj-ai-datacentre-eoi-2026",
+    "title_similarity": 0.617,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "od-2026-operational-rules",
+    "right": "od-2025-policy-gazette",
+    "title_similarity": 0.404,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "od-2026-operational-rules",
+    "right": "od-2025-policy-approval",
+    "title_similarity": 0.322,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "gj-implementation-cell-2026",
+    "right": "gj-action-plan-2025",
+    "title_similarity": 0.667,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "up-2026-budget",
+    "right": "up-2026-mission-announcement",
+    "title_similarity": 0.423,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "mp-indiaai-labs-mou-2026",
+    "right": "mp-bhashini-mou-2026",
+    "title_similarity": 0.576,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "rj-iit-delhi-mou-2026",
+    "right": "rj-google-mou-2026",
+    "title_similarity": 0.688,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "rj-ai-policy-launch-2026",
+    "right": "rj-ai-policy-approval-2025",
+    "title_similarity": 0.589,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "rj-ai-policy-launch-2026",
+    "right": "rj-ai-draft-consultation-2025",
+    "title_similarity": 0.547,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "rj-ai-policy-approval-2025",
+    "right": "rj-ai-draft-consultation-2025",
+    "title_similarity": 0.465,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "as-2025-google",
+    "right": "as-2024-coe",
+    "title_similarity": 0.368,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "od-2025-policy-gazette",
+    "right": "od-2025-policy-approval",
+    "title_similarity": 0.33,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "mh-agri-policy-2025",
+    "right": "mh-marvel-approval-2024",
+    "title_similarity": 0.637,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "AP-2025-05",
+    "right": "AP-2024-01",
+    "title_similarity": 0.619,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "AP-2025-01",
+    "right": "AP-2024-01",
+    "title_similarity": 0.562,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "as-2025-deepfake-lab",
+    "right": "as-2024-coe",
+    "title_similarity": 0.638,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "KA-2025-02",
+    "right": "KA-2025-01",
+    "title_similarity": 0.591,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "gj-coe-inauguration-2025",
+    "right": "gj-microsoft-coe-mou-2024",
+    "title_similarity": 0.486,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "TN-2024-04",
+    "right": "TN-2024-02",
+    "title_similarity": 0.288,
+    "decision": "review only; separate milestones may be valid"
+  },
+  {
+    "left": "gj-microsoft-coe-mou-2024",
+    "right": "gj-ibm-cluster-mou-2024",
+    "title_similarity": 0.74,
+    "decision": "review only; separate milestones may be valid"
+  }
+]

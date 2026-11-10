@@ -1,0 +1,695 @@
+{
+  "events": [
+    {
+      "id": "AP-2024-01",
+      "state": "Andhra Pradesh",
+      "title": "Government signs Google MoU for AI adoption",
+      "event_date": "2024-12-05",
+      "date_precision": "day",
+      "date_basis": "Dated article explicitly identifies Thursday's MoU signing.",
+      "publication_date": "2024-12-05",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Andhra Pradesh signed a Google MoU covering AI in healthcare, sustainability, government-service pilots, skills and startup support.",
+      "initiative": "Andhra Pradesh-Google AI collaboration",
+      "source_ids": [
+        "S-AP-01"
+      ],
+      "confidence": "medium",
+      "limitations": "Signed commitment, not completed pilots or verified benefits. The original Google press release was described but not separately retrieved."
+    },
+    {
+      "id": "AP-2025-01",
+      "state": "Andhra Pradesh",
+      "title": "Government signs Microsoft AI skills agreement",
+      "event_date": "2025-03-13",
+      "date_precision": "day",
+      "date_basis": "Article first published 13 March explicitly says agreement signed Thursday; 14 March is the update date.",
+      "publication_date": "2025-03-13",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "The state and Microsoft signed an agreement for AI and advanced-technology training covering youth, teachers and public officials.",
+      "initiative": "Andhra Pradesh-Microsoft AI skilling",
+      "source_ids": [
+        "S-AP-02"
+      ],
+      "confidence": "medium",
+      "limitations": "Training figures are commitments and target groups, not verified completions; overlapping participant categories should not be summed."
+    },
+    {
+      "id": "AP-2025-02",
+      "state": "Andhra Pradesh",
+      "title": "Minister announces AI voice services for Mana Mitra",
+      "event_date": "2025-03-18",
+      "date_precision": "day",
+      "date_basis": "Dated Assembly report identifies the minister's statement on Tuesday.",
+      "publication_date": "2025-03-18",
+      "category": "Public-sector deployment",
+      "stage": "announced",
+      "summary": "Andhra Pradesh announced planned AI-enabled voice services and chatbot improvements for its Mana Mitra WhatsApp governance platform.",
+      "initiative": "Mana Mitra AI voice services",
+      "source_ids": [
+        "S-AP-03"
+      ],
+      "confidence": "medium",
+      "limitations": "The 100-day target is prospective. Existing WhatsApp service use does not demonstrate deployment of the announced AI capability."
+    },
+    {
+      "id": "AP-2025-03",
+      "state": "Andhra Pradesh",
+      "title": "State begins AI governance workshop with Wadhwani",
+      "event_date": "2025-04-24",
+      "date_precision": "day",
+      "date_basis": "Partner-hosted report explicitly dates first workshop day to 24 April; separate report dates second day to 25 April.",
+      "publication_date": "2025-04-25",
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "Andhra Pradesh began an AI governance workshop for public officials, linking training to departmental project selection and proofs of concept.",
+      "initiative": "Andhra Pradesh AI Champions capacity building",
+      "source_ids": [
+        "S-AP-04",
+        "S-AP-05"
+      ],
+      "confidence": "medium",
+      "limitations": "Wadhwani's page republishes The Hindu and is not independent corroboration. Follow-on project targets are not completed applications."
+    },
+    {
+      "id": "AP-2025-04",
+      "state": "Andhra Pradesh",
+      "title": "Government approves guidelines for AI-capable data-centre policy",
+      "event_date": "2025-05-02",
+      "date_precision": "day",
+      "date_basis": "Date printed on G.O.Ms.No.12 and its annexure.",
+      "publication_date": "2025-05-02",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "The state approved operating guidelines for its data-centre incentive policy, which explicitly seeks investment in AI-capable data infrastructure.",
+      "initiative": "Andhra Pradesh Data Center Policy 4.0",
+      "source_ids": [
+        "S-AP-06"
+      ],
+      "confidence": "medium",
+      "limitations": "This is a wider data-centre policy with a substantive AI objective, not an AI-only programme. Earlier policy-order references conflict within the document; only the guidelines approval is dated here."
+    },
+    {
+      "id": "AP-2025-05",
+      "state": "Andhra Pradesh",
+      "title": "Government signs NVIDIA MoU for proposed AI university",
+      "event_date": "2025-06-06",
+      "date_precision": "day",
+      "date_basis": "Dated report describes the agreement and meeting on Friday 6 June.",
+      "publication_date": "2025-06-06",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Andhra Pradesh and NVIDIA agreed to support a proposed AI university, engineering-student training, research infrastructure and startup participation.",
+      "initiative": "Andhra Pradesh-NVIDIA AI university collaboration",
+      "source_ids": [
+        "S-AP-07"
+      ],
+      "confidence": "medium",
+      "limitations": "The university remains proposed in the source. Training 10,000 students and helping up to 500 startups apply are targets, not verified outcomes."
+    },
+    {
+      "id": "AP-2025-06",
+      "state": "Andhra Pradesh",
+      "title": "RTGS reports AI search across government documents",
+      "event_date": null,
+      "date_precision": "unknown",
+      "date_basis": "Operational status reported at 16 September 2025 collectors' conference; actual deployment date unspecified.",
+      "publication_date": "2025-09-17",
+      "category": "Public-sector deployment",
+      "stage": "operational",
+      "summary": "An RTGS official reported an introduced AI-based search interface with voice features for government documents, including government orders.",
+      "initiative": "RTGS AI government-document search",
+      "source_ids": [
+        "S-AP-08"
+      ],
+      "confidence": "medium",
+      "limitations": "Operational status is the official's reported claim; no service test, coverage audit or deployment date was verified. Inclusion reflects documented in-period operation, not a known launch."
+    },
+    {
+      "id": "AP-2026-01",
+      "state": "Andhra Pradesh",
+      "title": "Cabinet approves Robotics and Physical AI Policy",
+      "event_date": "2026-11-10",
+      "date_precision": "day",
+      "date_basis": "Both fetched reports explicitly date Tuesday's cabinet approval to 10 November 2026.",
+      "publication_date": "2026-11-10",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "Andhra Pradesh's cabinet approved its Robotics and Physical AI Policy, according to two same-day reports.",
+      "initiative": "Andhra Pradesh Robotics and Physical AI Policy",
+      "source_ids": [
+        "S-AP-09",
+        "S-AP-10"
+      ],
+      "confidence": "medium",
+      "limitations": "Fresh cabinet reporting at the research cutoff; notification, policy text and implementation measures were not retrieved. Both accounts may rely on one cabinet briefing."
+    },
+    {
+      "id": "KL-2024-01",
+      "state": "Kerala",
+      "title": "KITE begins responsible AI training for schoolteachers",
+      "event_date": "2024-05-02",
+      "date_precision": "day",
+      "date_basis": "On-site reporting specifies 2 May; annual report confirms May 2024 commencement.",
+      "publication_date": "2024-05-16",
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "KITE began hands-on AI training for secondary teachers, covering classroom tools, privacy, algorithmic bias and responsible use.",
+      "initiative": "KITE AI teacher training",
+      "source_ids": [
+        "S-KL-01",
+        "S-KL-02"
+      ],
+      "confidence": "high",
+      "limitations": "The 80,000 figure is the programme target in the launch report. The annual report records 31,878 trained in FY2024-25; reporting periods and later cumulative claims differ."
+    },
+    {
+      "id": "KL-2024-02",
+      "state": "Kerala",
+      "title": "Class 7 AI curriculum announced for new school year",
+      "event_date": "2024-05-30",
+      "date_precision": "day",
+      "date_basis": "IndiaAI announcement is dated 30 May and cites KITE; upcoming academic year begins 3 June.",
+      "publication_date": "2024-05-30",
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "Kerala introduced AI learning in its revised Class 7 ICT textbook, including a computer-vision programming exercise.",
+      "initiative": "Kerala Class 7 AI curriculum",
+      "source_ids": [
+        "S-KL-01",
+        "S-KL-03"
+      ],
+      "confidence": "high",
+      "limitations": "Date is the public announcement, not an observed first classroom session. Four lakh students is intended reach, not a measured learning result."
+    },
+    {
+      "id": "KL-2024-03",
+      "state": "Kerala",
+      "title": "State issues AI declaration at GenAI conclave",
+      "event_date": "2024-07-12",
+      "date_precision": "day",
+      "date_basis": "Contemporaneous report dates Friday's closing declaration; official KSIDC page confirms its content.",
+      "publication_date": "2024-07-12",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "Kerala announced plans for a dedicated AI policy, infrastructure, startup support and departmental adoption at the GenAI conclave.",
+      "initiative": "Kerala GenAI declaration",
+      "source_ids": [
+        "S-KL-04",
+        "S-KL-05"
+      ],
+      "confidence": "high",
+      "limitations": "Promise to prepare a dedicated policy is not evidence of adoption. Incentives announced at the conclave are not verified disbursements."
+    },
+    {
+      "id": "KL-2025-01",
+      "state": "Kerala",
+      "title": "KITE announces AI Essentials course for the public",
+      "event_date": "2025-02-23",
+      "date_precision": "day",
+      "date_basis": "Contemporaneous dated announcement; actual classes were scheduled for 10 March.",
+      "publication_date": "2025-02-23",
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "KITE opened a four-week public AI course covering practical tools and responsible use, with mentors and weekly contact classes.",
+      "initiative": "KITE AI Essentials",
+      "source_ids": [
+        "S-KL-01",
+        "S-KL-06"
+      ],
+      "confidence": "high",
+      "limitations": "The annual report calls February the launch and reports 500 people trained; this event uses the precise announcement date rather than assuming classes began that day."
+    },
+    {
+      "id": "KL-2025-02",
+      "state": "Kerala",
+      "title": "Kerala inaugurates K-AI governance initiative",
+      "event_date": "2025-06-12",
+      "date_precision": "day",
+      "date_basis": "Official Kerala State IT Mission page explicitly supplies inauguration date.",
+      "publication_date": null,
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "Kerala inaugurated K-AI to connect government departments, startups, researchers and experts developing AI solutions for public services.",
+      "initiative": "K-AI governance collaboration",
+      "source_ids": [
+        "S-KL-07"
+      ],
+      "confidence": "medium",
+      "limitations": "Programme inauguration does not establish deployment of particular AI services; source publication date is not given."
+    },
+    {
+      "id": "KL-2026-01",
+      "state": "Kerala",
+      "title": "Cabinet approves IT policy with Kerala AI Mission provisions",
+      "event_date": "2026-02-20",
+      "date_precision": "day",
+      "date_basis": "Dated report explicitly identifies cabinet approval on Friday 20 February.",
+      "publication_date": "2026-02-20",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "Kerala approved IT Policy 2026, whose AI mission section sets objectives for ethical governance, public-sector applications and workforce development.",
+      "initiative": "Kerala IT Policy 2026 AI Mission",
+      "source_ids": [
+        "S-KL-08",
+        "S-KL-09"
+      ],
+      "confidence": "high",
+      "limitations": "The policy's ten-year mission, 50 solutions and 100,000 professionals are goals. Relationship to the earlier K-AI programme is not sufficiently defined to count them as unrelated missions."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-AP-01",
+      "url": "https://www.techcircle.in/2024/12/05/google-andhra-pradesh-govt-sign-mou-for-ai-adoption/",
+      "publisher": "Techcircle",
+      "title": "Google, Andhra Pradesh govt sign MoU for AI adoption",
+      "published_date": "2024-12-05",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Google signed a memorandum of understanding (MoU) with the Government of Andhra Pradesh on Thursday",
+      "evidence_summary": "Dated report describes a signed MoU covering AI in health, sustainability, public-service pilots, skills and startups; it quotes a Google press release.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-02",
+      "url": "https://indianexpress.com/article/india/andhra-pradesh-deal-microsoft-skill-development-artificial-intelligence-9885246/",
+      "publisher": "The Indian Express",
+      "title": "Andhra Pradesh signs deal with Microsoft for skill development in artificial intelligence",
+      "published_date": "2025-03-13",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "signed a memorandum of understanding (MoU) with Microsoft Corporation",
+      "evidence_summary": "Reports the state and Microsoft signed on Thursday 13 March, with training targets covering youth, teachers and government staff. First published 13 March, updated 14 March.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-03",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/more-whatsapp-based-public-services-by-june-says-andhra-pradesh-it-minister-lokesh/article69345000.ece",
+      "publisher": "The Hindu",
+      "title": "More WhatsApp-based public services by June, says Andhra Pradesh IT Minister Lokesh",
+      "published_date": "2025-03-18",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "would introduce AI-enabled voice services in the next one hundred days",
+      "evidence_summary": "Assembly statement dated 18 March proposes AI voice services and chatbots in Mana Mitra. Existing WhatsApp transactions are not evidence that the AI upgrade had launched.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-04",
+      "url": "https://wadhwanifoundation.org/press/a-new-era-begins-ai-must-power-governance-with-a-human-touch-andhra-pradesh-cm-chandrababu-naidu/",
+      "publisher": "Wadhwani Foundation, republishing The Hindu",
+      "title": "A new era begins; AI must power governance with a human touch: Andhra Pradesh CM Chandrababu Naidu",
+      "published_date": "2025-04-25",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Thursday (April 24, 2025)",
+      "evidence_summary": "Implementation partner's press page reproduces The Hindu reporting and identifies 24 April as the workshop's first day. It describes Wadhwani collaboration and officials' AI capacity building; not an independent second account.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-05",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/ai-champions-will-undergo-four-day-intensive-training-programme-says-rtgs-official/article69490792.ece",
+      "publisher": "The Hindu",
+      "title": "AI Champions will undergo four-day intensive training programme, says RTGS official",
+      "published_date": "2025-04-25",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "On the second day, 100 AI Champions and 200 AI Catalysts",
+      "evidence_summary": "Reports the second day of the training workshop and plans for department-specific proofs of concept. The 100-150 projects are envisaged outputs, not completed deployments.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-06",
+      "url": "http://industries.ap.gov.in/APIndus/Data/policies/Guidelines_Data_Centers_Policy.pdf",
+      "publisher": "Government of Andhra Pradesh, ITE&C Department",
+      "title": "G.O.Ms.No.12: Data Center Policy (4.0) operating guidelines",
+      "published_date": "2025-05-02",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Government hereby accords approval for the Operating Guidelines",
+      "evidence_summary": "Signed order approves implementation guidelines for a data-centre policy that explicitly targets AI-capable infrastructure. Preamble and annexure refer to different earlier policy orders; retained event uses unambiguous 2 May 2025 guidelines approval.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-07",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/govt-inks-pact-with-nvidia-on-establishment-of-ai-university-in-andhra-pradesh/article69665715.ece",
+      "publisher": "The Hindu",
+      "title": "Govt. inks pact with NVIDIA on establishment of AI University in Andhra Pradesh",
+      "published_date": "2025-06-06",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "the proposed Artificial Intelligence (AI) University",
+      "evidence_summary": "Reports a signed NVIDIA partnership for the proposed AI university, training 10,000 engineering students over two years, research and startup support. It does not report an operating university.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-08",
+      "url": "https://www.newindianexpress.com/states/andhra-pradesh/2025/Sep/17/rtgs-aware-20-to-boost-safety-and-governance-in-andhra",
+      "publisher": "The New Indian Express",
+      "title": "RTGS Aware 2.0 to boost safety and governance in Andhra",
+      "published_date": "2025-09-17",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "An AI-based single search bar has also been introduced",
+      "evidence_summary": "Reports a state official's 16 September presentation that an AI search interface had been introduced for over 80 lakh government documents, including orders. Actual introduction date is unstated.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-09",
+      "url": "https://www.thehansindia.com/andhra-pradesh/ap-cabinet-approves-major-decisions-1140821",
+      "publisher": "The Hans India",
+      "title": "AP cabinet approves major decisions",
+      "published_date": "2026-11-10",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "as well as the AP Robotics and Physical AI Policy",
+      "evidence_summary": "Dated 10 November 2026 report states the cabinet approved the robotics and physical AI policy that Tuesday; no underlying policy notification was fetched.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-AP-10",
+      "url": "https://www.telugu360.com/ap-cabinet-clears-ai-data-centres-robotics-policy-semiconductor-reforms-and-major-industrial-projects/",
+      "publisher": "Telugu360",
+      "title": "AP Cabinet Clears AI Data Centres, Robotics Policy, Semiconductor Reforms and Major Industrial Projects",
+      "published_date": "2026-11-10",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "the Robotics and Physical AI Policy 2026-36",
+      "evidence_summary": "Separate dated report corroborates cabinet approval on 10 November 2026 and specifies a 2026-36 policy horizon. Both publishers may rely on the same cabinet briefing.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-01",
+      "url": "https://kite.kerala.gov.in/KITE/downloads/RTI/Annual%20Report%202024-25_08.05.2026.pdf",
+      "publisher": "Kerala Infrastructure and Technology for Education",
+      "title": "Annual Report 2024-25",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "During 2024-25, 31878 teachers were trained in AI.",
+      "evidence_summary": "Official report retrospectively confirms May 2024 teacher training, Class 7 AI curriculum and February 2025 AI Essentials introduction. It reports 31,878 teachers trained in the fiscal year and 500 people trained through AI Essentials; these are reporting-period figures.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-02",
+      "url": "https://www.hindustantimes.com/india-news/ai-training-for-teachers-how-kerala-is-raising-the-bar-in-classrooms-101715802878844.html",
+      "publisher": "Hindustan Times",
+      "title": "AI training for teachers: How Kerala is raising the bar in classrooms",
+      "published_date": "2024-05-16",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "On May 2, KITE",
+      "evidence_summary": "On-site reporting explicitly dates the training start to 2 May and describes sessions on responsible AI. The 80,000 teachers is the programme target in this contemporaneous account; publication day uses Indian local date.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-03",
+      "url": "https://indiaai.gov.in/news/kerala-introduces-artificial-intelligence-in-school-curriculums",
+      "publisher": "IndiaAI",
+      "title": "Kerala introduces Artificial Intelligence in school curriculums",
+      "published_date": "2024-05-30",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "the Information & Communication Technology ( ICT ) textbook of Class 7",
+      "evidence_summary": "Government AI portal reports the Class 7 curriculum change, cites KITE Kerala, and says the academic year starts 3 June. It forecasts coverage of more than four lakh students; no learning-outcome evaluation.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-04",
+      "url": "https://invest.kerala.gov.in/media-and-events/latest-news-and-updates/minister-p-rajeev-makes-ai-policy-announcement-at-the-closing-session-of-the-international-genai-conclave/",
+      "publisher": "Kerala State Industrial Development Corporation",
+      "title": "Minister P. Rajeev makes AI policy announcement at the closing session of the International GenAI Conclave",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "will introduce a dedicated AI policy this fiscal year",
+      "evidence_summary": "Official investment agency records the conclave declaration promising a dedicated AI policy and support incentives. It has no publication date; contemporaneous reporting supplies the event date.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-05",
+      "url": "https://www.thehindu.com/news/national/kerala/international-genai-conclave-ends-with-states-declaration-on-ai/article68397037.ece",
+      "publisher": "The Hindu",
+      "title": "International GenAI conclave ends with Kerala's declaration on AI",
+      "published_date": "2024-07-12",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "concluded here with a declaration by the State government on AI on Friday",
+      "evidence_summary": "Dated report identifies 12 July as the declaration date. Covers a proposed dedicated policy, AI cluster, startup support and public-sector adoption plans.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-06",
+      "url": "https://www.thehindu.com/news/national/kerala/kite-to-conduct-online-ai-programme-for-public/article69254393.ece",
+      "publisher": "The Hindu",
+      "title": "KITE to conduct online AI programme for public",
+      "published_date": "2025-02-23",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Classes will start on March 10.",
+      "evidence_summary": "Contemporaneous announcement describes a four-week AI Essentials course, registration until 5 March and planned classes from 10 March. Annual report later calls the February introduction a launch; the record dates the announcement.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-07",
+      "url": "https://itmission.kerala.gov.in/news/k-ai",
+      "publisher": "Kerala State IT Mission",
+      "title": "K-AI",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on 12th June 2025",
+      "evidence_summary": "Official page explicitly dates inauguration by Kerala's Chief Secretary and describes a collaboration platform for departments, researchers and startups to develop ethical AI in governance.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-08",
+      "url": "https://kfon.kerala.gov.in/wp-content/uploads/2026/02/IT_policy_2026_Kerala.pdf",
+      "publisher": "Government of Kerala, hosted by KFON",
+      "title": "Information Technology Policy 2026",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Kerala AI Mission will be a 10- year programme",
+      "evidence_summary": "Section 7.3.3 sets out an AI mission, ethical governance, a target of 50 public-sector AI solutions and 100,000 skilled professionals. These are policy objectives, not achieved results.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    },
+    {
+      "id": "S-KL-09",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-approves-it-policy-2026/article70656719.ece",
+      "publisher": "The Hindu",
+      "title": "Kerala Cabinet approves IT Policy 2026",
+      "published_date": "2026-02-20",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Kerala Cabinet on Friday approved",
+      "evidence_summary": "Dated report establishes cabinet approval on 20 February 2026 and identifies the Kerala AI Mission and responsible-technology measures within the wider IT policy.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Exa web_fetch_exa"
+    }
+  ],
+  "queries": [
+    {
+      "query": "Andhra Pradesh government Microsoft artificial intelligence MoU 2025 2026",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Andhra Pradesh artificial intelligence policy 2024 2025 RTGS",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala government artificial intelligence policy 2024 2025 2026",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala KITE artificial intelligence teachers training 2024 2025",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "site:blog.google Andhra Pradesh government AI December 2024",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "site:news.microsoft.com Andhra Pradesh 2025 AI",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "site:kite.kerala.gov.in AI 2024 training 80000",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "site:prdlive.kerala.gov.in artificial intelligence 2025 KITE",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Andhra Pradesh NVIDIA MoU June 2025 AI government",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Andhra Pradesh Google December 5 2024 AI MoU",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala IBM conclave AI policy July 12 2024",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala Samagra AI launch 2025",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Andhra Pradesh AI policy 2026 cabinet government governance",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Andhra Pradesh AI IVRS citizen feedback 2025 launched",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala AI Essentials February 2025 launched KITE date",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala AI class 7 textbooks May 2024 government",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "site:wadhwanifoundation.org Andhra Pradesh AI April 2025",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "site:ap.gov.in artificial intelligence policy 2025 NVIDIA",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala IT Policy 2026 cabinet approved date AI",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Kerala K AI June 12 2025 launched responsible",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    },
+    {
+      "query": "Andhra Pradesh AWARE launched June 2025 AI government platform",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery. Included claims verified through Exa full-page fetch."
+    }
+  ],
+  "excluded": [
+    {
+      "title": "AP Microsoft Kaizala and older ICRISAT pilots",
+      "url": "https://news.microsoft.com/en-in/microsoft-and-icrisats-intelligent-cloud-pilot-for-agriculture-in-andhra-pradesh-increase-crop-yield-for-farmers",
+      "reason": "Search surfaced old projects surrounded by 2025 navigation links. No new in-window state action established."
+    },
+    {
+      "title": "Google's USD 15 billion AI hub announcement",
+      "url": "https://blog.google/intl/en-in/company-news/our-first-ai-hub-in-india-powered-by-a-15-billion-investment",
+      "reason": "Corporate investment alone does not establish the specific state action. Kept outside this bounded set rather than attributing the full private investment to state policy spending."
+    },
+    {
+      "title": "AP general IVRS feedback programme",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ivrs-to-directly-collect-opinions-from-beneficiaries-cm-naidu-1843129",
+      "reason": "Automated telephone feedback is not necessarily AI; retrieved reporting did not establish a substantive AI component."
+    },
+    {
+      "title": "AP AI healthcare and agriculture savings targets at workshop",
+      "url": "https://wadhwanifoundation.org/press/ap-govt-set-to-adopt-ai-for-governance-transformation/",
+      "reason": "Political forecasts of lower healthcare and agriculture costs are not verified measured outcomes; excluded from event summary and metrics."
+    },
+    {
+      "title": "Kerala AI training for Lakshadweep teachers",
+      "url": "https://www.thehindu.com/news/national/kerala/kite-launches-online-ai-training-for-lakshadweep-teachers/article69913715.ece",
+      "reason": "Delivery geography is Lakshadweep. Excluded to keep state coverage geographically consistent instead of counting a Kerala agency's work elsewhere."
+    },
+    {
+      "title": "Samagra Plus AI award",
+      "url": "https://www.deshabhimani.com/deshabhimani-english-/kerala-news/kerala-kite-wins-education-technology-transformation-award-samagra-plus-ai-78527",
+      "reason": "Award is not a policy action or reliable launch date. Claims of freedom from algorithmic bias are not accepted without evaluation."
+    },
+    {
+      "title": "K-AI services and startup proposals in June 2026",
+      "url": "https://newsfirstprime.com/nation/kerala-unveils-ai-push-in-governance-drafts-state-policy-for-responsible-use-12065157",
+      "reason": "Lead indicates proposed solutions under review. Not added as a separate deployed-service event without stronger primary detail."
+    },
+    {
+      "title": "AP general innovation policy incentives",
+      "url": "https://apit.ap.gov.in/assets/files/2025ITC_36424_MS9_E.pdf",
+      "reason": "AI is one listed deep-technology category. The more directly AI-capable data-centre policy guidelines provide clearer scope for this sample."
+    }
+  ],
+  "notes": [
+    "Extension covers Andhra Pradesh and Kerala for 2024-01-01 through 2026-11-10. It adds evidence-led examples, not a completeness claim or state ranking.",
+    "All 19 retained source URLs were read using Exa web_fetch_exa. Tavily extract returned HTTP429 on the first batch and research switched to Exa. Prior Firecrawl credit exhaustion was not retried.",
+    "Same-day 10 November 2026 AP cabinet reports were fetched after their publication times. They support approval reporting, not a gazetted or implemented policy.",
+    "The AP data-centre guidelines contain inconsistent references to the original policy order. Record AP-2025-04 uses the internally consistent guidelines order date, 2 May 2025, and does not assert an original policy adoption date.",
+    "AP-2025-06 has unknown deployment date but documented in-window operational status. Do not replace its null event_date with publication_date or a fabricated day.",
+    "KITE's 80,000 teacher target, annual 31,878 completions and later cumulative media claims use different scopes or periods. No inference of a final target shortfall is justified from the annual figure alone.",
+    "Source S-AP-04 explicitly identifies The Hindu as its online source. Hosting by an implementation partner does not make republished news independent primary evidence.",
+    "AI-linked IT and data-centre policies are included only where a substantive AI mission or capability objective is explicit. General digitisation, robotics or automated phone calls alone do not qualify.",
+    "Kerala's 2024 promise of a dedicated AI policy, 2025 K-AI inauguration and 2026 AI mission provisions are distinct milestones. The documents do not establish three unrelated missions or a completed standalone policy in 2024.",
+    "Targets, proposed universities, intended course reach, project counts and expected benefits are never counted as completed outcomes.",
+    "Source titles have been normalised to avoid em dashes in written outputs; URLs remain literal. No repository modifications or commits were made by this research task."
+  ]
+}

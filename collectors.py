@@ -3,18 +3,36 @@ import argparse, hashlib, json, os, time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 from pipeline import ROOT, STATES, canonical_url, dump, fetch
 import xml.etree.ElementTree as ET
 
 KEYS={'tavily':'TAVILY_API_KEY','newsapi':'NEWSAPI_API_KEY','gnews':'GNEWS_API_KEY','exa':'EXA_API_KEY','crustdata':'CRUSTDATA_API_KEY'}
+HOST_PROVIDERS={'api.tavily.com':'tavily','api.exa.ai':'exa','newsapi.org':'newsapi','gnews.io':'gnews','api.crustdata.com':'crustdata','api.firecrawl.dev':'firecrawl'}
+
+def reserve_attempt(url):
+    """Conservative monthly request limits, counting retries and failed attempts.
+
+    These are local request caps, not a promise of free account-level billing.
+    The scheduled job serializes runs and persists this file with Actions cache.
+    """
+    provider=HOST_PROVIDERS.get(urlsplit(url).hostname)
+    if not provider:return
+    cap=int(os.environ.get(provider.upper()+'_MONTHLY_REQUEST_CAP','720'))
+    path=ROOT/'.cache'/'provider-usage.json'
+    usage=json.loads(path.read_text()) if path.exists() else {}
+    key=datetime.now(timezone.utc).strftime('%Y-%m')+':'+provider
+    if usage.get(key,0)>=cap:raise RuntimeError('local_monthly_request_cap_reached')
+    usage[key]=usage.get(key,0)+1
+    path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(usage,indent=2));tmp.replace(path)
 
 def api(url,headers=None,body=None):
     headers={'User-Agent':'StateAIPolicyResearch/1.0',**(headers or {})}
     encoded=None
     if body is not None:encoded=json.dumps(body).encode();headers['Content-Type']='application/json'
     for attempt in range(3):
+        reserve_attempt(url)
         try:
             with urlopen(Request(url,data=encoded,headers=headers),timeout=30) as r:
                 raw=r.read(4_000_001)
@@ -89,8 +107,8 @@ def run(args):
             except Exception as ex:
                 error=str(ex) if isinstance(ex,RuntimeError) else type(ex).__name__
                 runs.append({'provider':provider,'state':state,'status':'failed','error':error})
-                if any(code in error for code in ('401','402','403','429')):break
-            if provider=='gdelt':time.sleep(6)
+                if any(code in error for code in ('401','402','403','429','request_cap')):break
+            if provider in ('gdelt','crustdata'):time.sleep(6)
     groups={}
     for row in all_rows:
         key=row['candidate_id']
@@ -99,12 +117,12 @@ def run(args):
         if row['query_state'] not in groups[key]['query_states']:groups[key]['query_states'].append(row['query_state'])
     now=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
     result={'run_id':now,'window':{'from':str(start),'to':str(end),'boundary_note':'Provider endpoints differ on inclusive boundaries; overlapping runs and URL dedup handle repeats.'},'query_cap_per_provider':args.max_calls,'max_attempts_per_query':3,'automatic_paid_fallback':False,'candidates':list(groups.values()),'provider_runs':runs,'observations':len(all_rows),'unique_urls':len(groups),'note':'URL dedup only. Cross-provider article identity and event identity require review. No coverage or accuracy estimate is implied. Query caps do not override provider-side billing; disable automatic top-ups in the account.'}
-    path=ROOT/'runs'/f'multiprovider-{now}.json';dump(path,result)
+    path=ROOT/args.output_dir/f'multiprovider-{now}.json';dump(path,result)
     print(json.dumps({'path':str(path),'observations':len(all_rows),'unique_urls':len(groups),'failed_queries':sum(r['status']=='failed' for r in runs),'skipped_providers':[r['provider'] for r in runs if r['status']=='skipped_missing_key']}))
     if not any(r['status']=='ok' for r in runs):raise SystemExit('No provider completed a query; inspect saved run log')
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--providers',default='google-rss,gdelt');p.add_argument('--states',help='Comma-separated canonical states');p.add_argument('--days',type=int,default=7);p.add_argument('--limit',type=int,default=10);p.add_argument('--max-calls',type=int,default=12)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--providers',default='google-rss,gdelt');p.add_argument('--states',help='Comma-separated canonical states');p.add_argument('--days',type=int,default=7);p.add_argument('--limit',type=int,default=10);p.add_argument('--max-calls',type=int,default=12);p.add_argument('--output-dir',default='runs')
     args=p.parse_args()
     if not 1<=args.days<=30 or not 1<=args.max_calls<=24 or not 1<=args.limit<=100:p.error('days 1..30, max-calls 1..24, limit 1..100')
     run(args)

@@ -17,14 +17,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Discover candidates with free sources
-        run: python collectors.py --providers google-rss,gdelt --days 7 --limit 10 --max-calls 12
+      - name: Monthly budget cache key
+        id: month
+        run: echo "value=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: .cache/provider-usage.json
+          key: provider-usage-${{ steps.month.outputs.value }}-${{ github.run_id }}
+          restore-keys: provider-usage-${{ steps.month.outputs.value }}-
+      - name: Discover candidates with independent providers
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          TAVILY_MONTHLY_REQUEST_CAP: '720'
+          EXA_MONTHLY_REQUEST_CAP: '720'
+        run: python collectors.py --providers google-rss,gdelt,tavily,exa --days 7 --limit 10 --max-calls 12 --output-dir scheduled-runs
       - name: Save candidates and provider failure logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: policy-candidates-${{ github.run_id }}
-          path: runs/multiprovider-*.json
+          path: |
+            scheduled-runs/*.json
+            .cache/provider-usage.json
           retention-days: 30
       - name: Explain review boundary
         if: always()
