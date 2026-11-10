@@ -54,6 +54,7 @@ def queue(store,threshold=.45,max_pairs=10000):
         s=json.loads(row['payload'])
         if s.get('title'):documents.setdefault(row['document_id'],set()).add(s['title'])
     matcher=Matcher([t for values in documents.values() for t in sorted(values)])
+    generation=digest([RULE_VERSION,threshold,{key:sorted(values) for key,values in sorted(documents.items())}])
     ids=sorted(documents);suggestions=[]
     # Inverted token index avoids comparing documents with no shared content tokens.
     index={}
@@ -64,9 +65,11 @@ def queue(store,threshold=.45,max_pairs=10000):
         for right in sorted(x for x in candidates if x>left):
             best=max((matcher.compare(a,b) for a in sorted(documents[left]) for b in sorted(documents[right])),key=lambda x:x['score'])
             if best['score']>=threshold:
+                best['input_generation']=generation
                 suggestions.append((left,right,best))
     suggestions.sort(key=lambda p:(-p[2]['score'],p[0],p[1]))
     with store.transaction():
+        store.db.execute("INSERT INTO meta VALUES ('matching_generation',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",(generation,))
         for left,right,features in suggestions[:max_pairs]:
             # Decisions survive score updates and rule-version changes. A reviewed pair is never reset.
             prior=store.db.execute("SELECT decision FROM matches WHERE left_id=? AND right_id=? AND decision<>'pending' ORDER BY rowid DESC LIMIT 1",(left,right)).fetchone()
@@ -74,7 +77,7 @@ def queue(store,threshold=.45,max_pairs=10000):
             store.db.execute('INSERT INTO matches(id,left_id,right_id,rule_version,features,decision) VALUES (?,?,?,?,?,?) '
                              'ON CONFLICT(left_id,right_id,rule_version) DO UPDATE SET features=excluded.features',
                              ('match-'+digest([left,right,RULE_VERSION]),left,right,RULE_VERSION,encoded(features),decision))
-    return {'rule_version':RULE_VERSION,'documents':len(documents),'above_threshold_pairs':len(suggestions),
+    return {'rule_version':RULE_VERSION,'input_generation':generation,'documents':len(documents),'above_threshold_pairs':len(suggestions),
             'saved_limit':max_pairs,'threshold':threshold,'automatic_event_merges':0,
             'note':'Document similarity suggests reading both reports. Same document or similar title does not establish one event.'}
 
@@ -91,6 +94,9 @@ def decide(store,match_id,decision,reviewer,reason,revision):
 def evaluate(threshold=.45):
     corpus=json.loads((ROOT/'data/events.json').read_text(encoding='utf-8'))
     sources={s['id']:s for s in corpus['sources']}
+    frozen=json.loads((ROOT/'evaluation/source_titles.json').read_text(encoding='utf-8'))['source_titles']
+    if any(key not in sources or sources[key]['title']!=title for key,title in frozen.items()):
+        raise ValueError('Source headlines changed since labelling; re-review the evaluation fixtures')
     labels=json.loads((ROOT/'evaluation/event_pairs.json').read_text(encoding='utf-8'))
     matcher=Matcher([sources[k]['title'] for k in sorted(sources)])
     results=[]
@@ -105,6 +111,7 @@ def evaluate(threshold=.45):
     return {'rule_version':RULE_VERSION,'threshold':threshold,'labelled_pairs':len(results),'positive_pairs':positives,
             'suggested_true_pairs':tp,'suggested_distinct_pairs':fp,'suggestion_precision':tp/(tp+fp) if tp+fp else None,
             'suggestion_recall':tp/positives if positives else None,'results':results,
+            'labelled_source_titles_unchanged':True,
             'limitations':'Diagnostic development labels from research agents, pending independent human review. Not representative or held out. Uses source headlines only, no event IDs, summaries, shared event membership or label reasons as features. These are review-queue metrics, not automatic merge accuracy.'}
 
 

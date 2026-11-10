@@ -112,30 +112,6 @@
       "has_primary_source": true
     },
     {
-      "id": "od-2026-hcl-technology-mou",
-      "state": "Odisha",
-      "title": "Odisha signs HCLTech agreement for AI-led Global Technology Center",
-      "event_date": "2026-07-24",
-      "date_precision": "day",
-      "date_basis": "Government and company releases explicitly date signing to 24 July 2026.",
-      "publication_date": "2026-07-24",
-      "category": "Partnerships",
-      "stage": "signed",
-      "summary": "Odisha and HCLTech signed an agreement for a Bhubaneswar Global Technology Center to develop and deliver AI-led digital solutions.",
-      "initiative": "Odisha sovereign AI infrastructure",
-      "source_ids": [
-        "od-hcl-gov",
-        "od-hcl-tech-partner"
-      ],
-      "confidence": "high",
-      "limitations": "Bilateral agreement distinct from the same-day tripartite AI data-centre MoU. The ₹730 crore investment, capacity for 5,000 people and 2028 operating target are plans, not verified expenditure, employment or operations. The complementary centres share the Odisha sovereign AI infrastructure initiative.",
-      "date": "2026-07-24",
-      "source_name": "Chief Minister of Odisha",
-      "source_url": "https://cm.odisha.gov.in/en/latest-news/odisha-enters-new-era-ai-and-digital-innovation-landmark-hcltech-and-sarvam-ai",
-      "source_count": 2,
-      "has_primary_source": true
-    },
-    {
       "id": "od-2026-hcl-sarvam-data-mou",
       "state": "Odisha",
       "title": "Odisha signs tripartite AI data-centre MoU with HCLTech and Sarvam",
@@ -153,6 +129,30 @@
       ],
       "confidence": "high",
       "limitations": "One tripartite agreement, separate from the HCLTech Global Technology Center MoU signed the same day. The planned ₹14,257 crore capital outlay includes unspecified state financial assistance; no completed facility or expenditure is verified. Relationship to the February Sarvam agreement is retained under the same initiative; do not add its capacity as completed infrastructure.",
+      "date": "2026-07-24",
+      "source_name": "Chief Minister of Odisha",
+      "source_url": "https://cm.odisha.gov.in/en/latest-news/odisha-enters-new-era-ai-and-digital-innovation-landmark-hcltech-and-sarvam-ai",
+      "source_count": 2,
+      "has_primary_source": true
+    },
+    {
+      "id": "od-2026-hcl-technology-mou",
+      "state": "Odisha",
+      "title": "Odisha signs HCLTech agreement for AI-led Global Technology Center",
+      "event_date": "2026-07-24",
+      "date_precision": "day",
+      "date_basis": "Government and company releases explicitly date signing to 24 July 2026.",
+      "publication_date": "2026-07-24",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Odisha and HCLTech signed an agreement for a Bhubaneswar Global Technology Center to develop and deliver AI-led digital solutions.",
+      "initiative": "Odisha sovereign AI infrastructure",
+      "source_ids": [
+        "od-hcl-gov",
+        "od-hcl-tech-partner"
+      ],
+      "confidence": "high",
+      "limitations": "Bilateral agreement distinct from the same-day tripartite AI data-centre MoU. The ₹730 crore investment, capacity for 5,000 people and 2028 operating target are plans, not verified expenditure, employment or operations. The complementary centres share the Odisha sovereign AI infrastructure initiative.",
       "date": "2026-07-24",
       "source_name": "Chief Minister of Odisha",
       "source_url": "https://cm.odisha.gov.in/en/latest-news/odisha-enters-new-era-ai-and-digital-innovation-landmark-hcltech-and-sarvam-ai",
@@ -277,29 +277,6 @@
       "has_primary_source": true
     },
     {
-      "id": "od-2026-operational-rules",
-      "state": "Odisha",
-      "title": "Odisha notifies rules for AI procurement and implementation",
-      "event_date": "2026-03-12",
-      "date_precision": "day",
-      "date_basis": "Notification No.1547 is dated 12 March 2026; Gazette No.1300 carrying it is dated 30 March. Event is issuance, publication_date is Gazette date.",
-      "publication_date": "2026-03-30",
-      "category": "Responsible AI",
-      "stage": "approved",
-      "summary": "The E&IT Department issued operational rules covering AI project selection, procurement, institutional roles and data governance.",
-      "initiative": "Odisha AI Policy 2025",
-      "source_ids": [
-        "od-guidelines-gazette"
-      ],
-      "confidence": "medium",
-      "limitations": "Approved denotes a formal departmental notification, not a Cabinet vote. Document prescribes future taskforce, cell and centre responsibilities; issuing rules does not prove compliance, operational institutions or effective safeguards.",
-      "date": "2026-03-12",
-      "source_name": "Government of Odisha, Electronics & IT Department",
-      "source_url": "https://egazette.odisha.gov.in/Archival_ControllerEW/download_gazette/7662",
-      "source_count": 1,
-      "has_primary_source": true
-    },
-    {
       "id": "KA-2026-01",
       "state": "Karnataka",
       "title": "Responsible AI committee holds its first meeting",
@@ -321,6 +298,29 @@
       "source_name": "NDTV",
       "source_url": "https://www.ndtv.com/india-news/karnataka-forms-ai-committee-for-ethical-use-of-ai-in-governance-11205833",
       "source_count": 2,
+      "has_primary_source": true
+    },
+    {
+      "id": "od-2026-operational-rules",
+      "state": "Odisha",
+      "title": "Odisha notifies rules for AI procurement and implementation",
+      "event_date": "2026-03-12",
+      "date_precision": "day",
+      "date_basis": "Notification No.1547 is dated 12 March 2026; Gazette No.1300 carrying it is dated 30 March. Event is issuance, publication_date is Gazette date.",
+      "publication_date": "2026-03-30",
+      "category": "Responsible AI",
+      "stage": "approved",
+      "summary": "The E&IT Department issued operational rules covering AI project selection, procurement, institutional roles and data governance.",
+      "initiative": "Odisha AI Policy 2025",
+      "source_ids": [
+        "od-guidelines-gazette"
+      ],
+      "confidence": "medium",
+      "limitations": "Approved denotes a formal departmental notification, not a Cabinet vote. Document prescribes future taskforce, cell and centre responsibilities; issuing rules does not prove compliance, operational institutions or effective safeguards.",
+      "date": "2026-03-12",
+      "source_name": "Government of Odisha, Electronics & IT Department",
+      "source_url": "https://egazette.odisha.gov.in/Archival_ControllerEW/download_gazette/7662",
+      "source_count": 1,
       "has_primary_source": true
     },
     {
@@ -347,29 +347,6 @@
       "has_primary_source": true
     },
     {
-      "id": "mp-state-ai-mission-announced-2026",
-      "state": "Madhya Pradesh",
-      "title": "Chief minister announces planned State AI Mission",
-      "event_date": "2026-02-20",
-      "date_precision": "day",
-      "date_basis": "Pioneer report dated Saturday February 21 says the chief minister announced it Friday.",
-      "publication_date": "2026-02-21",
-      "category": "Policy & strategy",
-      "stage": "announced",
-      "summary": "The chief minister announced plans for a State AI Mission supporting public services and agriculture, education and healthcare, including future use at Simhastha 2028.",
-      "initiative": "Madhya Pradesh State AI Mission",
-      "source_ids": [
-        "central-s16"
-      ],
-      "confidence": "medium",
-      "limitations": "Future intent is retained as announced; no final policy notification, approved mission budget or completed deployment is established by this report.",
-      "date": "2026-02-20",
-      "source_name": "The Pioneer",
-      "source_url": "https://dailypioneer.com/news/mp-cm-yadav-announces-ai-mission-ahead-of-simhastha-2028",
-      "source_count": 1,
-      "has_primary_source": false
-    },
-    {
       "id": "KL-2026-01",
       "state": "Kerala",
       "title": "Cabinet approves IT policy with Kerala AI Mission provisions",
@@ -392,6 +369,29 @@
       "source_url": "https://kfon.kerala.gov.in/wp-content/uploads/2026/02/IT_policy_2026_Kerala.pdf",
       "source_count": 2,
       "has_primary_source": true
+    },
+    {
+      "id": "mp-state-ai-mission-announced-2026",
+      "state": "Madhya Pradesh",
+      "title": "Chief minister announces planned State AI Mission",
+      "event_date": "2026-02-20",
+      "date_precision": "day",
+      "date_basis": "Pioneer report dated Saturday February 21 says the chief minister announced it Friday.",
+      "publication_date": "2026-02-21",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "The chief minister announced plans for a State AI Mission supporting public services and agriculture, education and healthcare, including future use at Simhastha 2028.",
+      "initiative": "Madhya Pradesh State AI Mission",
+      "source_ids": [
+        "central-s16"
+      ],
+      "confidence": "medium",
+      "limitations": "Future intent is retained as announced; no final policy notification, approved mission budget or completed deployment is established by this report.",
+      "date": "2026-02-20",
+      "source_name": "The Pioneer",
+      "source_url": "https://dailypioneer.com/news/mp-cm-yadav-announces-ai-mission-ahead-of-simhastha-2028",
+      "source_count": 1,
+      "has_primary_source": false
     },
     {
       "id": "gj-challenge-modalities-2026",
@@ -512,26 +512,26 @@
       "has_primary_source": true
     },
     {
-      "id": "mp-nasscom-coe-mou-2026",
+      "id": "mp-bhashini-mou-2026",
       "state": "Madhya Pradesh",
-      "title": "MPSeDC signs nasscom agreement for AI Centre of Excellence",
+      "title": "Madhya Pradesh signs BHASHINI multilingual governance agreement",
       "event_date": "2026-01-15",
       "date_precision": "day",
-      "date_basis": "Official agency post says signed at regional conference; PIB independently dates the conference and confirms nasscom MoU announcement.",
-      "publication_date": "2026-01-22",
+      "date_basis": "Dedicated PIB release confirms same-day signing during the January 15 conference.",
+      "publication_date": "2026-01-15",
       "category": "Partnerships",
       "stage": "signed",
-      "summary": "MPSeDC and nasscom signed an agreement to establish an AI Centre of Excellence supporting public-sector adoption, startup development, training and research.",
-      "initiative": "Madhya Pradesh nasscom AI Centre of Excellence",
+      "summary": "The state and Digital India BHASHINI Division agreed to integrate translation and AI language tools into government platforms to widen access across Indian languages.",
+      "initiative": "Madhya Pradesh BHASHINI integration",
       "source_ids": [
-        "central-s15",
+        "central-s14",
         "central-s13"
       ],
       "confidence": "high",
-      "limitations": "January 22 is the agency post date, not signing date. Agreement does not prove the centre was staffed or opened.",
+      "limitations": "The MoU enables future integration. It does not verify that all platforms or services were already available in multiple languages.",
       "date": "2026-01-15",
-      "source_name": "MPSeDC official LinkedIn account",
-      "source_url": "https://www.linkedin.com/posts/mpsedc_mousigning-mpsedc-mou-activity-7420028785070112768-wwDl",
+      "source_name": "Press Information Bureau, Digital India BHASHINI Division",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215030&lang=1&reg=3",
       "source_count": 2,
       "has_primary_source": true
     },
@@ -559,26 +559,26 @@
       "has_primary_source": true
     },
     {
-      "id": "mp-bhashini-mou-2026",
+      "id": "mp-nasscom-coe-mou-2026",
       "state": "Madhya Pradesh",
-      "title": "Madhya Pradesh signs BHASHINI multilingual governance agreement",
+      "title": "MPSeDC signs nasscom agreement for AI Centre of Excellence",
       "event_date": "2026-01-15",
       "date_precision": "day",
-      "date_basis": "Dedicated PIB release confirms same-day signing during the January 15 conference.",
-      "publication_date": "2026-01-15",
+      "date_basis": "Official agency post says signed at regional conference; PIB independently dates the conference and confirms nasscom MoU announcement.",
+      "publication_date": "2026-01-22",
       "category": "Partnerships",
       "stage": "signed",
-      "summary": "The state and Digital India BHASHINI Division agreed to integrate translation and AI language tools into government platforms to widen access across Indian languages.",
-      "initiative": "Madhya Pradesh BHASHINI integration",
+      "summary": "MPSeDC and nasscom signed an agreement to establish an AI Centre of Excellence supporting public-sector adoption, startup development, training and research.",
+      "initiative": "Madhya Pradesh nasscom AI Centre of Excellence",
       "source_ids": [
-        "central-s14",
+        "central-s15",
         "central-s13"
       ],
       "confidence": "high",
-      "limitations": "The MoU enables future integration. It does not verify that all platforms or services were already available in multiple languages.",
+      "limitations": "January 22 is the agency post date, not signing date. Agreement does not prove the centre was staffed or opened.",
       "date": "2026-01-15",
-      "source_name": "Press Information Bureau, Digital India BHASHINI Division",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2215030&lang=1&reg=3",
+      "source_name": "MPSeDC official LinkedIn account",
+      "source_url": "https://www.linkedin.com/posts/mpsedc_mousigning-mpsedc-mou-activity-7420028785070112768-wwDl",
       "source_count": 2,
       "has_primary_source": true
     },
@@ -629,48 +629,23 @@
       "has_primary_source": true
     },
     {
+      "id": "rj-ai-policy-launch-2026",
       "state": "Rajasthan",
+      "title": "Rajasthan launches AI ML Policy and state AI portal",
       "event_date": "2026-01-06",
       "date_precision": "day",
-      "date_basis": "NLU Jodhpur explicitly states its bilateral MoU was signed and exchanged on 6 January 2026; its announcement was published 7 January.",
+      "date_basis": "PIB release dated January 7 explicitly identifies conference and policy launch on January 6.",
       "publication_date": "2026-01-07",
-      "stage": "signed",
-      "id": "rj-nlu-mou-2026",
-      "title": "Rajasthan and NLU Jodhpur sign responsible AI agreement",
-      "summary": "Rajasthan and NLU Jodhpur signed an agreement for legal and ethical AI policy advice, AI and law training, startup mentoring and research on privacy and accountability.",
-      "initiative": "Rajasthan NLU responsible AI collaboration",
+      "category": "Policy & strategy",
+      "stage": "launched",
+      "summary": "Rajasthan publicly launched AI ML Policy 2026 and its AI portal at the regional AI conference in Jaipur.",
+      "initiative": "Rajasthan AI ML Policy",
       "source_ids": [
-        "central-s18",
         "central-s04",
-        "central-s17"
+        "central-s05"
       ],
       "confidence": "high",
-      "category": "Responsible AI",
-      "limitations": "The university confirms execution and scope. Planned legal advice, training and research do not establish completed oversight assessments or legally binding AI rules.",
-      "date": "2026-01-06",
-      "source_name": "National Law University Jodhpur",
-      "source_url": "https://nlujodhpur.ac.in/news/362",
-      "source_count": 3,
-      "has_primary_source": true
-    },
-    {
-      "state": "Rajasthan",
-      "event_date": "2026-01-06",
-      "date_precision": "day",
-      "date_basis": "PIB explicitly dates the signing event to 6 January 2026; partner-specific scope is supplied by retrieved reporting.",
-      "publication_date": "2026-01-07",
-      "stage": "signed",
-      "id": "rj-iit-delhi-mou-2026",
-      "title": "Rajasthan signs IIT Delhi agreement for AI research and capacity",
-      "summary": "Rajasthan signed an MoU with IIT Delhi covering AI research, skills, startup mentoring, hackathons and a proposed AI Centre of Excellence.",
-      "initiative": "Rajasthan IIT Delhi AI collaboration",
-      "source_ids": [
-        "central-s04",
-        "central-s17"
-      ],
-      "confidence": "medium",
-      "category": "Partnerships",
-      "limitations": "Partner-specific scope is described in fetched reporting and signing is corroborated by PIB. The agreement does not establish an operating centre or completed training.",
+      "limitations": "Launch is a distinct milestone after cabinet approval, not proof every policy programme is running. The national one-million-learner programme at the event is excluded from Rajasthan-specific targets.",
       "date": "2026-01-06",
       "source_name": "Press Information Bureau, Ministry of Electronics and IT",
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
@@ -702,27 +677,52 @@
       "has_primary_source": true
     },
     {
-      "id": "rj-ai-policy-launch-2026",
       "state": "Rajasthan",
-      "title": "Rajasthan launches AI ML Policy and state AI portal",
       "event_date": "2026-01-06",
       "date_precision": "day",
-      "date_basis": "PIB release dated January 7 explicitly identifies conference and policy launch on January 6.",
+      "date_basis": "PIB explicitly dates the signing event to 6 January 2026; partner-specific scope is supplied by retrieved reporting.",
       "publication_date": "2026-01-07",
-      "category": "Policy & strategy",
-      "stage": "launched",
-      "summary": "Rajasthan publicly launched AI ML Policy 2026 and its AI portal at the regional AI conference in Jaipur.",
-      "initiative": "Rajasthan AI ML Policy",
+      "stage": "signed",
+      "id": "rj-iit-delhi-mou-2026",
+      "title": "Rajasthan signs IIT Delhi agreement for AI research and capacity",
+      "summary": "Rajasthan signed an MoU with IIT Delhi covering AI research, skills, startup mentoring, hackathons and a proposed AI Centre of Excellence.",
+      "initiative": "Rajasthan IIT Delhi AI collaboration",
       "source_ids": [
         "central-s04",
-        "central-s05"
+        "central-s17"
       ],
-      "confidence": "high",
-      "limitations": "Launch is a distinct milestone after cabinet approval, not proof every policy programme is running. The national one-million-learner programme at the event is excluded from Rajasthan-specific targets.",
+      "confidence": "medium",
+      "category": "Partnerships",
+      "limitations": "Partner-specific scope is described in fetched reporting and signing is corroborated by PIB. The agreement does not establish an operating centre or completed training.",
       "date": "2026-01-06",
       "source_name": "Press Information Bureau, Ministry of Electronics and IT",
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212007",
       "source_count": 2,
+      "has_primary_source": true
+    },
+    {
+      "state": "Rajasthan",
+      "event_date": "2026-01-06",
+      "date_precision": "day",
+      "date_basis": "NLU Jodhpur explicitly states its bilateral MoU was signed and exchanged on 6 January 2026; its announcement was published 7 January.",
+      "publication_date": "2026-01-07",
+      "stage": "signed",
+      "id": "rj-nlu-mou-2026",
+      "title": "Rajasthan and NLU Jodhpur sign responsible AI agreement",
+      "summary": "Rajasthan and NLU Jodhpur signed an agreement for legal and ethical AI policy advice, AI and law training, startup mentoring and research on privacy and accountability.",
+      "initiative": "Rajasthan NLU responsible AI collaboration",
+      "source_ids": [
+        "central-s18",
+        "central-s04",
+        "central-s17"
+      ],
+      "confidence": "high",
+      "category": "Responsible AI",
+      "limitations": "The university confirms execution and scope. Planned legal advice, training and research do not establish completed oversight assessments or legally binding AI rules.",
+      "date": "2026-01-06",
+      "source_name": "National Law University Jodhpur",
+      "source_url": "https://nlujodhpur.ac.in/news/362",
+      "source_count": 3,
       "has_primary_source": true
     },
     {
@@ -1315,26 +1315,28 @@
       "has_primary_source": true
     },
     {
-      "id": "KA-2025-03",
+      "id": "KA-2025-01",
       "state": "Karnataka",
-      "title": "Budget proposes AI-enabled Digital Agricultural Service Centres",
+      "title": "Budget proposes Rs 50 crore over five years for CATS",
       "event_date": "2025-03-07",
       "date_precision": "day",
-      "date_basis": "Budget paragraph 34; presentation date corroborated by contemporaneous reporting.",
+      "date_basis": "Budget presentation dated by contemporaneous report; proposal in budget paragraph 357.",
       "publication_date": "2025-03-07",
-      "category": "Public-sector deployment",
+      "category": "Funding",
       "stage": "announced",
-      "summary": "Proposed Digital Agricultural Service Centres would combine AI and geospatial tools to support farmers' crop decisions.",
-      "initiative": "Digital Agricultural Service Centres",
+      "summary": "The 2025–26 budget proposed a Centre for Applied AI for Tech Solutions with Rs 50 crore investment over five years.",
+      "initiative": "Centre for Applied AI for Tech Solutions",
       "source_ids": [
-        "S-KA-03"
+        "S-KA-03",
+        "S-KA-04",
+        "S-KA-06"
       ],
-      "confidence": "medium",
-      "limitations": "Specific rollout dates, coverage and operational outcomes were not verified.",
+      "confidence": "high",
+      "limitations": "Budget proposal is not spending. A later undated official report describes Rs 20 crore for CATS; scopes are unresolved and amounts must not be added.",
       "date": "2025-03-07",
       "source_name": "Government of Karnataka, Finance Department",
       "source_url": "https://finance.karnataka.gov.in/uploads/media_to_upload1741332694.pdf",
-      "source_count": 1,
+      "source_count": 3,
       "has_primary_source": true
     },
     {
@@ -1361,28 +1363,26 @@
       "has_primary_source": true
     },
     {
-      "id": "KA-2025-01",
+      "id": "KA-2025-03",
       "state": "Karnataka",
-      "title": "Budget proposes Rs 50 crore over five years for CATS",
+      "title": "Budget proposes AI-enabled Digital Agricultural Service Centres",
       "event_date": "2025-03-07",
       "date_precision": "day",
-      "date_basis": "Budget presentation dated by contemporaneous report; proposal in budget paragraph 357.",
+      "date_basis": "Budget paragraph 34; presentation date corroborated by contemporaneous reporting.",
       "publication_date": "2025-03-07",
-      "category": "Funding",
+      "category": "Public-sector deployment",
       "stage": "announced",
-      "summary": "The 2025–26 budget proposed a Centre for Applied AI for Tech Solutions with Rs 50 crore investment over five years.",
-      "initiative": "Centre for Applied AI for Tech Solutions",
+      "summary": "Proposed Digital Agricultural Service Centres would combine AI and geospatial tools to support farmers' crop decisions.",
+      "initiative": "Digital Agricultural Service Centres",
       "source_ids": [
-        "S-KA-03",
-        "S-KA-04",
-        "S-KA-06"
+        "S-KA-03"
       ],
-      "confidence": "high",
-      "limitations": "Budget proposal is not spending. A later undated official report describes Rs 20 crore for CATS; scopes are unresolved and amounts must not be added.",
+      "confidence": "medium",
+      "limitations": "Specific rollout dates, coverage and operational outcomes were not verified.",
       "date": "2025-03-07",
       "source_name": "Government of Karnataka, Finance Department",
       "source_url": "https://finance.karnataka.gov.in/uploads/media_to_upload1741332694.pdf",
-      "source_count": 3,
+      "source_count": 1,
       "has_primary_source": true
     },
     {
@@ -1410,29 +1410,6 @@
       "has_primary_source": true
     },
     {
-      "id": "tg-2025-microsoft",
-      "state": "Telangana",
-      "title": "Microsoft and Telangana sign AI skilling and centre-of-excellence agreement",
-      "event_date": "2025-02-13",
-      "date_precision": "day",
-      "date_basis": "Report published 14 February says the signing and event were Thursday, 13 February.",
-      "publication_date": "2025-02-14",
-      "category": "Partnerships",
-      "stage": "signed",
-      "summary": "A signed MoU covers AI training programmes and a proposed centre of excellence with cloud infrastructure and an AI knowledge hub.",
-      "initiative": "Telangana–Microsoft AI partnership",
-      "source_ids": [
-        "tg-ms-news"
-      ],
-      "confidence": "medium",
-      "limitations": "Training 120,000 people and establishing the centre are announced commitments. The Microsoft office inauguration is not treated as opening the AI centre.",
-      "date": "2025-02-13",
-      "source_name": "The New Indian Express",
-      "source_url": "https://www.newindianexpress.com/states/telangana/2025/Feb/14/microsoft-to-set-up-ai-centre-in-telangana",
-      "source_count": 1,
-      "has_primary_source": false
-    },
-    {
       "id": "tg-2025-google",
       "state": "Telangana",
       "title": "Telangana and Google sign cross-sector AI MoU",
@@ -1454,6 +1431,29 @@
       "source_name": "The Hindu",
       "source_url": "https://www.thehindu.com/news/cities/Hyderabad/google-telangana-ink-mou-to-develop-deploy-ai-solutions-for-various-sectors/article69216072.ece",
       "source_count": 2,
+      "has_primary_source": false
+    },
+    {
+      "id": "tg-2025-microsoft",
+      "state": "Telangana",
+      "title": "Microsoft and Telangana sign AI skilling and centre-of-excellence agreement",
+      "event_date": "2025-02-13",
+      "date_precision": "day",
+      "date_basis": "Report published 14 February says the signing and event were Thursday, 13 February.",
+      "publication_date": "2025-02-14",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "A signed MoU covers AI training programmes and a proposed centre of excellence with cloud infrastructure and an AI knowledge hub.",
+      "initiative": "Telangana–Microsoft AI partnership",
+      "source_ids": [
+        "tg-ms-news"
+      ],
+      "confidence": "medium",
+      "limitations": "Training 120,000 people and establishing the centre are announced commitments. The Microsoft office inauguration is not treated as opening the AI centre.",
+      "date": "2025-02-13",
+      "source_name": "The New Indian Express",
+      "source_url": "https://www.newindianexpress.com/states/telangana/2025/Feb/14/microsoft-to-set-up-ai-centre-in-telangana",
+      "source_count": 1,
       "has_primary_source": false
     },
     {
@@ -1670,30 +1670,6 @@
       "has_primary_source": true
     },
     {
-      "id": "gj-microsoft-coe-mou-2024",
-      "state": "Gujarat",
-      "title": "Gujarat signs Microsoft MoU for GIFT City AI centre",
-      "event_date": "2024-06-29",
-      "date_precision": "day",
-      "date_basis": "Same-day PTI report states Saturday signing; later inauguration report retrospectively identifies June 2024 agreement.",
-      "publication_date": "2024-06-29",
-      "category": "Partnerships",
-      "stage": "signed",
-      "summary": "Gujarat signed an MoU with Microsoft for an AI Centre of Excellence at GIFT City focused on machine learning, cognitive services and chatbots, alongside NASSCOM capacity collaboration.",
-      "initiative": "GIFT City AI Centre of Excellence",
-      "source_ids": [
-        "west-s16",
-        "west-s19"
-      ],
-      "confidence": "medium",
-      "limitations": "Microsoft and NASSCOM signed separate commitments during one ceremony; capacity collaboration is retained in this ecosystem record rather than expanded into a third same-day row.",
-      "date": "2024-06-29",
-      "source_name": "Hindustan Times / Press Trust of India",
-      "source_url": "https://www.hindustantimes.com/business/gujarat-government-signs-mous-with-ibm-microsoft-and-nasscom-for-ai-development-101719668535679.html",
-      "source_count": 2,
-      "has_primary_source": false
-    },
-    {
       "id": "gj-ibm-cluster-mou-2024",
       "state": "Gujarat",
       "title": "Gujarat and IBM sign MoU for GIFT City AI cluster",
@@ -1716,6 +1692,30 @@
       "source_url": "https://in.newsroom.ibm.com/2024-06-29-IBM-and-GovtGujarat-sign-MoU-to-establish-AI-Cluster-in-GIFT-city",
       "source_count": 2,
       "has_primary_source": true
+    },
+    {
+      "id": "gj-microsoft-coe-mou-2024",
+      "state": "Gujarat",
+      "title": "Gujarat signs Microsoft MoU for GIFT City AI centre",
+      "event_date": "2024-06-29",
+      "date_precision": "day",
+      "date_basis": "Same-day PTI report states Saturday signing; later inauguration report retrospectively identifies June 2024 agreement.",
+      "publication_date": "2024-06-29",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Gujarat signed an MoU with Microsoft for an AI Centre of Excellence at GIFT City focused on machine learning, cognitive services and chatbots, alongside NASSCOM capacity collaboration.",
+      "initiative": "GIFT City AI Centre of Excellence",
+      "source_ids": [
+        "west-s16",
+        "west-s19"
+      ],
+      "confidence": "medium",
+      "limitations": "Microsoft and NASSCOM signed separate commitments during one ceremony; capacity collaboration is retained in this ecosystem record rather than expanded into a third same-day row.",
+      "date": "2024-06-29",
+      "source_name": "Hindustan Times / Press Trust of India",
+      "source_url": "https://www.hindustantimes.com/business/gujarat-government-signs-mous-with-ibm-microsoft-and-nasscom-for-ai-development-101719668535679.html",
+      "source_count": 2,
+      "has_primary_source": false
     },
     {
       "id": "KL-2024-02",
@@ -1814,29 +1814,6 @@
       "has_primary_source": true
     },
     {
-      "id": "KA-2024-02",
-      "state": "Karnataka",
-      "title": "Budget proposes AI software within prison-security equipment package",
-      "event_date": "2024-02-16",
-      "date_precision": "day",
-      "date_basis": "Budget presentation date explicitly named in reporting.",
-      "publication_date": "2024-02-16",
-      "category": "Public-sector deployment",
-      "stage": "announced",
-      "summary": "The budget proposed AI software alongside baggage scanners and other prison equipment in a combined Rs 5 crore package.",
-      "initiative": "AI-enabled prison administration",
-      "source_ids": [
-        "S-KA-01"
-      ],
-      "confidence": "medium",
-      "limitations": "Rs 5 crore is the combined equipment package, not an AI-only allocation; procurement and use not verified.",
-      "date": "2024-02-16",
-      "source_name": "Moneycontrol",
-      "source_url": "https://www.moneycontrol.com/news/technology/karnataka-budget-state-bets-big-on-artificial-intelligence-machine-learning-12291701.html",
-      "source_count": 1,
-      "has_primary_source": false
-    },
-    {
       "id": "KA-2024-01",
       "state": "Karnataka",
       "title": "Budget proposes an AI/ML administration unit",
@@ -1853,6 +1830,29 @@
       ],
       "confidence": "medium",
       "limitations": "Announcement evidence only; no constituting order or launch date verified.",
+      "date": "2024-02-16",
+      "source_name": "Moneycontrol",
+      "source_url": "https://www.moneycontrol.com/news/technology/karnataka-budget-state-bets-big-on-artificial-intelligence-machine-learning-12291701.html",
+      "source_count": 1,
+      "has_primary_source": false
+    },
+    {
+      "id": "KA-2024-02",
+      "state": "Karnataka",
+      "title": "Budget proposes AI software within prison-security equipment package",
+      "event_date": "2024-02-16",
+      "date_precision": "day",
+      "date_basis": "Budget presentation date explicitly named in reporting.",
+      "publication_date": "2024-02-16",
+      "category": "Public-sector deployment",
+      "stage": "announced",
+      "summary": "The budget proposed AI software alongside baggage scanners and other prison equipment in a combined Rs 5 crore package.",
+      "initiative": "AI-enabled prison administration",
+      "source_ids": [
+        "S-KA-01"
+      ],
+      "confidence": "medium",
+      "limitations": "Rs 5 crore is the combined equipment package, not an AI-only allocation; procurement and use not verified.",
       "date": "2024-02-16",
       "source_name": "Moneycontrol",
       "source_url": "https://www.moneycontrol.com/news/technology/karnataka-budget-state-bets-big-on-artificial-intelligence-machine-learning-12291701.html",
@@ -1955,25 +1955,25 @@
       "has_primary_source": true
     },
     {
-      "id": "rj-ai-draft-consultation-2025",
-      "state": "Rajasthan",
-      "title": "Rajasthan opens draft AI policy for public consultation",
+      "id": "AP-2025-06",
+      "state": "Andhra Pradesh",
+      "title": "RTGS reports AI search across government documents",
       "event_date": null,
       "date_precision": "unknown",
-      "date_basis": "News published 14 July 2025 says draft was uploaded and stakeholder consultation held; exact upload date not established.",
-      "publication_date": "2025-07-14",
-      "category": "Policy & strategy",
-      "stage": "announced",
-      "summary": "The IT department invited feedback on its draft AI Policy 2025, covering government uses, skills, research and digital infrastructure.",
-      "initiative": "Rajasthan AI ML Policy",
+      "date_basis": "Operational status reported at 16 September 2025 collectors' conference; actual deployment date unspecified.",
+      "publication_date": "2025-09-17",
+      "category": "Public-sector deployment",
+      "stage": "operational",
+      "summary": "An RTGS official reported an introduced AI-based search interface with voice features for government documents, including government orders.",
+      "initiative": "RTGS AI government-document search",
       "source_ids": [
-        "central-s01"
+        "S-AP-08"
       ],
       "confidence": "medium",
-      "limitations": "This was a draft, not final adoption. Publication date is kept separate from unknown release date; some search snippets show July 15 while article footer says July 14.",
+      "limitations": "Operational status is the official's reported claim; no service test, coverage audit or deployment date was verified. Inclusion reflects documented in-period operation, not a known launch.",
       "date": null,
-      "source_name": "ETGovernment",
-      "source_url": "https://government.economictimes.indiatimes.com/news/policy/rajasthan-draft-ai-policy-2025-proposes-centre-of-excellence-multi-level-governance-structure/122435234",
+      "source_name": "The New Indian Express",
+      "source_url": "https://www.newindianexpress.com/states/andhra-pradesh/2025/Sep/17/rtgs-aware-20-to-boost-safety-and-governance-in-andhra",
       "source_count": 1,
       "has_primary_source": false
     },
@@ -2025,25 +2025,25 @@
       "has_primary_source": true
     },
     {
-      "id": "AP-2025-06",
-      "state": "Andhra Pradesh",
-      "title": "RTGS reports AI search across government documents",
+      "id": "rj-ai-draft-consultation-2025",
+      "state": "Rajasthan",
+      "title": "Rajasthan opens draft AI policy for public consultation",
       "event_date": null,
       "date_precision": "unknown",
-      "date_basis": "Operational status reported at 16 September 2025 collectors' conference; actual deployment date unspecified.",
-      "publication_date": "2025-09-17",
-      "category": "Public-sector deployment",
-      "stage": "operational",
-      "summary": "An RTGS official reported an introduced AI-based search interface with voice features for government documents, including government orders.",
-      "initiative": "RTGS AI government-document search",
+      "date_basis": "News published 14 July 2025 says draft was uploaded and stakeholder consultation held; exact upload date not established.",
+      "publication_date": "2025-07-14",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "The IT department invited feedback on its draft AI Policy 2025, covering government uses, skills, research and digital infrastructure.",
+      "initiative": "Rajasthan AI ML Policy",
       "source_ids": [
-        "S-AP-08"
+        "central-s01"
       ],
       "confidence": "medium",
-      "limitations": "Operational status is the official's reported claim; no service test, coverage audit or deployment date was verified. Inclusion reflects documented in-period operation, not a known launch.",
+      "limitations": "This was a draft, not final adoption. Publication date is kept separate from unknown release date; some search snippets show July 15 while article footer says July 14.",
       "date": null,
-      "source_name": "The New Indian Express",
-      "source_url": "https://www.newindianexpress.com/states/andhra-pradesh/2025/Sep/17/rtgs-aware-20-to-boost-safety-and-governance-in-andhra",
+      "source_name": "ETGovernment",
+      "source_url": "https://government.economictimes.indiatimes.com/news/policy/rajasthan-draft-ai-policy-2025-proposes-centre-of-excellence-multi-level-governance-structure/122435234",
       "source_count": 1,
       "has_primary_source": false
     }

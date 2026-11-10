@@ -12,6 +12,7 @@ from urllib.parse import urlencode, urlsplit, urlunsplit, parse_qsl
 from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
+from date_rules import event_order
 
 ROOT = Path(__file__).resolve().parent
 CUTOFF = '2026-11-10'
@@ -104,7 +105,7 @@ def build():
     groups=deduplicate(candidates)
     missing=set(STATES)-{e['state'] for e in normalized}
     if missing:raise ValueError('Selected states missing from reviewed corpus: '+', '.join(sorted(missing)))
-    normalized.sort(key=lambda e:(e['event_date'] or '',e['id']),reverse=True)
+    normalized.sort(key=event_order)
     audit=[{'event_id':k,'candidate_count':len(v),'source_ids':[c['source_id'] for c in v],'decision':'merge source observations, retain one milestone'} for k,v in sorted(groups.items())]
     payload={'meta':{'title':'State AI Policy Observatory','window_start':START,'research_cutoff':CUTOFF,'states':STATES,'events':len(normalized),'sources':len(sources),'source_observations':len(candidates),'additional_source_links':len(candidates)-len(groups),'with_primary_source':sum(e['has_primary_source'] for e in normalized),'categories':dict(Counter(e['category'] for e in normalized)),'stages':dict(Counter(e['stage'] for e in normalized)),'coverage_note':'Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance.'},'events':normalized,'sources':list(sources.values()),'notes':notes}
     dump(ROOT/'data/events.json',payload)

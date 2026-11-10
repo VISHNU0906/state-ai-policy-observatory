@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import argparse
-import calendar
 import csv
 import hashlib
 import io
@@ -13,8 +12,10 @@ from contextlib import contextmanager, closing
 from datetime import date, datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import urlsplit,parse_qsl
 
 from pipeline import ROOT, CATEGORIES, STAGES, canonical_url, csv_write, normalize_state
+from date_rules import date_bounds,event_order
 
 VERSION = 2
 DEFAULT_DB = ROOT / 'state' / 'observatory.sqlite'
@@ -30,31 +31,6 @@ def digest(value):
 
 def now():
     return datetime.now(timezone.utc).isoformat(timespec='microseconds')
-
-
-def date_bounds(value, precision):
-    """Intervals are sort/filter aids, never invented event dates."""
-    if precision == 'unknown' and not value:
-        return None, None
-    if not isinstance(value, str):
-        raise ValueError('Date value required for known precision')
-    if precision == 'day' and len(value) == 10:
-        d = date.fromisoformat(value)
-        return d.isoformat(), d.isoformat()
-    if precision == 'month' and len(value) == 7:
-        d = date.fromisoformat(value + '-01')
-        return d.isoformat(), d.replace(day=calendar.monthrange(d.year, d.month)[1]).isoformat()
-    if precision == 'year' and len(value) == 4:
-        d = date.fromisoformat(value + '-01-01')
-        return d.isoformat(), d.replace(month=12, day=31).isoformat()
-    raise ValueError('Invalid date or precision')
-
-
-def event_order(event):
-    low, high = date_bounds(event.get('event_date'), event['date_precision'])
-    return (low is None, -date.fromisoformat(low).toordinal() if low else 0,
-            (date.fromisoformat(high) - date.fromisoformat(low)).days if low else 0,
-            event['state'], event['id'])
 
 
 def publication_candidate(raw):
@@ -164,6 +140,9 @@ class Ledger:
 
     def document(self, url, observed_at):
         url = canonical_url(url)
+        parts=urlsplit(url)
+        if parts.username or parts.password or any(k.lower() in ['api_key','apikey','access_token','authorization'] for k,v in parse_qsl(parts.query)):
+            raise ValueError('Credential-bearing URL cannot enter the public evidence ledger')
         # Do not merge http/https, path case, trailing slash or arbitrary query parameters.
         doc_id = 'doc-' + digest(url)
         self.db.execute('INSERT INTO documents(id,url,first_seen,last_seen) VALUES (?,?,?,?) '
@@ -404,6 +383,25 @@ class Ledger:
                             (attempt_id,query_id,provider,month,now()))
             return attempt_id
 
+    def import_usage(self,path):
+        raw=Path(path).read_bytes();sha=digest(raw);usage=json.loads(raw)
+        with self.transaction():
+            if not self._register_import(sha,'legacy_request_usage',Path(path).name,'Historical request reservations, conservative local cap migration'):
+                return False
+            run_id='usage-'+sha;stamp=now()
+            self.db.execute('INSERT INTO runs VALUES (?,?,?,?,?)',(run_id,stamp,stamp,'imported',encoded({'kind':'legacy_request_usage'})))
+            for key,count in usage.items():
+                month,provider=key.split(':',1)
+                if not isinstance(count,int) or count<0 or count>100000:raise ValueError('Invalid historical usage')
+                date.fromisoformat(month+'-01')
+                qid=run_id+'-'+provider
+                self.db.execute('INSERT INTO queries VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',(qid,run_id,provider,'account','historical usage baseline',None,None,'usage_import',count,0,None,'{}'))
+                # Repeated snapshots of this cumulative legacy ledger must not double-charge.
+                existing=self.db.execute("SELECT count(*) FROM provider_attempts WHERE provider=? AND month=? AND outcome='legacy_reserved'",(provider,month)).fetchone()[0]
+                for i in range(max(0,count-existing)):
+                    self.db.execute('INSERT INTO provider_attempts VALUES (?,?,?,?,?,?)',(str(uuid.uuid4()),qid,provider,month,stamp,'legacy_reserved'))
+            return True
+
     def counts(self):
         tables = ['imports','runs','queries','documents','document_links','observations','sources','events','event_sources',
                   'proposals','proposal_documents','external_rejections','review_actions','retrievals','matches','provider_attempts']
@@ -415,11 +413,12 @@ class Ledger:
                 'foreign_key_failures':[list(r) for r in self.db.execute('PRAGMA foreign_key_check')],
                 'pending_documents':self.db.execute("SELECT count(*) FROM documents WHERE review_status='pending'").fetchone()[0],
                 'approved_events':self.db.execute("SELECT count(*) FROM events WHERE review_status='approved'").fetchone()[0],
+                'latest_external_proposals':self.db.execute("SELECT count(*) FROM proposals WHERE import_digest=(SELECT digest FROM imports WHERE kind='external_tracker' ORDER BY imported_at DESC,digest DESC LIMIT 1)").fetchone()[0],
                 'unfinished_queries':self.db.execute("SELECT count(*) FROM queries WHERE status IN ('planned','running')").fetchone()[0]}
 
     def collection_health(self):
         groups={}
-        for row in self.db.execute('SELECT * FROM queries ORDER BY provider,state,window_start,window_end'):
+        for row in self.db.execute("SELECT * FROM queries WHERE status<>'usage_import' ORDER BY provider,state,window_start,window_end"):
             key=(row['provider'],row['state'])
             group=groups.setdefault(key,{'provider':key[0],'state':key[1],'successful_windows':[],
                                          'potentially_truncated_queries':0,'failed_or_skipped':0,'unattempted_windows':[]})
@@ -463,6 +462,19 @@ class Ledger:
             events = [json.loads(r[0]) for r in self.db.execute("SELECT payload FROM events WHERE review_status='approved'")]
             events.sort(key=event_order)
             csv_write(generation/'reviewed_events.csv',events)
+            latest=[json.loads(r[0]) for r in self.db.execute("SELECT payload FROM proposals WHERE import_digest=(SELECT digest FROM imports WHERE kind='external_tracker' ORDER BY imported_at DESC,digest DESC LIMIT 1) ORDER BY external_id")]
+            csv_write(generation/'latest_external_proposals.csv',latest,['record_id','state','date','date_precision','title','summary','category','stage','source_name','source_url','review_status'])
+            current=self.db.execute("SELECT value FROM meta WHERE key='matching_generation'").fetchone()
+            matches=[]
+            if current:
+                for row in self.db.execute('SELECT * FROM matches ORDER BY id'):
+                    features=json.loads(row['features'])
+                    if features.get('input_generation')==current[0]:
+                        matches.append({'match_id':row['id'],'left_document':row['left_id'],'right_document':row['right_id'],
+                                        'score':features['score'],'warnings':features['warnings'],'shared_tokens':features['shared_tokens'],
+                                        'decision':row['decision'],'revision':row['revision'],'rule_version':row['rule_version']})
+            matches.sort(key=lambda r:(-r['score'],r['match_id']))
+            csv_write(generation/'current_match_review_queue.csv',matches,['match_id','left_document','right_document','score','warnings','shared_tokens','decision','revision','rule_version'])
             for table in ['sources','documents','document_links','observations','queries','runs','proposals','proposal_documents','external_rejections','event_sources','review_actions','retrievals','matches']:
                 cur = self.db.execute('SELECT * FROM '+table+' ORDER BY 1')
                 csv_write(generation/(table+'.csv'),[dict(r) for r in cur], [c[0] for c in cur.description])
@@ -495,7 +507,7 @@ def main():
     p.add_argument('--db',type=Path,default=DEFAULT_DB)
     sub = p.add_subparsers(dest='command',required=True)
     sub.add_parser('init')
-    for name in ['seed','import-run','import-tracker','export','backup']:
+    for name in ['seed','import-run','import-tracker','import-usage','export','backup']:
         sub.add_parser(name).add_argument('path',type=Path)
     sub.add_parser('audit')
     r = sub.add_parser('review-document')
@@ -509,7 +521,7 @@ def main():
     r=sub.add_parser('restore-merge');r.add_argument('action_id');r.add_argument('--reviewer',required=True);r.add_argument('--reason',required=True)
     args=p.parse_args()
     with Ledger(args.db,create=args.command=='init') as ledger:
-        if args.command in ['seed','import-run','import-tracker','export','backup']:
+        if args.command in ['seed','import-run','import-tracker','import-usage','export','backup']:
             result=getattr(ledger,args.command.replace('-','_'))(args.path)
         elif args.command=='review-document':
             result=ledger.review_document(args.id,args.status,args.reviewer,args.reason,args.revision)

@@ -1,5 +1,15 @@
 # Validation and observed failures
 
+## Persistent data system, 10 November evening checkpoint
+
+The local suite now contains 37 passing Python tests. They cover replay, transactional rollback, preservation of conflicting observations, stable review decisions, stale-revision rejection, manual merge/restoration, 40-run history, interrupted-query recovery, explicit skipped states, saturation budgets, date precision, immutable evidence versions, independent tracker snapshots, archive overwrite protection and credential detection. The JavaScript ordering check compares dashboard order against the built dataset and tests day/month/year/unknown ties in all three sort modes. Earlier test counts below describe earlier releases.
+
+A live bounded RSS check completed two queries and saved ten observations. Both returned the requested five results and were marked potentially truncated. Three local publisher extractions succeeded and produced content-addressed private text plus durable retrieval metadata. These are integration checks, not relevance or extraction-accuracy estimates. An extracted source discussing a Union programme remains pending; successful retrieval does not establish task relevance.
+
+The local checkpoint was extracted into a separate directory. Its then-current 35 tests passed there, its file manifest matched, and the restored database retained 85 approved events with no foreign-key errors. Subsequent tests add tracker-version and match-decision checks. Database integrity passes locally. The inactive durable-hosting proposal still requires explicit approval and a live hosted verification; no production claim is made for it yet.
+
+The 34-pair source-headline diagnostic at threshold 0.45 retrieved 3 of 12 positive pairs and suggested 6 distinct pairs: review-queue precision 0.333 and recall 0.25 on that development fixture. These weak results are retained rather than hidden. No automatic event merge is performed. The labels are research-agent judgements awaiting independent human review; they are not a representative or held-out benchmark. Frozen source titles prevent later content changes from silently altering the evaluation input.
+
 ## Data and code
 
 The repository includes nine regression tests covering state aliases, partial and invalid dates, cutoff enforcement, review gating, event-level deduplication, meaningful URL parameters, missing credentials, and provider timestamp semantics. API tests use explicitly synthetic fixtures; they are not live-provider performance measurements.

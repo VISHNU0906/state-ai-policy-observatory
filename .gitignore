@@ -19,3 +19,4 @@ imports/
 *.sqlite-journal
 *.sqlite-wal
 *.sqlite-shm
+output/data-system-checkpoint/

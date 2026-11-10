@@ -584,5 +584,6 @@
       "automatic_merge": false
     }
   ],
+  "labelled_source_titles_unchanged": true,
   "limitations": "Diagnostic development labels from research agents, pending independent human review. Not representative or held out. Uses source headlines only, no event IDs, summaries, shared event membership or label reasons as features. These are review-queue metrics, not automatic merge accuracy."
 }

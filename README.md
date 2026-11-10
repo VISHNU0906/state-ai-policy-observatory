@@ -2,6 +2,8 @@
 
 85 reviewed AI-related government milestones across 12 Indian states, supported by 113 source documents. Window: 1 January 2024 to 10 November 2026. This is a selected research sample, not a national census or state ranking.
 
+The project now also has a persistent SQLite evidence ledger, resumable collection, immutable provider observations, versioned local extraction and audited review decisions. Start with [ledger operations](docs/LEDGER_OPERATIONS.md) for the new data system and [tracker integration findings](docs/TRACKER_INTEGRATION_FINDINGS.md) for independent checks of the companion pipeline. The 85-event research release remains separate from unverified discoveries and external proposals. The replacement hosted workflow is an inactive proposal pending approval; the existing hosted workflow described below is still active.
+
 [Live dashboard](https://vishnu0906.github.io/state-ai-policy-observatory/) · [Public repository](https://github.com/VISHNU0906/state-ai-policy-observatory) · [Release verification](docs/RELEASE.md)
 
 ## Deliverables

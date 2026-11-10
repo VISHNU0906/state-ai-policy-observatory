@@ -1,5 +1,10 @@
 import unittest
-from matching import Matcher,tokens,evaluate
+import json
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
+from ledger import ROOT,Ledger
+from matching import Matcher,tokens,evaluate,queue,decide
 
 
 class MatchingTests(unittest.TestCase):
@@ -19,6 +24,21 @@ class MatchingTests(unittest.TestCase):
         self.assertEqual(report['labelled_pairs'],34)
         self.assertEqual(report['positive_pairs'],12)
         self.assertTrue(all(not r['automatic_merge'] for r in report['results']))
+
+    def test_distinct_decision_survives_rerun_and_rule_revision(self):
+        with tempfile.TemporaryDirectory(dir=ROOT/'tmp') as directory:
+            path=Path(directory);run=path/'run.json'
+            run.write_text(json.dumps({'candidates':[{'url':'https://example.org/a','title':'Kerala Sarvam AI agreement signed'},
+                                                     {'url':'https://example.org/b','title':'Kerala Sarvam AI agreement signed'}]}))
+            with Ledger(path/'test.sqlite',create=True) as store:
+                store.import_run(run);queue(store)
+                match=store.db.execute('SELECT * FROM matches').fetchone()
+                decide(store,match['id'],'distinct','test reviewer','Same title, different instruments',0)
+                queue(store)
+                self.assertEqual(store.db.execute('SELECT decision FROM matches').fetchone()[0],'distinct')
+                with patch('matching.RULE_VERSION','next-rule'):queue(store)
+                self.assertTrue(all(r[0]=='distinct' for r in store.db.execute('SELECT decision FROM matches')))
+                self.assertEqual(store.counts()['events'],0)
 
 
 if __name__=='__main__':unittest.main()

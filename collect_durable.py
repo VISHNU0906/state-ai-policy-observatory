@@ -125,6 +125,7 @@ def main():
     p.add_argument('--start');p.add_argument('--end');p.add_argument('--limit',type=int,default=10)
     p.add_argument('--max-calls',type=int,default=12);p.add_argument('--split-saturated',action='store_true')
     p.add_argument('--resume');p.add_argument('--output-dir',type=Path,default=ROOT/'scheduled-runs')
+    p.add_argument('--resume-unfinished',action='store_true',help='Recover interrupted runs before planning the current window')
     p.add_argument('--checkpoint-command',nargs='+',help='Explicit argv invoked after durable backup; no shell interpretation')
     args=p.parse_args()
     providers=list(dict.fromkeys(args.providers.split(',')));states=list(dict.fromkeys(args.states.split(',')))
@@ -139,6 +140,9 @@ def main():
         import subprocess
         checkpoint=lambda store:subprocess.run(args.checkpoint_command,check=True)
     with Ledger(args.db) as store:
+        if args.resume_unfinished:
+            unfinished=[r[0] for r in store.db.execute("SELECT id FROM runs WHERE status='running' ORDER BY started_at")]
+            for prior in unfinished:execute(store,prior,checkpoint=checkpoint)
         run_id=args.resume or plan(store,providers,states,str(start),str(end),args.limit,args.max_calls,args.split_saturated)
         args.output_dir.mkdir(parents=True,exist_ok=True)
         print('run_id='+run_id,flush=True)
