@@ -2782,10 +2782,10 @@
       "git_blob": "37c135ba6a3f117a7e56d8451c336c3243b4b705"
     },
     {
-      "sha256": "3ce7d263a94a0bb6abbfec024808bc58c34d423f9da2a64d51f90a28650b0fb7",
+      "sha256": "daa85844d57829c49f4c749245e405036767c519576595365dcfa377e57d436a",
       "bytes": 65536,
-      "path": "block-3ce7d263a94a0bb6abbfec024808bc58c34d423f9da2a64d51f90a28650b0fb7.gz",
-      "git_blob": "2b556c6ae509e880c80509da589bfd7fc2c2e51f"
+      "path": "block-daa85844d57829c49f4c749245e405036767c519576595365dcfa377e57d436a.gz",
+      "git_blob": "6ff9d398bfec493cf033dc3eb9e6352e928fbe9b"
     },
     {
       "sha256": "297b4d41a21a3a901e5e9d31c15614cf837835e21dbcf4ca990cb895f3fd3512",
@@ -2842,10 +2842,10 @@
       "git_blob": "1d4374fe5113d351eeeb3935ea5ac3dc64b3ac71"
     }
   ],
-  "new_compressed_block_bytes": 624777,
-  "reused_blocks": 446,
-  "created_at": "2026-11-10T17:04:37.516971+00:00",
-  "database_sha256": "1bde6b5bbd5a60d139f1879d3a06d408b565d8f329e8b8bc049f09a7c66c9f7a",
+  "new_compressed_block_bytes": 12990,
+  "reused_blocks": 472,
+  "created_at": "2026-11-10T17:04:41.301463+00:00",
+  "database_sha256": "a697d15b2d50acc0105a943d5fa57659dfa5a6397071df4bb5ad16a35e5d5ed8",
   "audit": {
     "schema_version": 2,
     "counts": {
