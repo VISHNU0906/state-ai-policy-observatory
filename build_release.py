@@ -14,8 +14,12 @@ def main():
     subprocess.run(['git','archive','--format=zip','--output',str(source),'HEAD'],cwd=ROOT,check=True)
     subprocess.run(['git','bundle','create',str(bundle),'--all'],cwd=ROOT,check=True)
     subprocess.run(['git','bundle','verify',str(bundle)],cwd=ROOT,check=True,capture_output=True)
-    for dirname in ['data','docs','output','dist']:
+    for dirname in ['data','docs','dist']:
         shutil.copytree(ROOT/dirname,DEST/({'output':'reports','dist':'offline-dashboard'}.get(dirname,dirname)),dirs_exist_ok=True)
+    (DEST/'reports').mkdir(exist_ok=True)
+    for asset in (ROOT/'output').iterdir():
+        if asset.is_file() and asset.suffix.lower() in ['.pdf','.png','.zip']:
+            shutil.copy2(asset,DEST/'reports'/asset.name)
     shutil.copy2(ROOT/'README.md',DEST/'PROJECT_README.md')
     intro='''# Submission: AI-related policy activity across Indian states
 

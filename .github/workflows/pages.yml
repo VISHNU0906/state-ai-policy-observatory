@@ -2,7 +2,7 @@ name: Publish reviewed dashboard
 on:
   push:
     branches: [main]
-    paths: ['dist/**', 'research/**', 'pipeline.py', '.github/workflows/pages.yml']
+    paths: ['dist/**', 'research/**', 'pipeline.py', 'date_rules.py', '.github/workflows/pages.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -23,6 +23,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m unittest discover -s tests -v
+      - run: node tests/test_dashboard_sort.js
       - run: python pipeline.py build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

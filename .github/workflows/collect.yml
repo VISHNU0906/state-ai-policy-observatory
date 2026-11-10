@@ -4,46 +4,49 @@ on:
   schedule:
     - cron: '17 2 * * *'
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: daily-collection
   cancel-in-progress: false
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Monthly budget cache key
-        id: month
-        run: echo "value=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
-      - uses: actions/cache@v4
-        with:
-          path: .cache/provider-usage.json
-          key: provider-usage-${{ steps.month.outputs.value }}-${{ github.run_id }}
-          restore-keys: provider-usage-${{ steps.month.outputs.value }}-
+      - name: Test data invariants
+        run: python -m unittest discover -s tests -v
+      - name: Restore durable ledger and request reservations
+        id: restore
+        run: python history_store.py restore
       - name: Discover candidates with independent providers
         env:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           TAVILY_MONTHLY_REQUEST_CAP: '720'
           EXA_MONTHLY_REQUEST_CAP: '720'
-        run: python collectors.py --providers google-rss,gdelt,tavily,exa --days 7 --limit 10 --max-calls 12 --output-dir scheduled-runs
-      - name: Save candidates and provider failure logs
-        if: always()
+        run: python collect_durable.py --providers google-rss,gdelt,tavily,exa --days 7 --limit 10 --max-calls 12 --resume-unfinished --output-dir scheduled-runs --checkpoint-command python history_store.py persist
+      - name: Save final state even after a provider failure
+        if: always() && steps.restore.outcome == 'success'
+        run: python history_store.py persist
+      - name: Export inspectable dataset tables
+        if: always() && steps.restore.outcome == 'success'
+        run: python ledger.py export ledger-exports
+      - name: Save review tables
+        if: always() && steps.restore.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: policy-candidates-${{ github.run_id }}
-          path: |
-            scheduled-runs/*.json
-            .cache/provider-usage.json
+          path: ledger-exports/
           retention-days: 30
       - name: Explain review boundary
         if: always()
         run: |
-          echo 'Candidate collection only. Nothing is published without review.' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Download the artifact within 30 days. Scheduled starts are best-effort.' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Schedule: 02:17 UTC / 07:47 India Standard Time.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Candidate collection only. Nothing enters the reviewed dashboard without review.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Durable history: data-history branch. Artifacts expire after 30 days; history does not depend on them.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Request reservations are saved before paid attempts. Completed queries are checkpointed individually.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Restoration failures stop collection. Capped queries and unattempted states remain visible.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Schedule: 02:17 UTC / 07:47 IST. Scheduled starts are best-effort.' >> "$GITHUB_STEP_SUMMARY"

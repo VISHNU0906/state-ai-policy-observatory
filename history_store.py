@@ -19,7 +19,11 @@ def git(*args,input=None,check=True):
     result=subprocess.run(['git',*args],cwd=ROOT,input=input,capture_output=True,check=False)
     if check and result.returncode:
         # Authentication helpers and remote diagnostics can contain private URLs. Do not echo them.
-        raise RuntimeError('Git history operation failed: '+args[0]+' (exit '+str(result.returncode)+')')
+        error=result.stderr.decode('utf-8','replace').lower()
+        category=next((label for token,label in [('permission denied','permission_denied'),('403','permission_denied'),
+            ('fetch first','concurrent_update'),('non-fast-forward','concurrent_update'),('could not resolve','network_resolution'),
+            ('cannot lock ref','reference_lock')] if token in error),'unspecified')
+        raise RuntimeError('Git history operation failed: '+args[0]+' (exit '+str(result.returncode)+', '+category+')')
     return result
 
 
