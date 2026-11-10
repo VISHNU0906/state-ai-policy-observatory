@@ -1,0 +1,666 @@
+{
+  "events": [
+    {
+      "id": "KA-2024-01",
+      "state": "Karnataka",
+      "title": "Budget proposes an AI/ML administration unit",
+      "event_date": "2024-02-16",
+      "date_precision": "day",
+      "date_basis": "Budget presentation date explicitly named in reporting.",
+      "publication_date": "2024-02-16",
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "Karnataka's budget proposed an AI/ML unit to support technology-based administration and public-service delivery.",
+      "initiative": "Karnataka AI administration unit",
+      "source_ids": [
+        "S-KA-01"
+      ],
+      "confidence": "medium",
+      "limitations": "Announcement evidence only; no constituting order or launch date verified."
+    },
+    {
+      "id": "KA-2024-02",
+      "state": "Karnataka",
+      "title": "Budget proposes AI software within prison-security equipment package",
+      "event_date": "2024-02-16",
+      "date_precision": "day",
+      "date_basis": "Budget presentation date explicitly named in reporting.",
+      "publication_date": "2024-02-16",
+      "category": "Public-sector deployment",
+      "stage": "announced",
+      "summary": "The budget proposed AI software alongside baggage scanners and other prison equipment in a combined Rs 5 crore package.",
+      "initiative": "AI-enabled prison administration",
+      "source_ids": [
+        "S-KA-01"
+      ],
+      "confidence": "medium",
+      "limitations": "Rs 5 crore is the combined equipment package, not an AI-only allocation; procurement and use not verified."
+    },
+    {
+      "id": "KA-2024-03",
+      "state": "Karnataka",
+      "title": "Cabinet approves Bengaluru AI Centre of Excellence",
+      "event_date": "2024-11-14",
+      "date_precision": "day",
+      "date_basis": "Article published 15 November explicitly says cabinet approved it on 14 November.",
+      "publication_date": "2024-11-15",
+      "category": "Institutions & capacity",
+      "stage": "approved",
+      "summary": "Karnataka's cabinet approved a Bengaluru AI Centre of Excellence with a reported investment of Rs 28 crore.",
+      "initiative": "Karnataka AI Centre of Excellence",
+      "source_ids": [
+        "S-KA-02"
+      ],
+      "confidence": "medium",
+      "limitations": "Cabinet decision reported by news; underlying order not retrieved. Relationship to later CATS funding cannot be conclusively established."
+    },
+    {
+      "id": "KA-2025-01",
+      "state": "Karnataka",
+      "title": "Budget proposes Rs 50 crore over five years for CATS",
+      "event_date": "2025-03-07",
+      "date_precision": "day",
+      "date_basis": "Budget presentation dated by contemporaneous report; proposal in budget paragraph 357.",
+      "publication_date": "2025-03-07",
+      "category": "Funding",
+      "stage": "announced",
+      "summary": "The 2025–26 budget proposed a Centre for Applied AI for Tech Solutions with Rs 50 crore investment over five years.",
+      "initiative": "Centre for Applied AI for Tech Solutions",
+      "source_ids": [
+        "S-KA-03",
+        "S-KA-04",
+        "S-KA-06"
+      ],
+      "confidence": "high",
+      "limitations": "Budget proposal is not spending. A later undated official report describes Rs 20 crore for CATS; scopes are unresolved and amounts must not be added."
+    },
+    {
+      "id": "KA-2025-02",
+      "state": "Karnataka",
+      "title": "Budget proposes AI/GIS attendance across government departments",
+      "event_date": "2025-03-07",
+      "date_precision": "day",
+      "date_basis": "Budget paragraph 451; presentation date corroborated by contemporaneous reporting.",
+      "publication_date": "2025-03-07",
+      "category": "Public-sector deployment",
+      "stage": "announced",
+      "summary": "Karnataka proposed an advanced attendance-management system using AI and GIS across all departments.",
+      "initiative": "Karnataka Advanced Attendance Management System",
+      "source_ids": [
+        "S-KA-03"
+      ],
+      "confidence": "medium",
+      "limitations": "The budget uses future tense; no statewide deployment evidence verified."
+    },
+    {
+      "id": "KA-2025-03",
+      "state": "Karnataka",
+      "title": "Budget proposes AI-enabled Digital Agricultural Service Centres",
+      "event_date": "2025-03-07",
+      "date_precision": "day",
+      "date_basis": "Budget paragraph 34; presentation date corroborated by contemporaneous reporting.",
+      "publication_date": "2025-03-07",
+      "category": "Public-sector deployment",
+      "stage": "announced",
+      "summary": "Proposed Digital Agricultural Service Centres would combine AI and geospatial tools to support farmers' crop decisions.",
+      "initiative": "Digital Agricultural Service Centres",
+      "source_ids": [
+        "S-KA-03"
+      ],
+      "confidence": "medium",
+      "limitations": "Specific rollout dates, coverage and operational outcomes were not verified."
+    },
+    {
+      "id": "KA-2026-01",
+      "state": "Karnataka",
+      "title": "Responsible AI committee holds its first meeting",
+      "event_date": "2026-03-12",
+      "date_precision": "day",
+      "date_basis": "Dated article explicitly says first meeting took place today.",
+      "publication_date": "2026-03-12",
+      "category": "Responsible AI",
+      "stage": "launched",
+      "summary": "A committee chaired by Kris Gopalakrishnan began work on a safe, transparent and accountable AI framework for state governance.",
+      "initiative": "Karnataka Committee on Responsible AI",
+      "source_ids": [
+        "S-KA-05",
+        "S-KA-06"
+      ],
+      "confidence": "high",
+      "limitations": "Date is the first meeting, not the unknown constituting-order date; a completed or binding AI policy is not established by these sources."
+    },
+    {
+      "id": "TN-2024-01",
+      "state": "Tamil Nadu",
+      "title": "Forest Department launches AI surveillance to prevent elephant collisions",
+      "event_date": "2024-02-09",
+      "date_precision": "day",
+      "date_basis": "ETV article dated Saturday 10 February says launched Friday; BBC independently confirms February launch.",
+      "publication_date": "2024-02-10",
+      "category": "Public-sector deployment",
+      "stage": "launched",
+      "summary": "Tamil Nadu launched AI-enabled elephant detection near Madukkarai railway tracks, with cameras and alerts to forest and railway officials.",
+      "initiative": "Madukkarai AI elephant surveillance",
+      "source_ids": [
+        "S-TN-05",
+        "S-TN-06"
+      ],
+      "confidence": "high",
+      "limitations": "Launch and physical deployment verified by reporting; no independent causal evaluation of prevented deaths. ETV extraction returned only headline, deck and date."
+    },
+    {
+      "id": "TN-2024-02",
+      "state": "Tamil Nadu",
+      "title": "Budget announces Tamil Nadu Artificial Intelligence Mission",
+      "event_date": "2024-02-19",
+      "date_precision": "day",
+      "date_basis": "Contemporaneous budget report and later government order explicitly date announcement.",
+      "publication_date": "2024-02-19",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "The state budget announced an AI mission to develop guidelines and utilisation protocols across education, industry, research and other sectors.",
+      "initiative": "Tamil Nadu Artificial Intelligence Mission",
+      "source_ids": [
+        "S-TN-02",
+        "S-TN-01"
+      ],
+      "confidence": "high",
+      "limitations": "This is the 2024 budget milestone; the later order also references an earlier 2023–24 assembly announcement outside this sample."
+    },
+    {
+      "id": "TN-2024-03",
+      "state": "Tamil Nadu",
+      "title": "Government exchanges AI ecosystem MoU with Google",
+      "event_date": "2024-08-31",
+      "date_precision": "day",
+      "date_basis": "Official release dated 31 August states exchange took place today; retain official Indian reporting date.",
+      "publication_date": "2024-08-31",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Tamil Nadu and Google exchanged an MoU covering planned AI labs, startup and MSME support, and workforce skilling.",
+      "initiative": "Tamil Nadu–Google AI ecosystem collaboration",
+      "source_ids": [
+        "S-TN-03",
+        "S-TN-04"
+      ],
+      "confidence": "high",
+      "limitations": "MoU exchange occurred in California; local event date/time not independently resolved. Targets and proposed labs are not completed training or operating facilities."
+    },
+    {
+      "id": "TN-2024-04",
+      "state": "Tamil Nadu",
+      "title": "Government approves AI mission and Rs 13.93 crore implementation sanction",
+      "event_date": "2024-10-09",
+      "date_precision": "day",
+      "date_basis": "Date printed on G.O.(Ms).No.25.",
+      "publication_date": "2024-10-09",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "G.O.25 approved the TNAIM document and a Rs 13.93 crore administrative sanction for a two-year initial implementation phase.",
+      "initiative": "Tamil Nadu Artificial Intelligence Mission",
+      "source_ids": [
+        "S-TN-01"
+      ],
+      "confidence": "medium",
+      "limitations": "Approval and administrative sanction are verified; disbursement, procurement and delivered outcomes are not."
+    },
+    {
+      "id": "TN-2025-01",
+      "state": "Tamil Nadu",
+      "title": "Budget proposes AI courses and shared centres in government engineering colleges",
+      "event_date": "2025-03-14",
+      "date_precision": "day",
+      "date_basis": "Date printed in the 2025–26 budget speech.",
+      "publication_date": "2025-03-14",
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "Tamil Nadu proposed AI and other emerging-technology degrees plus shared centres of excellence in government engineering colleges at an estimated Rs 50 crore.",
+      "initiative": "Government engineering college emerging-technology centres",
+      "source_ids": [
+        "S-TN-07"
+      ],
+      "confidence": "medium",
+      "limitations": "Rs 50 crore covers multiple technologies, not AI alone; future academic-year implementation not verified."
+    },
+    {
+      "id": "TN-2025-02",
+      "state": "Tamil Nadu",
+      "title": "AI Grand Challenge targets early identification of non-performing MSMEs",
+      "event_date": "2025-09",
+      "date_precision": "month",
+      "date_basis": "2026–27 official policy note retrospectively specifies September 2025, with no day.",
+      "publication_date": null,
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "TNAIM, StartupTN and the MSME Department conducted a challenge to develop AI tools for early identification of non-performing MSMEs.",
+      "initiative": "TNAIM MSME AI Grand Challenge",
+      "source_ids": [
+        "S-TN-08"
+      ],
+      "confidence": "medium",
+      "limitations": "Month-level date only; a challenge is not a production deployment and successful models or interventions were not verified."
+    },
+    {
+      "id": "TN-2025-03",
+      "state": "Tamil Nadu",
+      "title": "Minister announces Coimbatore AI Centre of Excellence under PPP model",
+      "event_date": "2025-10-17",
+      "date_precision": "day",
+      "date_basis": "Article dates minister's announcement to Friday 17 October.",
+      "publication_date": "2025-10-17",
+      "category": "Institutions & capacity",
+      "stage": "announced",
+      "summary": "Tamil Nadu's IT minister announced a planned AI Centre of Excellence in Coimbatore under a public–private partnership model.",
+      "initiative": "Coimbatore AI Centre of Excellence",
+      "source_ids": [
+        "S-TN-09"
+      ],
+      "confidence": "medium",
+      "limitations": "Minister reported a recent government order; its date and text were not retrieved. Event date is public announcement, not approval."
+    },
+    {
+      "id": "TN-2026-01",
+      "state": "Tamil Nadu",
+      "title": "AI business allocation establishes departmental oversight role",
+      "event_date": "2026-08-05",
+      "date_precision": "day",
+      "date_basis": "Policy note identifies G.O.(Ms).No.47, HRM(A), dated 5 August 2026; underlying order not independently fetched.",
+      "publication_date": null,
+      "category": "Responsible AI",
+      "stage": "approved",
+      "summary": "Tamil Nadu's policy note attributes AI business allocation and departmental concurrence to G.O.47, within a government-wide AI assessment and rollout regime.",
+      "initiative": "Tamil Nadu AI concurrence and oversight regime",
+      "source_ids": [
+        "S-TN-08",
+        "S-TN-10"
+      ],
+      "confidence": "medium",
+      "limitations": "Order date is reported by an official policy note; no independent legal-effect or implementation audit. The 2020 ethical policy itself predates the sample."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-KA-01",
+      "url": "https://www.moneycontrol.com/news/technology/karnataka-budget-state-bets-big-on-artificial-intelligence-machine-learning-12291701.html",
+      "publisher": "Moneycontrol",
+      "title": "Karnataka Budget: State bets big on Artificial Intelligence & Machine Learning",
+      "published_date": "2024-02-16",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The state government will soon establish an Artificial Intelligence/Machine Learning administration unit.",
+      "evidence_summary": "Reports the 16 February budget announcement of an AI/ML administration unit and a Rs 5 crore combined prison-equipment package including AI software.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-KA-02",
+      "url": "https://www.thehindu.com/news/cities/bangalore/centre-of-excellence-in-ai-to-come-up-in-bengaluru/article68868424.ece",
+      "publisher": "The Hindu",
+      "title": "Centre of Excellence in AI to come up in Bengaluru",
+      "published_date": "2024-11-15",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "the State Cabinet on Thursday (November 14) approved the establishment of a Center of Excellence in Artificial Intelligence",
+      "evidence_summary": "Reports cabinet approval on 14 November 2024 and Rs 28 crore investment for a Bengaluru AI CoE.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-KA-03",
+      "url": "https://finance.karnataka.gov.in/uploads/media_to_upload1741332694.pdf",
+      "publisher": "Government of Karnataka, Finance Department",
+      "title": "Budget 2025–26",
+      "published_date": "2025-03-07",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "a Centre for Applied AI for Tech Solutions (CATS) will be established with an investment of Rs. 50 crore",
+      "evidence_summary": "Budget paragraphs 34, 357, 451 and 453(iii) respectively propose AI-enabled agricultural service centres, a five-year CATS investment, AI/GIS attendance, and describe an established AI Cell developing government-order tools.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-KA-04",
+      "url": "https://english.mathrubhumi.com/technology/karnataka-budget-focus-on-tech-sector-ai-quantum-research-0b3494de",
+      "publisher": "Mathrubhumi English",
+      "title": "Emerging tech in focus: Karnataka’s budget backs AI, IT, and Quantum Research",
+      "published_date": "2025-03-07",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The government will invest ₹50 crore over five years to establish CATS",
+      "evidence_summary": "Contemporaneous report corroborates the CATS budget amount and five-year horizon and dates the budget presentation.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-KA-05",
+      "url": "https://www.ndtv.com/india-news/karnataka-forms-ai-committee-for-ethical-use-of-ai-in-governance-11205833",
+      "publisher": "NDTV",
+      "title": "Karnataka Forms AI Committee For Ethical Use Of AI In Governance",
+      "published_date": "2026-03-12",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The committee held its first meeting in Bengaluru today.",
+      "evidence_summary": "Reports the responsible-AI committee's first meeting on 12 March 2026; Kris Gopalakrishnan chairs the group developing a policy and implementation roadmap, not an already enacted framework.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-KA-06",
+      "url": "https://eitbt.karnataka.gov.in/uploads/media_to_upload1785224806.pdf",
+      "publisher": "Government of Karnataka, Department of Electronics, IT and BT",
+      "title": "Conversation with Hon’ble Chief Minister of Karnataka: Action Taken Report 2025–2026",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Committee for Responsible AI, chaired by Shri Kris Gopalakrishnan",
+      "evidence_summary": "Official report corroborates the committee and separately describes a Rs 20 crore CATS outlay with NASSCOM. Undated publication; this later account's amount cannot be equated to the 2025 five-year budget commitment.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-01",
+      "url": "https://cms.tn.gov.in/cms_migrated/document/GO/it_e_25_2024_Ms.pdf",
+      "publisher": "Government of Tamil Nadu, IT and Digital Services Department",
+      "title": "G.O.(Ms).No.25: Tamil Nadu Artificial Intelligence Mission",
+      "published_date": "2024-10-09",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "administrative sanction for a sum of Rs. 13.93 Crore",
+      "evidence_summary": "Order dated 9 October 2024 approves the TNAIM document and two-year implementation sanction, and retrospectively identifies the 19 February 2024 budget announcement.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-02",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-artificial-intelligence-mission-to-be-established/article67864691.ece",
+      "publisher": "The Hindu",
+      "title": "Tamil Nadu Artificial Intelligence Mission to be established",
+      "published_date": "2024-02-19",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Tamil Nadu Artificial Intelligence Mission will be set up",
+      "evidence_summary": "Contemporaneous budget report says the mission would develop guidelines and utilisation protocols across education, employment, industry, research and medicine.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-03",
+      "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr310824_e_1328.pdf",
+      "publisher": "Government of Tamil Nadu, DIPR",
+      "title": "Google and Tamil Nadu Government collaborate to build an AI-enabled ecosystem in the State",
+      "published_date": "2024-08-31",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Google today exchanged a Memorandum of Understanding (MoU) with the Government of Tamil Nadu",
+      "evidence_summary": "Press release 1328 dates the MoU exchange to 31 August 2024 in its own reporting convention; covers planned AI labs, startup support, workforce skills and MSMEs.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-04",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-cm-stalin-signs-mou-with-google-for-ai-labs-meets-officials-of-apple-and-microsoft/article68588818.ece",
+      "publisher": "The Hindu",
+      "title": "T.N. CM Stalin signs MoU with Google for AI labs, meets Apple and Microsoft officials",
+      "published_date": "2024-08-31",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "signed a memorandum of understanding (MoU) with Google to set up AI laboratories in the State",
+      "evidence_summary": "Contemporaneous reporting corroborates the Google MoU. The article relies in part on state statements, so it is a second publisher rather than independent outcome verification.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-05",
+      "url": "https://www.etvbharat.com/en/!state/tamil-nadu-forest-department-launches-ai-enabled-system-to-prevent-elephant-deaths-enn24021002461",
+      "publisher": "ETV Bharat",
+      "title": "Tamil Nadu Forest Dept Launches AI-Enabled System To Prevent Elephant Deaths",
+      "published_date": "2024-02-10",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Friday launched its ambitious Artificial Intelligence (AI) and Machine Learning-enabled surveillance",
+      "evidence_summary": "Fetched headline, deck and publication date establish the launch on Friday 9 February 2024. Full body was not returned by Tavily; deployment corroborated by BBC.",
+      "source_type": "news",
+      "retrieval_status": "partial_page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-06",
+      "url": "https://www.bbc.com/news/world-asia-india-68988189",
+      "publisher": "BBC",
+      "title": "Tamil Nadu: These elephants are dying on rail tracks - can AI save them?",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The project, launched in February, has been executed at a cost of 72.4m rupees",
+      "evidence_summary": "Fetched body describes 12 AI-camera towers at Madukkarai and alerts to forest and railway officials. Publication date was not exposed in the extracted body; unrelated current navigation dates ignored.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-07",
+      "url": "https://financedept.tn.gov.in/ta/my-documents/2020/07/BS_2025-26_English_A4_Final.pdf",
+      "publisher": "Government of Tamil Nadu, Finance Department",
+      "title": "Budget Speech 2025–26",
+      "published_date": "2025-03-14",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "new degree courses in emerging fields such as Artificial Intelligence",
+      "evidence_summary": "Budget paragraph 73 proposes AI and other emerging-technology degrees in government engineering colleges and Rs 50 crore in shared centres of excellence; the total is not AI-only funding.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-08",
+      "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/it_e_pn_2026_27.pdf",
+      "publisher": "Government of Tamil Nadu, AI, IT and Digital Services Department",
+      "title": "Demand No. 31: Policy Note 2026–2027",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "In September 2025, TNAIM conducted a Grand Challenge",
+      "evidence_summary": "Pages 101 and 103–115 retrospectively date an MSME AI challenge and describe AI oversight under G.O.47 dated 5 August 2026, including departmental concurrence and TAM-DEF/DEEP-MAX assessment. Publication day is not given.",
+      "source_type": "primary_government",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-09",
+      "url": "https://www.thehindu.com/news/cities/Coimbatore/tamil-nadu-government-to-set-up-ai-centre-of-excellence-in-coimbatore-under-ppp-model/article70176182.ece",
+      "publisher": "The Hindu",
+      "title": "Tamil Nadu government to set up AI Centre of Excellence in Coimbatore under PPP model",
+      "published_date": "2025-10-17",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "will set up a Centre of Excellence in Coimbatore for Artificial Intelligence under public private partnership model",
+      "evidence_summary": "Minister's announcement on 17 October 2025 reports a recent government order but does not identify its date; same event also launches a CII–ICT Academy AI Institute.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    },
+    {
+      "id": "S-TN-10",
+      "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/tn-pushes-ai-digital-governance-and-high-speed-connectivity-1982311",
+      "publisher": "Deccan Chronicle",
+      "title": "TN Pushes AI, Digital Governance And High-Speed Connectivity",
+      "published_date": "2026-08-25",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Citizens affected by AI-assisted government decisions will have the right to know that AI was used",
+      "evidence_summary": "Dated reporting corroborates the 2026–27 policy note's AI safeguards and mission expansion. It is coverage of the same policy note, not evidence that rights have been exercised or enforced.",
+      "source_type": "news",
+      "retrieval_status": "page_fetched",
+      "retrieval_method": "Tavily extract"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "NASSCOM–Karnataka CoE for Data Science and AI (2018)",
+      "url": "https://www.nasscom.in/sites/default/files/media_pdf/NASSCOM-CoE-Launch-Bangalore.pdf",
+      "reason": "Outside 2024–2026 event window; do not misdate old CoE as a new announcement."
+    },
+    {
+      "title": "Digital Nagarik and AR-VR Skills Programme",
+      "url": "https://www.newindianexpress.com/states/karnataka/2024/Jul/05/karnataka-partners-with-meta-to-train-10-lakh-students-in-digital-safety-ar-vr-skills",
+      "reason": "Cyber safety and AR/VR initiative; retrieved lead did not establish a substantive AI component."
+    },
+    {
+      "title": "IndiaAI–Meta Srijan at IIT Jodhpur",
+      "url": "https://indiaai.gov.in/article/indiaai-and-meta-launch-srijan-and-yuvai-to-propel-open-source-ai-innovation-research-and-skill-development-in-india",
+      "reason": "Union-led action in a different state; not Karnataka or Tamil Nadu government policy activity."
+    },
+    {
+      "title": "Tamil Nadu Safe and Ethical AI Policy 2020",
+      "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/it_e_pn_2026_27.pdf",
+      "reason": "Original policy predates scope; only the separately dated 2026 oversight milestone is included."
+    },
+    {
+      "title": "Google Pixel manufacturing in Tamil Nadu",
+      "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr310824_e_1328.pdf",
+      "reason": "Manufacturing component omitted; only substantive AI parts of the same MoU retained."
+    },
+    {
+      "title": "Karnataka AI Cell described as established in 2025 budget",
+      "url": "https://finance.karnataka.gov.in/uploads/media_to_upload1741332694.pdf",
+      "reason": "No establishment date exposed and probable relation to 2024 unit announcement; retained as contextual evidence instead of inventing another event date."
+    },
+    {
+      "title": "IIIT Raichur AI CoE and IBAB AI biotechnology CoE",
+      "url": "https://eitbt.karnataka.gov.in/uploads/media_to_upload1785224806.pdf",
+      "reason": "Official report describes plans but does not provide exact event dates. Not counted separately in this bounded sample."
+    },
+    {
+      "title": "Coimbatore CII–ICT Academy AI Institute",
+      "url": "https://www.thehindu.com/news/cities/Coimbatore/tamil-nadu-government-to-set-up-ai-centre-of-excellence-in-coimbatore-under-ppp-model/article70176182.ece",
+      "reason": "Ministerial launch alone does not establish a distinct government commitment; kept outside sample to avoid overstating state involvement."
+    },
+    {
+      "title": "Tamil Nadu 2026–27 mission expansion",
+      "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/it_e_pn_2026_27.pdf",
+      "reason": "Verified direction in policy note but precise budget/event date not independently resolved during bounded research; do not use retrieval date as event date."
+    }
+  ],
+  "queries": [
+    {
+      "query": "Karnataka government AI centre excellence policy budget 2024 2025 2026",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu artificial intelligence mission budget 2024 2025 2026 government",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka Centre Applied AI Tech Solutions CATS 2025 budget 50 crore",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka responsible AI committee 2025 Gopalakrishnan government",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu government Google AI memorandum August 2024",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu AI mission budget February 2024 2025",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Official Google announcement Tamil Nadu government AI partnership August 2024",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka government Meta artificial intelligence innovation centre agreement 2024 2025",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu budget March 2025 artificial intelligence 50 crore mission",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka government artificial intelligence centre excellence 2024 February budget",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka AI centre excellence February 16 2024 budget nasscom",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka Microsoft AI MoU 2025 2024 government",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu AI elephant detection system launched February 2024",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu AI mission 2025 2026 launch TNeGA",
+      "provider": "Tavily",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka budget 2025 CATS 50 crore March 7",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka 2024 artificial intelligence centre excellence February 16 nasscom government",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka AI agriculture KisanMitra 2025 government",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Tamil Nadu 2025 AI Centre excellence IIT Madras TNeGA",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    },
+    {
+      "query": "Karnataka 2024 25 budget speech English PDF artificial intelligence machine learning unit",
+      "provider": "Exa",
+      "searched_on": "2026-11-10",
+      "purpose": "Discovery; retained claims separately verified by fetching underlying pages."
+    }
+  ],
+  "notes": [
+    "Selected two southern states with contrasting institutional evidence, not a representative sample or rank of government performance.",
+    "All 16 retained source URLs were fetched with Tavily extract. Firecrawl fallback for ETV failed with insufficient credits; Tavily's partial ETV response plus full BBC body suffice only for launch and deployment claims.",
+    "Retrieval date is 2026-11-10; article publication dates are taken from article bodies or date-bearing search metadata, never current navigation/footer clocks. The 2026 Karnataka committee article explicitly dates its first meeting; the TN official policy note explicitly cites a 2026 government order.",
+    "Deduplication examples: S-TN-03 and S-TN-04 describe the same Google MoU; S-KA-03 and S-KA-04 describe the same CATS budget proposal. News coverage of government documents is not independent confirmation of outcomes.",
+    "Mission announcement and approval are distinct milestones of one initiative. They must remain linked and must not be interpreted as two AI missions.",
+    "Karnataka CoE names and financing scopes are not sufficiently resolved to merge the Rs 28 crore cabinet approval, Rs 50 crore five-year CATS proposal and later Rs 20 crore CATS description into one summed investment figure.",
+    "Amounts embedded in narrative are qualified: combined prison equipment and multidisciplinary education centres are not AI-only spending, and sanctioned or proposed budgets are not actual expenditure.",
+    "Month-only September 2025 event uses partial ISO 2025-09. Null publication dates remain null for undated PDFs; event dates come from dated passages, not file paths.",
+    "English-language and searchable official-PDF bias remains. No claim of exhaustive activity through cutoff; 2026 reports may retrospectively describe prior events.",
+    "Underlying G.O.47 dated 5 August 2026 was not fetched; the event is grounded in its explicit description in the official 2026–27 policy note and corroborative reporting, with medium confidence."
+  ]
+}

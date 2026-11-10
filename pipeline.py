@@ -16,11 +16,12 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent
 CUTOFF = '2026-11-10'
 START = '2024-01-01'
-STATES = ['Gujarat', 'Karnataka', 'Maharashtra', 'Tamil Nadu', 'Telangana', 'Uttar Pradesh']
+STATES = ['Andhra Pradesh', 'Assam', 'Gujarat', 'Karnataka', 'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Odisha', 'Rajasthan', 'Tamil Nadu', 'Telangana', 'Uttar Pradesh']
 CATEGORIES = ['Policy & strategy', 'Institutions & capacity', 'Partnerships', 'Public-sector deployment', 'Funding', 'Responsible AI']
 STAGES = ['announced', 'approved', 'signed', 'launched', 'pilot', 'operational']
 UA = 'StateAIPolicyResearch/1.0 (+manual-reviewed academic research)'
 ALIASES = {'up':'Uttar Pradesh','uttarpradesh':'Uttar Pradesh','tn':'Tamil Nadu','tamilnadu':'Tamil Nadu','ts':'Telangana','tg':'Telangana','telangana':'Telangana','ka':'Karnataka','karnataka':'Karnataka','mh':'Maharashtra','maharashtra':'Maharashtra','gj':'Gujarat','gujarat':'Gujarat'}
+ALIASES.update({'ap':'Andhra Pradesh','andhrapradesh':'Andhra Pradesh','assam':'Assam','as':'Assam','kerala':'Kerala','kl':'Kerala','mp':'Madhya Pradesh','madhyapradesh':'Madhya Pradesh','odisha':'Odisha','orissa':'Odisha','od':'Odisha','rajasthan':'Rajasthan','rj':'Rajasthan'})
 
 def normalize_state(value):
     key = re.sub(r'[^a-z]', '', value.lower())
@@ -101,7 +102,7 @@ def build():
     groups=deduplicate(candidates)
     normalized.sort(key=lambda e:(e['event_date'] or '',e['id']),reverse=True)
     audit=[{'event_id':k,'candidate_count':len(v),'source_ids':[c['source_id'] for c in v],'decision':'merge source observations, retain one milestone'} for k,v in sorted(groups.items())]
-    payload={'meta':{'title':'State AI Policy Observatory','window_start':START,'research_cutoff':CUTOFF,'states':STATES,'events':len(normalized),'sources':len(sources),'source_observations':len(candidates),'duplicate_observations_collapsed':len(candidates)-len(groups),'with_primary_source':sum(e['has_primary_source'] for e in normalized),'categories':dict(Counter(e['category'] for e in normalized)),'stages':dict(Counter(e['stage'] for e in normalized)),'coverage_note':'Purposive six-state sample. Counts reflect reviewed evidence, not total state activity or performance.'},'events':normalized,'sources':list(sources.values()),'notes':notes}
+    payload={'meta':{'title':'State AI Policy Observatory','window_start':START,'research_cutoff':CUTOFF,'states':STATES,'events':len(normalized),'sources':len(sources),'source_observations':len(candidates),'duplicate_observations_collapsed':len(candidates)-len(groups),'with_primary_source':sum(e['has_primary_source'] for e in normalized),'categories':dict(Counter(e['category'] for e in normalized)),'stages':dict(Counter(e['stage'] for e in normalized)),'coverage_note':'Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance.'},'events':normalized,'sources':list(sources.values()),'notes':notes}
     dump(ROOT/'data/events.json',payload)
     fields=['id','state','title','date','date_precision','date_basis','publication_date','source_name','source_url','summary','category','stage','initiative','confidence','limitations','source_count','has_primary_source','source_ids']
     csv_write(ROOT/'data/events.csv',normalized,fields)

@@ -1,0 +1,40 @@
+{
+  "title": "State AI Policy Observatory",
+  "window_start": "2024-01-01",
+  "research_cutoff": "2026-11-10",
+  "states": [
+    "Andhra Pradesh",
+    "Assam",
+    "Gujarat",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Odisha",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Telangana",
+    "Uttar Pradesh"
+  ],
+  "events": 44,
+  "sources": 59,
+  "source_observations": 72,
+  "duplicate_observations_collapsed": 28,
+  "with_primary_source": 31,
+  "categories": {
+    "Policy & strategy": 9,
+    "Responsible AI": 2,
+    "Institutions & capacity": 12,
+    "Funding": 3,
+    "Partnerships": 12,
+    "Public-sector deployment": 6
+  },
+  "stages": {
+    "approved": 13,
+    "launched": 8,
+    "announced": 10,
+    "signed": 12,
+    "operational": 1
+  },
+  "coverage_note": "Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance."
+}

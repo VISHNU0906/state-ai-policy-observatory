@@ -1,0 +1,123 @@
+[
+  {
+    "state": "Telangana",
+    "url": "https://regulations.ai/regulations/RAI-IN-TE-ATSDIXX-2024",
+    "reason": "Aggregator describes strategy launch as 6 September 2024; stronger contemporaneous body text identifies Thursday 5 September. Not used as evidence."
+  },
+  {
+    "state": "Telangana",
+    "url": "https://it.telangana.gov.in/wp-content/uploads/2024/02/Telangana-Saagu-Baagu-2.0.pdf",
+    "reason": "Document upload directory is February 2024, but EOI itself is September 2023 and bid calling 5 October 2023. Excluded as out-of-window original procurement; February 2024 technical meeting is a lead, not evidence that expansion was deployed."
+  },
+  {
+    "state": "Telangana",
+    "url": "https://www.telangana.gov.in/news/news-and-press-releases/2024/12/honble-cm-sri-a-revanth-reddy-called-on-microsoft-corporation-chairman-and-ceo-mr-satya-nadella",
+    "reason": "Meeting/discussion lead; concrete later signed February 2025 agreement retained instead."
+  },
+  {
+    "state": "Telangana",
+    "url": "https://www.conferencealerts.in/telangana/artificial-intelligence",
+    "reason": "Conference directory, not evidence of a concrete state government policy action."
+  },
+  {
+    "state": "Uttar Pradesh",
+    "url": "https://invest.up.gov.in/wp-content/uploads/2025/07/1-UP-CM_300725.pdf",
+    "reason": "Candidate AI-cloud-centre article could not be retrieved by Tavily or Exa (conversion error). Snippet-only lead excluded; Firecrawl unavailable due credits."
+  },
+  {
+    "state": "Uttar Pradesh",
+    "url": "https://government.economictimes.indiatimes.com/news/technology/governance-challenge-2024-uttar-pradeshs-ai-powered-push-for-good-governance/114915635",
+    "reason": "Fetched article mentions a proposed 2024 AI policy but does not establish a distinct policy announcement date or primary draft. Not promoted to enacted policy; challenge competition excluded from core actions."
+  },
+  {
+    "state": "Uttar Pradesh",
+    "url": "https://testbook.com/question-answer/the-up-ai-mission-launched-in-january-20--69873046ff53336fb46f7b7b",
+    "reason": "Exam-preparation summary describes mission as launched; primary PIB says announced. Original official evidence used instead."
+  },
+  {
+    "state": "Uttar Pradesh",
+    "url": "https://invest.up.gov.in/wp-content/uploads/2022/11/UPCM-Yogi-Adityanath_011122.pdf",
+    "reason": "2022 data-centre inauguration outside window; generic data centre must not be relabelled as a 2025 AI initiative."
+  },
+  {
+    "title": "NASSCOM–Karnataka CoE for Data Science and AI (2018)",
+    "url": "https://www.nasscom.in/sites/default/files/media_pdf/NASSCOM-CoE-Launch-Bangalore.pdf",
+    "reason": "Outside 2024–2026 event window; do not misdate old CoE as a new announcement."
+  },
+  {
+    "title": "Digital Nagarik and AR-VR Skills Programme",
+    "url": "https://www.newindianexpress.com/states/karnataka/2024/Jul/05/karnataka-partners-with-meta-to-train-10-lakh-students-in-digital-safety-ar-vr-skills",
+    "reason": "Cyber safety and AR/VR initiative; retrieved lead did not establish a substantive AI component."
+  },
+  {
+    "title": "IndiaAI–Meta Srijan at IIT Jodhpur",
+    "url": "https://indiaai.gov.in/article/indiaai-and-meta-launch-srijan-and-yuvai-to-propel-open-source-ai-innovation-research-and-skill-development-in-india",
+    "reason": "Union-led action in a different state; not Karnataka or Tamil Nadu government policy activity."
+  },
+  {
+    "title": "Tamil Nadu Safe and Ethical AI Policy 2020",
+    "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/it_e_pn_2026_27.pdf",
+    "reason": "Original policy predates scope; only the separately dated 2026 oversight milestone is included."
+  },
+  {
+    "title": "Google Pixel manufacturing in Tamil Nadu",
+    "url": "https://cms.tn.gov.in/cms_migrated/document/press_release/pr310824_e_1328.pdf",
+    "reason": "Manufacturing component omitted; only substantive AI parts of the same MoU retained."
+  },
+  {
+    "title": "Karnataka AI Cell described as established in 2025 budget",
+    "url": "https://finance.karnataka.gov.in/uploads/media_to_upload1741332694.pdf",
+    "reason": "No establishment date exposed and probable relation to 2024 unit announcement; retained as contextual evidence instead of inventing another event date."
+  },
+  {
+    "title": "IIIT Raichur AI CoE and IBAB AI biotechnology CoE",
+    "url": "https://eitbt.karnataka.gov.in/uploads/media_to_upload1785224806.pdf",
+    "reason": "Official report describes plans but does not provide exact event dates. Not counted separately in this bounded sample."
+  },
+  {
+    "title": "Coimbatore CII–ICT Academy AI Institute",
+    "url": "https://www.thehindu.com/news/cities/Coimbatore/tamil-nadu-government-to-set-up-ai-centre-of-excellence-in-coimbatore-under-ppp-model/article70176182.ece",
+    "reason": "Ministerial launch alone does not establish a distinct government commitment; kept outside sample to avoid overstating state involvement."
+  },
+  {
+    "title": "Tamil Nadu 2026–27 mission expansion",
+    "url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/it_e_pn_2026_27.pdf",
+    "reason": "Verified direction in policy note but precise budget/event date not independently resolved during bounded research; do not use retrieval date as event date."
+  },
+  {
+    "url": "https://regulations.ai/regulations/RAI-IN-MA-MAHMA20-2025",
+    "title": "MahaAgri-AI timeline aggregator",
+    "reason": "Search lead gives precise future rollout milestones not verified in primary documents. Do not convert scheduled dates into completed deployments.",
+    "screening": "search_result_only"
+  },
+  {
+    "url": "https://events.eletsonline.com/maharastra-ai-summit",
+    "title": "Maharashtra AI Summit 2026",
+    "reason": "Event promotional page is insufficient evidence of a concrete new policy action or completed implementation.",
+    "screening": "search_result_only"
+  },
+  {
+    "url": "https://in.newsroom.ibm.com/2024-01-12-IBM-collaborates-with-CTE-Gujarat-to-propel-skilling",
+    "title": "IBM global skills target",
+    "reason": "IBM global targets are not Gujarat training outcomes; excluded from state metrics.",
+    "screening": "retrieved"
+  },
+  {
+    "url": "https://cmogujarat.gov.in/en/news-clip/gujarat-ai-action-plan-2025-30-approved",
+    "title": "Gujarat CMO action plan clipping",
+    "reason": "Fetched HTML exposed title and an image, not readable clipping or exact event date; underlying official circular used instead.",
+    "screening": "retrieved_title_only"
+  },
+  {
+    "url": "https://krishi.maharashtra.gov.in/LandingPage.aspx",
+    "title": "MahaAgri AI call for proposals",
+    "reason": "Official page confirms an open call but lacks a publication or launch date; retained as discovery path to policy, not a dated standalone event.",
+    "screening": "retrieved"
+  },
+  {
+    "url": "https://blog.google/intl/en-in/company-news/technology/applying-ai-to-big-problemssix-research",
+    "title": "Google supported AI research",
+    "reason": "Search results do not establish in-window state-government action; private or research activity alone fails inclusion test.",
+    "screening": "search_result_only"
+  }
+]

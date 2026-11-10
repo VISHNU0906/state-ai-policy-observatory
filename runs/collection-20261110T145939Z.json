@@ -1,0 +1,49 @@
+{
+  "retrieved_at": "20261110T145939Z",
+  "provider": "Google News RSS",
+  "candidates": [],
+  "log": [
+    {
+      "state": "Gujarat",
+      "query": "\"Gujarat\" (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") after:2024-01-01 before:2026-11-11",
+      "url": "https://news.google.com/rss/search?q=%22Gujarat%22+%28%22artificial+intelligence%22+OR+%22AI+policy%22+OR+%22AI+mission%22%29+after%3A2024-01-01+before%3A2026-11-11&hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "state": "Karnataka",
+      "query": "\"Karnataka\" (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") after:2024-01-01 before:2026-11-11",
+      "url": "https://news.google.com/rss/search?q=%22Karnataka%22+%28%22artificial+intelligence%22+OR+%22AI+policy%22+OR+%22AI+mission%22%29+after%3A2024-01-01+before%3A2026-11-11&hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "state": "Maharashtra",
+      "query": "\"Maharashtra\" (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") after:2024-01-01 before:2026-11-11",
+      "url": "https://news.google.com/rss/search?q=%22Maharashtra%22+%28%22artificial+intelligence%22+OR+%22AI+policy%22+OR+%22AI+mission%22%29+after%3A2024-01-01+before%3A2026-11-11&hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "state": "Tamil Nadu",
+      "query": "\"Tamil Nadu\" (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") after:2024-01-01 before:2026-11-11",
+      "url": "https://news.google.com/rss/search?q=%22Tamil+Nadu%22+%28%22artificial+intelligence%22+OR+%22AI+policy%22+OR+%22AI+mission%22%29+after%3A2024-01-01+before%3A2026-11-11&hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "state": "Telangana",
+      "query": "\"Telangana\" (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") after:2024-01-01 before:2026-11-11",
+      "url": "https://news.google.com/rss/search?q=%22Telangana%22+%28%22artificial+intelligence%22+OR+%22AI+policy%22+OR+%22AI+mission%22%29+after%3A2024-01-01+before%3A2026-11-11&hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "query": "\"Uttar Pradesh\" (\"artificial intelligence\" OR \"AI policy\" OR \"AI mission\") after:2024-01-01 before:2026-11-11",
+      "url": "https://news.google.com/rss/search?q=%22Uttar+Pradesh%22+%28%22artificial+intelligence%22+OR+%22AI+policy%22+OR+%22AI+mission%22%29+after%3A2024-01-01+before%3A2026-11-11&hl=en-IN&gl=IN&ceid=IN%3Aen",
+      "status": "failed",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "events": [
+    {
+      "id": "tg-2024-strategy",
+      "state": "Telangana",
+      "title": "Telangana unveils 2024–2027 AI strategy",
+      "event_date": "2024-09-05",
+      "date_precision": "day",
+      "date_basis": "Contemporaneous article says Thursday at the summit's inaugural session; this is 5 September, not the article's 6 September IST publication date.",
+      "publication_date": "2024-09-06",
+      "category": "Policy & strategy",
+      "stage": "launched",
+      "summary": "The state released a six-pillar AI roadmap covering public services, local data, skills, compute access and an AI City.",
+      "initiative": "AI-Powered Telangana",
+      "source_ids": [
+        "tg-strategy-gov",
+        "tg-strategy-news"
+      ],
+      "confidence": "high",
+      "limitations": "Targets for 2027 are prospective. Strategy publication is not proof that individual programmes or an AI City were delivered; aggregator's 6 September launch date rejected."
+    },
+    {
+      "id": "tg-2025-google",
+      "state": "Telangana",
+      "title": "Telangana and Google sign cross-sector AI MoU",
+      "event_date": "2025-02-13",
+      "date_precision": "day",
+      "date_basis": "Both fetched reports identify Thursday 13 February and the MoU exchange.",
+      "publication_date": "2025-02-13",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "The government and Google signed an MoU for AI applications in agriculture, mobility, education, sustainability and governance.",
+      "initiative": "Telangana–Google AI partnership",
+      "source_ids": [
+        "tg-google-news",
+        "tg-google-et"
+      ],
+      "confidence": "medium",
+      "limitations": "Both news reports appear to draw on the same announcement; they are duplicate coverage, not independent impact validation. MoU signing does not prove deployment."
+    },
+    {
+      "id": "tg-2025-microsoft",
+      "state": "Telangana",
+      "title": "Microsoft and Telangana sign AI skilling and centre-of-excellence agreement",
+      "event_date": "2025-02-13",
+      "date_precision": "day",
+      "date_basis": "Report published 14 February says the signing and event were Thursday, 13 February.",
+      "publication_date": "2025-02-14",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "A signed MoU covers AI training programmes and a proposed centre of excellence with cloud infrastructure and an AI knowledge hub.",
+      "initiative": "Telangana–Microsoft AI partnership",
+      "source_ids": [
+        "tg-ms-news"
+      ],
+      "confidence": "medium",
+      "limitations": "Training 120,000 people and establishing the centre are announced commitments. The Microsoft office inauguration is not treated as opening the AI centre."
+    },
+    {
+      "id": "tg-2025-buildnow",
+      "state": "Telangana",
+      "title": "BuildNow AI-assisted building approvals expand to HMDA",
+      "event_date": "2025-04-18",
+      "date_precision": "day",
+      "date_basis": "Fetched 19 April article says extension occurred on Friday, 18 April; official platform archive also lists the expansion.",
+      "publication_date": "2025-04-19",
+      "category": "Public-sector deployment",
+      "stage": "operational",
+      "summary": "Telangana extended its AI-assisted building-approval service from GHMC to the wider Hyderabad Metropolitan Development Authority region.",
+      "initiative": "BuildNow",
+      "source_ids": [
+        "tg-build-gov",
+        "tg-build-news"
+      ],
+      "confidence": "high",
+      "limitations": "Operational means a publicly documented rollout, not an independent performance audit. Claims about seconds-long scrutiny must not be generalized to end-to-end legal approvals; later DTCP plans are not counted here."
+    },
+    {
+      "id": "tg-2025-tgdex",
+      "state": "Telangana",
+      "title": "TGDeX data and AI platform launches",
+      "event_date": "2025-07-02",
+      "date_precision": "day",
+      "date_basis": "Contemporaneous report explicitly dates Wednesday's launch to 2 July; implementing partner confirms July 2025.",
+      "publication_date": "2025-07-02",
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "The state launched TGDeX to provide datasets, AI models and development resources for public-sector innovation.",
+      "initiative": "TGDeX",
+      "source_ids": [
+        "tg-tgdex-news",
+        "tg-tgdex-partner"
+      ],
+      "confidence": "high",
+      "limitations": "Dataset counts conflict: contemporary news says 500+ and an undated partner page says 1,000+ at launch. No harmonized inventory count or AI impact claim is inferred."
+    },
+    {
+      "id": "tg-2026-blaize",
+      "state": "Telangana",
+      "title": "Telangana signs Blaize MoU for AI and semiconductor collaboration",
+      "event_date": "2026-01-21",
+      "date_precision": "day",
+      "date_basis": "Official release dated 21 January 2026 describes the finalized MoU; updated 22 January.",
+      "publication_date": "2026-01-21",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "At Davos, Telangana signed an MoU with Blaize covering advanced AI capabilities, R&D expansion support and exploration of sectoral applications.",
+      "initiative": "Telangana–Blaize partnership",
+      "source_ids": [
+        "tg-blaize-gov"
+      ],
+      "confidence": "medium",
+      "limitations": "Potential healthcare, manufacturing and energy pilots were discussed, not reported as implemented. Existing Hyderabad R&D activity is not counted as a new state deployment."
+    },
+    {
+      "id": "up-2025-google",
+      "state": "Uttar Pradesh",
+      "title": "Uttar Pradesh signs Google Cloud agriculture-network MoU",
+      "event_date": "2025-01-07",
+      "date_precision": "day",
+      "date_basis": "8 January newspaper clipping explicitly says signing was Tuesday, 7 January; web article has a later update timestamp.",
+      "publication_date": "2025-01-08",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "The state signed an agreement for a Gemini-powered open agricultural network connecting farmers with advisory and other services.",
+      "initiative": "UP Open Network for Agriculture",
+      "source_ids": [
+        "up-google-ht",
+        "up-google-clip"
+      ],
+      "confidence": "medium",
+      "limitations": "Headline says launch, but body establishes an MoU; stage conservatively recorded as signed. Government-hosted newspaper clipping is the same reporting, not independent primary corroboration. Benefits are intended."
+    },
+    {
+      "id": "up-2025-pragya",
+      "state": "Uttar Pradesh",
+      "title": "AI Pragya skilling initiative launches",
+      "event_date": "2025-05-09",
+      "date_precision": "day",
+      "date_basis": "Article body explicitly gives Friday, 9 May 2025; article publication was 10 May.",
+      "publication_date": "2025-05-10",
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "The Chief Minister launched AI Pragya in Lucknow to expand AI and digital skills, with a stated target of training one million young people.",
+      "initiative": "AI Pragya",
+      "source_ids": [
+        "up-pragya-news"
+      ],
+      "confidence": "medium",
+      "limitations": "Programme launch does not establish training completion, learner outcomes or World Bank financing specifically earmarked for AI Pragya."
+    },
+    {
+      "id": "up-2025-agritech",
+      "state": "Uttar Pradesh",
+      "title": "AI-linked Agritech Innovation Hub opens at SVPUAT Meerut",
+      "event_date": "2025-07-08",
+      "date_precision": "day",
+      "date_basis": "PIB release Posted On 8 July 2025 says inaugurated today.",
+      "publication_date": "2025-07-08",
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "SVPUAT Meerut and IIT Ropar inaugurated an agritech hub linked to ANNAM.AI and signed an MoU for research and field deployment.",
+      "initiative": "SVPUAT–ANNAM.AI Agritech Innovation Hub",
+      "source_ids": [
+        "up-agritech-pib"
+      ],
+      "confidence": "medium",
+      "limitations": "Included because SVPUAT is a state agricultural university and state ministers participated; central–state institutional collaboration, not a solely state-funded project. No farmer-impact measurement inferred."
+    },
+    {
+      "id": "up-2025-datalabs",
+      "state": "Uttar Pradesh",
+      "title": "UPDESCO and IndiaAI sign Data and AI Labs MoU",
+      "event_date": "2025-09-26",
+      "date_precision": "day",
+      "date_basis": "Later parliamentary answer expressly dates execution to 26 September 2025; 24 July 2026 is the answer date.",
+      "publication_date": "2026-07-24",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "UPDESCO and IndiaAI signed an agreement to establish AI/data-skills labs in government ITIs.",
+      "initiative": "Uttar Pradesh IndiaAI Data Labs",
+      "source_ids": [
+        "up-labs-parliament",
+        "up-mission-pib"
+      ],
+      "confidence": "medium",
+      "limitations": "PIB also reports an MoU ceremony on 12 January 2026 without identifying whether it renewed or expanded the September instrument; not counted as a second signing. Lab totals vary by date/scope (49, 62, 64); no operational census inferred."
+    },
+    {
+      "id": "up-2026-mission-announcement",
+      "state": "Uttar Pradesh",
+      "title": "Chief Minister announces Uttar Pradesh AI Mission",
+      "event_date": "2026-01-12",
+      "date_precision": "day",
+      "date_basis": "Official release Posted On 12 January 2026 describes that day's announcement.",
+      "publication_date": "2026-01-12",
+      "category": "Policy & strategy",
+      "stage": "announced",
+      "summary": "The Chief Minister announced a state AI Mission at Lucknow's regional AI conference, with an approximately ₹2,000 crore programme described in the release.",
+      "initiative": "Uttar Pradesh AI Mission",
+      "source_ids": [
+        "up-mission-pib"
+      ],
+      "confidence": "medium",
+      "limitations": "₹2,000 crore is the announcement's programme-scale figure, not evidence of annual appropriation or expenditure. Later annual budget provision and Cabinet approval are separate milestones."
+    },
+    {
+      "id": "up-2026-amgreen",
+      "state": "Uttar Pradesh",
+      "title": "Invest UP and AM Group sign proposed 1 GW AI-compute hub MoU",
+      "event_date": "2026-01-20",
+      "date_precision": "day",
+      "date_basis": "Both government and company releases explicitly date the Davos signing 20 January 2026.",
+      "publication_date": "2026-01-20",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Invest UP and AM Group signed an agreement for a proposed 1 GW AI-compute hub in Greater Noida.",
+      "initiative": "AM Group Greater Noida AI compute hub",
+      "source_ids": [
+        "up-amg-gov",
+        "up-amg-partner"
+      ],
+      "confidence": "high",
+      "limitations": "Official schedules conflict: Invest UP targets full capacity by 2028; AM Group says first capacity 2028 and full 1 GW by 2030. Planned ~$25 billion investment is a partner commitment, not state spending or completed capacity."
+    },
+    {
+      "id": "up-2026-budget",
+      "state": "Uttar Pradesh",
+      "title": "FY2026–27 budget proposes ₹225 crore for the AI Mission",
+      "event_date": "2026-02-11",
+      "date_precision": "day",
+      "date_basis": "Budget document establishes amounts; fetched contemporaneous reporting expressly dates budget presentation to 11 February 2026.",
+      "publication_date": "2026-02-12",
+      "category": "Funding",
+      "stage": "announced",
+      "summary": "The state budget provided ₹225 crore for the AI Mission and separately ₹32.82 crore for AI labs and a centre of excellence.",
+      "initiative": "Uttar Pradesh AI Mission",
+      "source_ids": [
+        "up-budget-gov",
+        "up-budget-date",
+        "up-budget-news"
+      ],
+      "confidence": "high",
+      "limitations": "Budget presentation/provision is not proof of appropriation passage, release or expenditure. Do not add the ₹2,000 crore mission announcement to these annual provisions; ₹2,059 crore is the whole IT/electronics sector, not AI."
+    },
+    {
+      "id": "up-2026-mission-approval",
+      "state": "Uttar Pradesh",
+      "title": "Cabinet approves Uttar Pradesh Artificial Intelligence Mission",
+      "event_date": "2026-10-09",
+      "date_precision": "day",
+      "date_basis": "10 October article says Cabinet approved it on Friday, which was 9 October 2026.",
+      "publication_date": "2026-10-10",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "Cabinet approved UP-AIM with an institutional structure, AI infrastructure and skilling plans, and proposed safeguards for high-impact government uses.",
+      "initiative": "Uttar Pradesh AI Mission",
+      "source_ids": [
+        "up-mission-approval"
+      ],
+      "confidence": "medium",
+      "limitations": "Cabinet approval verified from fetched reporting, not the underlying order. Startup, training and district-centre numbers are targets; proposed trust and assurance framework is not treated as an enacted regulatory instrument."
+    }
+  ],
+  "sources": [
+    {
+      "id": "tg-strategy-gov",
+      "url": "https://it.telangana.gov.in/wp-content/uploads/2024/09/AI-Powered-Telangana-Strategy-Document-and-Implementation-Roadmap.pdf",
+      "publisher": "Government of Telangana, ITE&C Department",
+      "title": "AI-Powered Telangana: Strategy Document & Implementation Roadmap",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "over the next 3 years (2024-2027)",
+      "evidence_summary": "Primary strategy sets six pillars covering governance, datasets, skills, ecosystem and AI City; it contains commitments and targets, not achieved outcomes.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-strategy-news",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/strategy-document-to-transform-telangana-into-an-ai-powered-state-unveiled/article68610871.ece",
+      "publisher": "The Hindu",
+      "title": "Strategy document to transform Telangana into an AI-powered State unveiled",
+      "published_date": "2024-09-06",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "at the inaugural session of the two-day global Artificial Summit here on Thursday",
+      "evidence_summary": "Body places launch on Thursday, 5 September, despite publication just after midnight on 6 September IST; details planned AI nodal officers and services.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-google-news",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/google-telangana-ink-mou-to-develop-deploy-ai-solutions-for-various-sectors/article69216072.ece",
+      "publisher": "The Hindu",
+      "title": "Google, Telangana ink MoU to develop, deploy AI solutions for various sectors",
+      "published_date": "2025-02-13",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Google and Telangana government on Thursday entered into a memorandum of understanding",
+      "evidence_summary": "Reports signed government partnership for AI across agriculture, mobility, education, sustainability and governance.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-google-et",
+      "url": "https://government.economictimes.indiatimes.com/news/technology/telangana-collaborates-with-google-to-accelerate-ai-led-transformation-across-sectors/118217471",
+      "publisher": "ETGovernment",
+      "title": "Telangana collaborates with Google to accelerate AI-led transformation across sectors",
+      "published_date": "2025-02-13",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The MoU exchange took place in the presence of CM A. Revanth Reddy",
+      "evidence_summary": "Same-event coverage, apparently based on the same announcement; corroborates occurrence but is not independent evidence of effectiveness.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-ms-news",
+      "url": "https://www.newindianexpress.com/states/telangana/2025/Feb/14/microsoft-to-set-up-ai-centre-in-telangana",
+      "publisher": "The New Indian Express",
+      "title": "Microsoft to set up AI centre in Telangana",
+      "published_date": "2025-02-14",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "An MoU encompassing all the above initiatives was signed",
+      "evidence_summary": "CMO-attributed report describes 13 February signing for AI skilling, a proposed AI centre and cloud infrastructure; 120,000 trainees is a target.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-build-gov",
+      "url": "https://buildnow.telangana.gov.in/",
+      "publisher": "Government of Telangana, MA&UD",
+      "title": "BuildNow Telangana: Building and Layout Approval System",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "24/7 AI Powered Assistance",
+      "evidence_summary": "Live state service lists AI assistance, AI-RAG policy assistant and HMDA integration; its news archive includes the April 2025 HMDA expansion.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-build-news",
+      "url": "https://www.newindianexpress.com/cities/hyderabad/2025/Apr/19/telangana-expands-ai-powered-buildnow-approval-system-to-entire-hmda-region",
+      "publisher": "The New Indian Express",
+      "title": "Telangana expands AI-powered BuildNow approval system to entire HMDA region",
+      "published_date": "2025-04-19",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Friday extended its AI-powered ‘BuildNow’ online building approval system",
+      "evidence_summary": "Reports extension on Friday 18 April, already processed applications in GHMC, and future DTCP rollout; reported processing speeds are official claims.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-tgdex-news",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-unveils-first-state-led-digital-public-infrastructure-for-ai/article69765408.ece",
+      "publisher": "The Hindu",
+      "title": "Telangana unveils first State-led digital public infrastructure for AI",
+      "published_date": "2025-07-02",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "was launched on Wednesday by IT and Industries Minister D. Sridhar Babu",
+      "evidence_summary": "Dates TGDeX launch 2 July 2025, states platform live, 500+ datasets and 20+ departments, identifies state department and partners.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-tgdex-partner",
+      "url": "https://dataforpublicgood.org.in/projects/tgdex",
+      "publisher": "Centre for Data for Public Good, FSID IISc",
+      "title": "TGDeX: Telangana’s AI & Data Exchange Platform",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Launched July 2025; live with 1000+ datasets",
+      "evidence_summary": "Implementing partner confirms platform and launch month, but describes 1,000+ datasets at launch versus contemporaneous report's 500+; no inventory count adopted.",
+      "source_type": "primary_partner",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "tg-blaize-gov",
+      "url": "https://www.telangana.gov.in/news/press-releases/2026/01/blaize-signs-mou-with-telangana-for-electronics-semi-conductor-and-ai-initiatives/",
+      "publisher": "Telangana State Portal",
+      "title": "Blaize signs MoU with Telangana for electronics, semi-conductor, and AI initiatives",
+      "published_date": "2026-01-21",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "entered into a Memorandum of Understanding (MoU) with Blaize",
+      "evidence_summary": "State release dated 21 January, updated 22 January, describes Davos 2026 MoU, R&D support and exploration of AI use cases; not completed pilots.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-google-ht",
+      "url": "https://www.hindustantimes.com/cities/lucknow-news/up-govt-google-cloud-launch-ai-powered-agri-network-101736273606574.html",
+      "publisher": "Hindustan Times",
+      "title": "UP govt, Google Cloud launch AI-powered agri network",
+      "published_date": "2025-01-08",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "has signed an MoU with Google Cloud (India)",
+      "evidence_summary": "Describes Gemini-powered agricultural network and agreement; updated 8 January, underlying article first published 7 January per search metadata.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-google-clip",
+      "url": "https://invest.up.gov.in/wp-content/uploads/2025/01/UP_080125.pdf",
+      "publisher": "Hindustan Times, clipping hosted by Invest UP",
+      "title": "UP, Google Cloud launch AI-powered agricultural network",
+      "published_date": "2025-01-08",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Tuesday signed an MoU",
+      "evidence_summary": "Government-hosted clipping remains secondary reporting, not a primary government statement. Tuesday preceding 8 January resolves signing to 7 January 2025.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-pragya-news",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-cm-yogi-adityanath-unveils-two-initiatives-with-support-of-world-bank/article69558436.ece",
+      "publisher": "The Hindu",
+      "title": "U.P. CM Yogi Adityanath unveils two initiatives with support of World Bank",
+      "published_date": "2025-05-10",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Friday (May 9, 2025)",
+      "evidence_summary": "Reports launch of AI Pragya on 9 May in Lucknow; training 10 lakh young people is an intended target, not training completed.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-agritech-pib",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2143154&reg=3&lang=2",
+      "publisher": "Press Information Bureau, Ministry of Education",
+      "title": "ANNAM.AI-IIT Ropar and SVPUAT Meerut Launch Agritech Innovation Hub",
+      "published_date": "2025-07-08",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "was inaugurated today at the College of Technology",
+      "evidence_summary": "Official release documents 8 July inauguration at Uttar Pradesh's state agricultural university and IIT Ropar–SVPUAT MoU; explicitly connects AI with agriculture.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-labs-parliament",
+      "url": "https://sansad.in/getFile/annex/271/AU702_F93mfW.pdf?source=pqars",
+      "publisher": "Rajya Sabha / Ministry of Electronics and Information Technology",
+      "title": "Unstarred Question 702: Progress under the IndiaAI Mission",
+      "published_date": "2026-07-24",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "A Memorandum of Understanding (MoU) was executed on 26 September 2025",
+      "evidence_summary": "Parliamentary answer explicitly dates IndiaAI–UPDESCO MoU; also reports 64 labs approved (62 ITI plus two NIELIT), but does not provide a consistent operational census.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-mission-pib",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2213928&reg=3&lang=1",
+      "publisher": "Press Information Bureau, Ministry of Electronics & IT",
+      "title": "Lucknow Hosts Uttar Pradesh Regional AI Impact Conference and Global Working Group Meet",
+      "published_date": "2026-01-12",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "He also announced UP AI Mission, backed by a budget of around ₹2,000 crores",
+      "evidence_summary": "Release dates the announcement and separately describes 62 planned AI/data labs and an MoU ceremony. Does not establish actual spending or deployment.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-amg-partner",
+      "url": "https://www.amgreen.com/assets/uploads/2026/01/AMG%20-%20Invest%20UP%20Press%20release_Jan%2026.pdf",
+      "publisher": "AM Group",
+      "title": "AM Group signs landmark MoU with Uttar Pradesh Government for GW-scale AI compute hub",
+      "published_date": "2026-01-20",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "first capacity coming up in 2028 and full 1 GW capacity targeted to come up by 2030",
+      "evidence_summary": "Company announcement dates signing 20 January 2026, proposes roughly US$25 billion and 1 GW; schedule conflicts with Invest UP release.",
+      "source_type": "primary_partner",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-amg-gov",
+      "url": "https://invest.up.gov.in/wp-content/uploads/2026/01/Overall_Day_Eng.pdf",
+      "publisher": "Invest UP, Government of Uttar Pradesh",
+      "title": "Davos 2026: Uttar Pradesh expands strategic partnerships with global leaders",
+      "published_date": "2026-01-20",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "full capacity targeted by 2028",
+      "evidence_summary": "State release independently confirms MoU and 1 GW Greater Noida project but gives full-capacity deadline 2028, conflicting with AM Group's 2030.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-budget-gov",
+      "url": "https://information.up.gov.in/admin/UploadDocument/OtherPress/compressed_12022026010930Final%20English%20Budget%202026-27.pdf",
+      "publisher": "Information & Public Relations Department, Uttar Pradesh",
+      "title": "Highlights & Salient Features of Uttar Pradesh Budget for Financial Year 2026-27",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "the Uttar Pradesh AI Mission is initiated, with a provision of ₹225 crore",
+      "evidence_summary": "Page 7 explicitly provides ₹225 crore for AI Mission and separate ₹32.82 crore for AI labs/CoE; proposed provisions do not establish spending.",
+      "source_type": "primary_government",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-budget-date",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-presents-913-lakh-crore-budget-for-2026-27-outlay-up-122/article70619069.ece",
+      "publisher": "The Hindu",
+      "title": "U.P. Government presents over ₹9.12 lakh crore budget",
+      "published_date": "2026-02-11",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Wednesday (February 11, 2026)",
+      "evidence_summary": "Body confirms budget presentation date; publication 11 February and update 12 February must not be confused.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-budget-news",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/digi-push-govt-allocates-rs-225cr-for-up-ai-mission/articleshow/128224554.cms",
+      "publisher": "The Times of India",
+      "title": "Digi push: Govt allocates Rs 225cr for UP AI Mission",
+      "published_date": "2026-02-12",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "allocated Rs 225 crore in the 2026-27 budget",
+      "evidence_summary": "Corroborates AI-specific annual budget amount and distinguishes it from ~₹2,000 crore longer-horizon programme.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    },
+    {
+      "id": "up-mission-approval",
+      "url": "https://government.economictimes.indiatimes.com/news/digital-india/up-cabinet-clears-ai-mission-targets-100-startups-and-skilling-of-5-lakh-youth/134847228",
+      "publisher": "ETGovernment",
+      "title": "UP Cabinet clears AI mission, targets 100 startups and skilling of 5 lakh youth",
+      "published_date": "2026-10-10",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "on Friday approved the Uttar Pradesh Artificial Intelligence Mission (UP-AIM)",
+      "evidence_summary": "Article body dates Cabinet approval to Friday 9 October; describes intended independent society, seven pillars and proposed trust/assurance framework, not completed delivery.",
+      "source_type": "news",
+      "retrieval_status": "fetched"
+    }
+  ],
+  "excluded": [
+    {
+      "state": "Telangana",
+      "url": "https://regulations.ai/regulations/RAI-IN-TE-ATSDIXX-2024",
+      "reason": "Aggregator describes strategy launch as 6 September 2024; stronger contemporaneous body text identifies Thursday 5 September. Not used as evidence."
+    },
+    {
+      "state": "Telangana",
+      "url": "https://it.telangana.gov.in/wp-content/uploads/2024/02/Telangana-Saagu-Baagu-2.0.pdf",
+      "reason": "Document upload directory is February 2024, but EOI itself is September 2023 and bid calling 5 October 2023. Excluded as out-of-window original procurement; February 2024 technical meeting is a lead, not evidence that expansion was deployed."
+    },
+    {
+      "state": "Telangana",
+      "url": "https://www.telangana.gov.in/news/news-and-press-releases/2024/12/honble-cm-sri-a-revanth-reddy-called-on-microsoft-corporation-chairman-and-ceo-mr-satya-nadella",
+      "reason": "Meeting/discussion lead; concrete later signed February 2025 agreement retained instead."
+    },
+    {
+      "state": "Telangana",
+      "url": "https://www.conferencealerts.in/telangana/artificial-intelligence",
+      "reason": "Conference directory, not evidence of a concrete state government policy action."
+    },
+    {
+      "state": "Uttar Pradesh",
+      "url": "https://invest.up.gov.in/wp-content/uploads/2025/07/1-UP-CM_300725.pdf",
+      "reason": "Candidate AI-cloud-centre article could not be retrieved by Tavily or Exa (conversion error). Snippet-only lead excluded; Firecrawl unavailable due credits."
+    },
+    {
+      "state": "Uttar Pradesh",
+      "url": "https://government.economictimes.indiatimes.com/news/technology/governance-challenge-2024-uttar-pradeshs-ai-powered-push-for-good-governance/114915635",
+      "reason": "Fetched article mentions a proposed 2024 AI policy but does not establish a distinct policy announcement date or primary draft. Not promoted to enacted policy; challenge competition excluded from core actions."
+    },
+    {
+      "state": "Uttar Pradesh",
+      "url": "https://testbook.com/question-answer/the-up-ai-mission-launched-in-january-20--69873046ff53336fb46f7b7b",
+      "reason": "Exam-preparation summary describes mission as launched; primary PIB says announced. Original official evidence used instead."
+    },
+    {
+      "state": "Uttar Pradesh",
+      "url": "https://invest.up.gov.in/wp-content/uploads/2022/11/UPCM-Yogi-Adityanath_011122.pdf",
+      "reason": "2022 data-centre inauguration outside window; generic data centre must not be relabelled as a 2025 AI initiative."
+    }
+  ],
+  "queries": [
+    {
+      "id": "nd-q01",
+      "query": "site:telangana.gov.in AI September 2024 strategy Microsoft 2025 TGDeX",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q02",
+      "query": "site:telangana.gov.in artificial intelligence 2025 2026",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q03",
+      "query": "Uttar Pradesh AI Pragya Microsoft 2025 cabinet AI mission 2026",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q04",
+      "query": "Telangana Microsoft AI Center excellence February 2025 MoU official",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q05",
+      "query": "Telangana TGDeX launched July 2025 official",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q06",
+      "query": "Uttar Pradesh AI Pragya launch May 2025 official",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q07",
+      "query": "site:telangana.gov.in \"Microsoft\" \"2025\" \"AI\"",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q08",
+      "query": "site:telangana.gov.in \"September\" \"2024\" \"AI\" \"MoU\"",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q09",
+      "query": "site:telangana.gov.in \"Google\" \"2025\" \"AI\"",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q10",
+      "query": "Uttar Pradesh AI agriculture cloud centre July 2025 28 inauguration",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q11",
+      "query": "Telangana government Google memorandum understanding AI accelerator February 2025 official Google blog",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q12",
+      "query": "Uttar Pradesh government Google Cloud agriculture January 2025 official press release",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q13",
+      "query": "Telangana government Microsoft February 2025 AI Centre Excellence signed MoU official Microsoft",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q14",
+      "query": "Telangana AI strategy roadmap September 5 6 2024 launched",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q15",
+      "query": "Telangana BuildNow launched March 31 2025 April 19 AI approvals",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q16",
+      "query": "Uttar Pradesh AI cloud centre inaugurated July 28 2025 Noida",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Tavily"
+    },
+    {
+      "id": "nd-q17",
+      "query": "Telangana government Blaize January 21 2026 MoU AI official press release",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q18",
+      "query": "Telangana BuildNow AI March 2025 launched HMDA April 2025",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q19",
+      "query": "Telangana Saagu Baagu 2.0 February 2024 government AI empanelment",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q20",
+      "query": "AM Green Uttar Pradesh 1 GW data centre January 2026 MoU official press release",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q21",
+      "query": "Uttar Pradesh AI Mission 225 crore budget 2026 27 official",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    },
+    {
+      "id": "nd-q22",
+      "query": "Uttar Pradesh budget presented 11 February 2026 Suresh Khanna",
+      "date": "2026-11-10",
+      "purpose": "Discover official evidence, date-specific milestones or resolve conflicts",
+      "provider": "Exa"
+    }
+  ],
+  "notes": [
+    "Research window: 2024-01-01 through 2026-11-10 inclusive. Six Telangana and eight Uttar Pradesh distinct milestones, not a comprehensive census.",
+    "Event dates are normalized separately from article publication dates. Primary documents and article-body dates outrank upload paths, search metadata and current template banners.",
+    "Primary government statements and corporate statements establish reported commitments, not effectiveness. Confidence grades concern factual occurrence and attribution only.",
+    "Duplicates: Google Telangana two outlets collapse into one MoU; Uttar Pradesh Google web story and Invest UP clipping are the same original publisher; TGDeX partner and news describe one launch; AM Group and Invest UP describe one signing.",
+    "Same-initiative milestones retained separately: UP AI Mission January announcement, February annual budget provision, October Cabinet approval. Counts must not be interpreted as number of independent programmes.",
+    "Retrieval performed with Tavily and Exa; Firecrawl attempt failed for zero credits. Tavily returned 429 on a later extraction batch; fallback Exa succeeded on relevant Telangana sources. Full retrieved pages were read; only short evidence excerpts and paraphrases are retained.",
+    "Search coverage is English-led with a bilingual Telangana official release. Missing activity is not absence of policy, and no outcome league table is justified.",
+    "Important unresolved conflicts: AM Group compute hub 2028 vs 2030 full-capacity target; TGDeX launch inventory 500+ vs 1000+; UP labs MoU execution versus later ceremony. Retained explicitly.",
+    "Six Telangana records include no standalone AI-specific budget figure: ₹774 crore in state IT budget is sector-wide, not valid as AI allocation.",
+    "Firecrawl returned: For more credits, you can upgrade your plan at https://firecrawl.dev/pricing or try changing the request limit to a lower value."
+  ]
+}

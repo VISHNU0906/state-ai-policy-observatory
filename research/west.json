@@ -1,0 +1,694 @@
+{
+  "events": [
+    {
+      "id": "mh-google-mou-2024",
+      "state": "Maharashtra",
+      "title": "Maharashtra signs cross-sector AI partnership with Google",
+      "event_date": "2024-02-08",
+      "date_precision": "day",
+      "date_basis": "Contemporaneous 8 February report and embedded dated Deputy CM post in PTI coverage.",
+      "publication_date": "2024-02-08",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "The state signed an MoU with Google covering AI applications in agriculture, healthcare, education and public services, alongside skilling and innovation support.",
+      "initiative": "Google–Maharashtra AI partnership",
+      "source_ids": [
+        "west-s01",
+        "west-s02"
+      ],
+      "confidence": "high",
+      "limitations": "MoU commitments are not evidence of launched applications or completed training; planned CoE is kept within this announcement."
+    },
+    {
+      "id": "mh-marvel-approval-2024",
+      "state": "Maharashtra",
+      "title": "Cabinet approves MARVEL AI policing initiative",
+      "event_date": "2024-03",
+      "date_precision": "month",
+      "date_basis": "March 17 contemporary report documents approval; NITI retrospective corroborates establishment in March. Exact approval day not explicit in retrieved prose.",
+      "publication_date": "2024-03-17",
+      "category": "Institutions & capacity",
+      "stage": "approved",
+      "summary": "The cabinet approved an AI policing special-purpose vehicle with IIM Nagpur and Pinaka Technologies, with a reported ₹23 crore proposed investment.",
+      "initiative": "MARVEL",
+      "source_ids": [
+        "west-s03",
+        "west-s04"
+      ],
+      "confidence": "medium",
+      "limitations": "₹23 crore is reported proposed investment, not audited expenditure. Later official feature reports usage but its impact claims are not independently evaluated. MARVEL acronym expansions vary across sources."
+    },
+    {
+      "id": "mh-microsoft-mou-2025",
+      "state": "Maharashtra",
+      "title": "Microsoft MoU proposes three AI centres for governance",
+      "event_date": "2025-04-01",
+      "date_precision": "day",
+      "date_basis": "Hindustan Times report dated Wednesday 2 April says signing occurred Tuesday.",
+      "publication_date": "2025-04-02",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Maharashtra signed an MoU with Microsoft for AI centres in Mumbai, Pune and Nagpur, covering geospatial analytics, forensic investigation and governance, plus staff training.",
+      "initiative": "Microsoft–Maharashtra AI centres",
+      "source_ids": [
+        "west-s05",
+        "west-s06"
+      ],
+      "confidence": "high",
+      "limitations": "This records signing, not opening of all three centres. The agreement builds on existing MARVEL; do not count it as MARVEL’s first establishment."
+    },
+    {
+      "id": "mh-agri-policy-2025",
+      "state": "Maharashtra",
+      "title": "Cabinet approves MahaAgri-AI Policy 2025–2029",
+      "event_date": "2025-06-17",
+      "date_precision": "day",
+      "date_basis": "Same-day cabinet approval bulletin dated 17 June 2025.",
+      "publication_date": "2025-06-17",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "MahaAgri-AI sets an agricultural AI roadmap spanning shared data infrastructure, innovation support and pilots, with an initial ₹500 crore allocation proposed in the policy.",
+      "initiative": "MahaAgri-AI 2025–2029",
+      "source_ids": [
+        "west-s07",
+        "west-s08"
+      ],
+      "confidence": "high",
+      "limitations": "The official policy calls ₹500 crore a proposed initial allocation; it is not a measure of spending. The policy’s planned platforms and centres are not counted as operational."
+    },
+    {
+      "id": "mh-ai-policy-cabinet-2026",
+      "state": "Maharashtra",
+      "title": "Cabinet approves Maharashtra AI Policy 2026",
+      "event_date": "2026-04-29",
+      "date_precision": "day",
+      "date_basis": "Akashvani bulletin dated 30 April says cabinet action occurred yesterday.",
+      "publication_date": "2026-04-30",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "The cabinet approved a statewide AI policy proposing an AI Mission, compute and innovation infrastructure, skilling and startup support.",
+      "initiative": "Maharashtra AI Policy 2026",
+      "source_ids": [
+        "west-s09",
+        "west-s10"
+      ],
+      "confidence": "high",
+      "limitations": "Investment and employment numbers in coverage are future targets. This cabinet milestone is distinct from the subsequent Government Resolution."
+    },
+    {
+      "id": "mh-ai-policy-gr-2026",
+      "state": "Maharashtra",
+      "title": "Government issues Maharashtra AI Policy 2026 resolution",
+      "event_date": "2026-05-06",
+      "date_precision": "day",
+      "date_basis": "Header of official Government Resolution POLICY-2026/C.R.64/IT states 06 May 2026; preferred to conflicting index metadata.",
+      "publication_date": null,
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "The state issued the formal Government Resolution adopting its AI Policy 2026, with infrastructure, workforce, innovation and responsible-use provisions.",
+      "initiative": "Maharashtra AI Policy 2026",
+      "source_ids": [
+        "west-s10",
+        "west-s11"
+      ],
+      "confidence": "medium",
+      "limitations": "Official policy index lists 16/05/2026, but linked document header says 06 May 2026. PDF date retained; discrepancy disclosed. Formal adoption does not establish programme execution."
+    },
+    {
+      "id": "mh-sarvam-approval-2026",
+      "state": "Maharashtra",
+      "title": "State approves Sarvam AI package for government departments",
+      "event_date": null,
+      "date_precision": "unknown",
+      "date_basis": "Retrieved report establishes approval by publication on 7 August 2026; exact GR approval date was not retrieved.",
+      "publication_date": "2026-08-07",
+      "category": "Public-sector deployment",
+      "stage": "approved",
+      "summary": "Maharashtra approved a reported ₹11.26 crore two-year Sarvam AI package, including Indus for about 2,500 government users and speech and outreach tools.",
+      "initiative": "Sarvam Indus government rollout",
+      "source_ids": [
+        "west-s12",
+        "west-s13"
+      ],
+      "confidence": "high",
+      "limitations": "Approval date remains unknown; 7 August is publication, not occurrence. Counterparty confirms approved deployment but provides no measured active-user count. Outlay is not actual expenditure."
+    },
+    {
+      "id": "gj-ibm-skills-mou-2024",
+      "state": "Gujarat",
+      "title": "Technical education department signs IBM SkillsBuild MoU",
+      "event_date": "2024-01-12",
+      "date_precision": "day",
+      "date_basis": "IBM release dateline says January 12 and today signed; webpage publication metadata says January 11.",
+      "publication_date": "2024-01-11",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Gujarat’s Commissionerate of Technical Education partnered with IBM to support AI, generative AI and other emerging-technology skills through SkillsBuild.",
+      "initiative": "IBM–CTE Gujarat SkillsBuild",
+      "source_ids": [
+        "west-s14"
+      ],
+      "confidence": "medium",
+      "limitations": "Release display date and dateline conflict by one day. Signing follows explicit dateline, with uncertainty retained. No Gujarat-specific completion count is established."
+    },
+    {
+      "id": "gj-ibm-cluster-mou-2024",
+      "state": "Gujarat",
+      "title": "Gujarat and IBM sign MoU for GIFT City AI cluster",
+      "event_date": "2024-06-29",
+      "date_precision": "day",
+      "date_basis": "Dated IBM release explicitly states today entered the MoU, corroborated by same-day PTI coverage.",
+      "publication_date": "2024-06-29",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "The state’s science and technology department signed with IBM to develop a watsonx-based AI cluster offering financial institutions sandbox, proof-of-concept and training support.",
+      "initiative": "IBM GIFT City AI cluster",
+      "source_ids": [
+        "west-s15",
+        "west-s16"
+      ],
+      "confidence": "high",
+      "limitations": "Signing is not proof that the cluster is operational. This IBM agreement is distinct from the Microsoft centre agreement signed the same day."
+    },
+    {
+      "id": "gj-microsoft-coe-mou-2024",
+      "state": "Gujarat",
+      "title": "Gujarat signs Microsoft MoU for GIFT City AI centre",
+      "event_date": "2024-06-29",
+      "date_precision": "day",
+      "date_basis": "Same-day PTI report states Saturday signing; later inauguration report retrospectively identifies June 2024 agreement.",
+      "publication_date": "2024-06-29",
+      "category": "Partnerships",
+      "stage": "signed",
+      "summary": "Gujarat signed an MoU with Microsoft for an AI Centre of Excellence at GIFT City focused on machine learning, cognitive services and chatbots, alongside NASSCOM capacity collaboration.",
+      "initiative": "GIFT City AI Centre of Excellence",
+      "source_ids": [
+        "west-s16",
+        "west-s19"
+      ],
+      "confidence": "medium",
+      "limitations": "Microsoft and NASSCOM signed separate commitments during one ceremony; capacity collaboration is retained in this ecosystem record rather than expanded into a third same-day row."
+    },
+    {
+      "id": "gj-taskforce-2024",
+      "state": "Gujarat",
+      "title": "Gujarat constitutes ten-member AI taskforce",
+      "event_date": "2024-12-10",
+      "date_precision": "day",
+      "date_basis": "2026 DST circular identifies original taskforce GR as 10 December 2024; original document also records internal approval dated 9 December.",
+      "publication_date": null,
+      "category": "Institutions & capacity",
+      "stage": "approved",
+      "summary": "Gujarat constituted a ten-member taskforce to guide its AI roadmap, sectoral use cases, capacity building, infrastructure and responsible deployment.",
+      "initiative": "Gujarat AI Taskforce",
+      "source_ids": [
+        "west-s17",
+        "west-s18"
+      ],
+      "confidence": "high",
+      "limitations": "Original retrieved text omits top-level issue date; date is verified through later official circular. Internal file approval on 9 December is a different administrative step."
+    },
+    {
+      "id": "gj-coe-inauguration-2025",
+      "state": "Gujarat",
+      "title": "Chief minister inaugurates GIFT City AI Centre of Excellence",
+      "event_date": "2025-01-27",
+      "date_precision": "day",
+      "date_basis": "PTI contemporary inauguration report and February 2026 official circular both explicitly identify 27 January 2025.",
+      "publication_date": "2025-01-27",
+      "category": "Institutions & capacity",
+      "stage": "launched",
+      "summary": "Gujarat inaugurated its GIFT City AI Centre of Excellence and launched an Innovation Challenge to connect government and industry use cases with innovators.",
+      "initiative": "GIFT City AI Centre of Excellence",
+      "source_ids": [
+        "west-s19",
+        "west-s20"
+      ],
+      "confidence": "high",
+      "limitations": "Inauguration advances the June 2024 MoU but does not establish sustained operation, completed pilots or impact; challenge launch is grouped within the same event."
+    },
+    {
+      "id": "gj-action-plan-2025",
+      "state": "Gujarat",
+      "title": "Gujarat issues five-year AI implementation action plan",
+      "event_date": "2025-07-24",
+      "date_precision": "day",
+      "date_basis": "March 2026 official circular identifies action-plan GR DST/DGT/e-file/24/2025/0581 as dated 24 July 2025.",
+      "publication_date": "2025-07-28",
+      "category": "Policy & strategy",
+      "stage": "approved",
+      "summary": "Gujarat adopted a six-pillar AI implementation roadmap for 2025–2030, spanning data, infrastructure, skills, research and use cases, startups, and safe and trusted AI.",
+      "initiative": "Gujarat AI Action Plan 2025–2030",
+      "source_ids": [
+        "west-s18",
+        "west-s21"
+      ],
+      "confidence": "high",
+      "limitations": "24 July is resolution date verified retrospectively; July 28 is news publication. Planned AI factories, training and mission are not treated as completed initiatives."
+    },
+    {
+      "id": "gj-challenge-modalities-2026",
+      "state": "Gujarat",
+      "title": "Gujarat approves AI Innovation Challenge funding and evaluation rules",
+      "event_date": "2026-02-13",
+      "date_precision": "day",
+      "date_basis": "Official circular approved-date footer and electronic signature both date 13 February 2026.",
+      "publication_date": null,
+      "category": "Funding",
+      "stage": "approved",
+      "summary": "The state formalised challenge evaluation and funding rules, with indicative PoC ceilings of ₹7.5 lakh or ₹10 lakh and staged disbursement tied to deployment and departmental acceptance.",
+      "initiative": "Gujarat AI Innovation Challenge",
+      "source_ids": [
+        "west-s20"
+      ],
+      "confidence": "high",
+      "limitations": "These are per-use-case indicative ceilings, not a total budget or disbursement. Annexure dated 19 July 2025 is not the circular approval date. Production support remains conditional."
+    },
+    {
+      "id": "gj-implementation-cell-2026",
+      "state": "Gujarat",
+      "title": "Gujarat establishes AI Implementation Cell",
+      "event_date": "2026-03-10",
+      "date_precision": "day",
+      "date_basis": "Approved-date footer of DST circular reads 10 March 2026.",
+      "publication_date": null,
+      "category": "Institutions & capacity",
+      "stage": "approved",
+      "summary": "Gujarat created an AI Implementation Cell under its science and technology department, headed by Gujarat Informatics Limited’s managing director, to coordinate the action plan.",
+      "initiative": "Gujarat AI Action Plan 2025–2030",
+      "source_ids": [
+        "west-s18"
+      ],
+      "confidence": "high",
+      "limitations": "Circular establishes institutional authority and composition; it does not provide staffing, execution or impact evidence."
+    }
+  ],
+  "sources": [
+    {
+      "id": "west-s01",
+      "url": "https://www.business-standard.com/economy/news/google-partners-with-maharashtra-govt-to-provide-ai-led-services-124020801682_1.html",
+      "publisher": "Business Standard",
+      "title": "Google partners with Maharashtra govt to provide AI-led services",
+      "published_date": "2024-02-08",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Tech giant Google on Thursday signed a Memorandum of Understanding",
+      "evidence_summary": "Contemporaneous authored report says Google and Maharashtra signed Thursday; outlines agriculture, healthcare, skilling, sustainability and startup commitments. Describes proposed AI CoE and 500 officials to be trained; these are commitments, not verified completions.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s02",
+      "url": "https://www.ndtv.com/india-news/maharashtra-signs-pact-with-google-for-harnessing-artificial-intelligence-5022374",
+      "publisher": "NDTV / Press Trust of India",
+      "title": "Maharashtra Signs Pact With Google For Harnessing Artificial Intelligence",
+      "published_date": "2024-02-09",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Maharashtra government on Thursday signed a Memorandum of Understanding",
+      "evidence_summary": "PTI report independently covers signing in Pune and embeds Deputy CM post explicitly dated 8 February 2024. Syndicated PTI attribution retained.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s03",
+      "url": "https://timesofindia.indiatimes.com/city/mumbai/maharashtra-cabinet-approves-23cr-marvel-ai-project-for-police-force/articleshow/108554366.cms",
+      "publisher": "The Times of India",
+      "title": "Cabinet okays AI use by cops, ₹23cr for MARVEL project",
+      "published_date": "2024-03-17",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "govt will invest Rs 23 crore in the project",
+      "evidence_summary": "Reports cabinet approval of an AI policing SPV with IIM Nagpur and Pinaka Technologies and ₹23 crore proposed investment. Article describes timing relative to election code; exact event day not explicit in prose.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s04",
+      "url": "https://frontiertech.niti.gov.in/story/marvel-brings-ai-powered-crime-prediction-to-maharashtras-law-enforcement",
+      "publisher": "NITI Aayog Frontier Tech Hub",
+      "title": "MARVEL Brings AI-Powered Crime Prediction to Maharashtra’s Law Enforcement",
+      "published_date": "2025-07-23",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Established in March 2024",
+      "evidence_summary": "Retrospective government feature says MARVEL was established March 2024 and by its July 2025 update served multiple departments. Promotional impact figures lack independent evaluation, so they are not used as outcome measures.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s05",
+      "url": "https://www.hindustantimes.com/cities/mumbai-news/maha-government-signs-mou-with-microsoft-to-speed-up-ai-integration-in-administration-101743534886846.html",
+      "publisher": "Hindustan Times",
+      "title": "Maha government signs MoU with Microsoft to speed up AI integration in administration",
+      "published_date": "2025-04-02",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "signed a Memorandum of Understanding (MoU) on Tuesday",
+      "evidence_summary": "Authored report says MoU signed Tuesday, resolving to 1 April 2025; three planned centres address geospatial analytics, forensic work and MARVEL; employee training through MS Learn. Describes separate broadening of MARVEL but no completion evidence.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s06",
+      "url": "https://newsonair.gov.in/maharashtra-govt-partners-with-microsoft-to-stablish-3-ai-centres-of-excellence",
+      "publisher": "Akashvani News",
+      "title": "Maharashtra Govt partners with Microsoft to stablish 3 AI centres of excellence",
+      "published_date": "2025-04-02",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "three cutting-edge Artificial Intelligence (AI) centres of excellence",
+      "evidence_summary": "Public broadcaster confirms signed MoU and planned centres in Mumbai, Pune and Nagpur; supports scope but does not itself supply exact signing date.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s07",
+      "url": "https://newsonair.gov.in/maharashtra-cabinet-approves-mahaagri-ai-2025-29-to-transform-agri-sector",
+      "publisher": "Akashvani News",
+      "title": "Maharashtra: Cabinet approves MahaAgri-AI 2025-29 to transform agri sector",
+      "published_date": "2025-06-17",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "The Maharashtra Cabinet has approved MahaAgri-AI 2025-29",
+      "evidence_summary": "Contemporaneous 17 June cabinet report confirms approval of MahaAgri-AI 2025-29 and AI, generative AI and related agricultural technologies.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s08",
+      "url": "https://krishi.maharashtra.gov.in/Site/Upload/Pdf/MahaAgri%20AI%20Policy%202025%20-%202029%20English.pdf",
+      "publisher": "Agriculture Department, Government of Maharashtra",
+      "title": "MahaAgri-AI Policy 2025–2029",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "An initial allocation of ₹500 crore is proposed",
+      "evidence_summary": "Official policy sets institutional governance, shared agricultural data infrastructure, pilots and scaling; executive summary states an initial ₹500 crore allocation is proposed. Not evidence of expenditure or completed systems.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s09",
+      "url": "https://newsonair.gov.in/maharashtra-announces-ai-policy-2026-to-boost-industry-governance-and-public-services",
+      "publisher": "Akashvani News",
+      "title": "Maharashtra announces AI Policy 2026 to boost industry, governance and public services",
+      "published_date": "2026-04-30",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "at a meeting chaired by Chief Minister Devendra Fadnavis yesterday",
+      "evidence_summary": "Article dated 30 April 2026 says cabinet declared policy yesterday, establishing 29 April event date. Policy goals include investment, jobs, skilling and a venture fund; all are targets.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s10",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ffedf5be3a86e2ee281d54cdc97bc1cf/uploads/2026/07/202607071486006862.pdf",
+      "publisher": "Electronics, Information Technology and Artificial Intelligence Department, Government of Maharashtra",
+      "title": "Maharashtra Artificial Intelligence Policy 2026, GR POLICY-2026/C.R.64/IT",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "06 मे, 2026",
+      "evidence_summary": "Official Marathi PDF header dates Government Resolution 06 May 2026. It adopts statewide AI policy including infrastructure, skills, startup support and responsible use. Document date takes precedence over inconsistent index metadata.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved",
+      "date_conflict": "Official policies index labels this item 16/05/2026; PDF header reads 06 May 2026."
+    },
+    {
+      "id": "west-s11",
+      "url": "https://it.maharashtra.gov.in/document-category/policies-guidelines",
+      "publisher": "Government of Maharashtra",
+      "title": "Policies & Guidelines",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Maharashtra AI Policy-2026",
+      "evidence_summary": "Official listing links the AI Policy PDF but assigns 16/05/2026, conflicting with PDF header 06 May 2026. Used to preserve discrepancy and provenance, not as the event date.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s12",
+      "url": "https://government.economictimes.indiatimes.com/news/technology/maharashtra-clears-11-26-cr-sarvam-ai-deployment-for-govt-departments/133022514",
+      "publisher": "ETGovernment / Press Trust of India",
+      "title": "Maharashtra clears ₹11.26 cr Sarvam AI deployment for govt departments",
+      "published_date": "2026-08-07",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "a two-year outlay of ₹11.26 crore",
+      "evidence_summary": "PTI reporting of Government Resolution approval describes ₹11.26 crore two-year package, Indus for roughly 2,500 users, other speech/voice services and a TB outreach pilot. Exact GR approval date is not shown; approved deployment is not verified rollout.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s13",
+      "url": "https://www.sarvam.ai/partnerships/maharashtra-government",
+      "publisher": "Sarvam AI",
+      "title": "Sarvam partners with the Government of Maharashtra to deploy Indus across state departments",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Around 2,500 officials across the state will use Indus",
+      "evidence_summary": "Counterparty confirms state has approved Indus deployment for around 2,500 officials and multilingual document work. Undated marketing page uses future-tense adoption; cannot establish adoption counts or service effectiveness.",
+      "source_type": "primary_partner",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s14",
+      "url": "https://in.newsroom.ibm.com/2024-01-12-IBM-collaborates-with-CTE-Gujarat-to-propel-skilling",
+      "publisher": "IBM India",
+      "title": "IBM collaborates with CTE Gujarat to propel skilling in AI and emerging technologies",
+      "published_date": "2024-01-11",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "India, Bengaluru, January 12, 2024",
+      "evidence_summary": "Page displays Jan 11 but release dateline explicitly says January 12, 2024 and today entered into MoU. Partnership uses SkillsBuild for generative AI, cloud and technical education. Global IBM targets are not Gujarat delivery numbers.",
+      "source_type": "primary_partner",
+      "retrieval_status": "retrieved",
+      "date_conflict": "Displayed publication Jan 11; release dateline and URL Jan 12; signing uses dateline with explicit caveat."
+    },
+    {
+      "id": "west-s15",
+      "url": "https://in.newsroom.ibm.com/2024-06-29-IBM-and-GovtGujarat-sign-MoU-to-establish-AI-Cluster-in-GIFT-city",
+      "publisher": "IBM India",
+      "title": "IBM and Government of Gujarat sign MoU to establish AI Cluster in GIFT City",
+      "published_date": "2024-06-29",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "today entered a Memorandum of Understanding (MoU)",
+      "evidence_summary": "Dated partner release confirms signing with DST for a watsonx-based AI cluster serving financial institutions; sandbox, proof-of-concept support and training are planned.",
+      "source_type": "primary_partner",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s16",
+      "url": "https://www.hindustantimes.com/business/gujarat-government-signs-mous-with-ibm-microsoft-and-nasscom-for-ai-development-101719668535679.html",
+      "publisher": "Hindustan Times / Press Trust of India",
+      "title": "Gujarat government signs MoUs with IBM, Microsoft, and NASSCOM for AI development",
+      "published_date": "2024-06-29",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Microsoft and the Department of Science and Technology signed an MoU",
+      "evidence_summary": "Reports Saturday signing of distinct MoUs with IBM, Microsoft and NASSCOM. IBM cluster and Microsoft CoE are different commitments and not duplicates; NASSCOM capability support recorded within CoE ecosystem rather than split into another row.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s17",
+      "url": "https://dst.gujarat.gov.in/ViewFile?fileName=wKb4HJPjE81gwZNiRxKFzIylsKQNavbyz93vz9J0eK5gvHHquv%E2%9C%A4kljkBK5CG9Rf63stfl%E2%9C%A4yJ%E2%9C%BFgCJHuAsP%E2%9C%A4eZA6RdjBgRllUF2UgDrgTUufU0O9RolqlgY5AVQYYXUY9%E2%9C%BFKqP%E2%9C%A4z8Mj10RBFheMVWBx4Q%E2%99%AC%E2%99%AC",
+      "publisher": "Department of Science and Technology, Government of Gujarat",
+      "title": "Setting up of AI Taskforce; GR DST/DGT/e-file/24/2024/1406/E-Governance",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "resolved to constitute AI Taskforce",
+      "evidence_summary": "Original resolution constitutes ten-member taskforce with AI roadmap, use case prioritization, ethics, infrastructure and capacity responsibilities for one year. Internal file approval is dated 9 December; subsequent official circular identifies resolution date as 10 December 2024.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s18",
+      "url": "https://dst.gujarat.gov.in/ViewFile?fileName=Q8ocqLTAr%E2%9C%A45WdhWot0m04IIwesjPh4Ilbog8JmkFTsyvMQATsakqMy6b9jpmjPQsH7I3SHg0DB0hiGCcGqsTdSxD%E2%9C%A4ANBxzx7E1YNlnB%E2%9C%A4MQjJ5KjfYpdgCPJK2vfeikumeOxdaSd3raLlY9JbKeGoAg%E2%99%AC%E2%99%AC",
+      "publisher": "Department of Science and Technology, Government of Gujarat",
+      "title": "Establishment of AI Implementation Cell; circular DST/AIE/e-file/24/2026/0291/E-Governance",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Approved Date: 10-03-2026",
+      "evidence_summary": "Approved-date footer 10 March 2026; establishes AI Implementation Cell headed by GIL MD. Read clauses identify taskforce resolution 10 December 2024, extension 31 December 2025, and action-plan resolution 24 July 2025. Strong official retrospective date evidence.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s19",
+      "url": "https://money.rediff.com/news/market/gujarat-ai-centre-of-excellence-launched-at-gift-city-microsoft-partnership/21441520250127",
+      "publisher": "Rediff Money / Press Trust of India",
+      "title": "Gujarat AI Centre of Excellence Launched at GIFT City - Microsoft Partnership",
+      "published_date": "2025-01-27",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Chief Minister Bhupendra Patel inaugurated an Artificial Intelligence Centre of Excellence",
+      "evidence_summary": "PTI Ahmedabad dateline January 27 reports CM inauguration and Innovation Challenge launch. Explicitly links the centre to June 2024 Microsoft MoU; inauguration does not demonstrate scaled public-service impact.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s20",
+      "url": "https://dst.gujarat.gov.in/ViewFile?fileName=0ryyfossIfrnK3nTSB6DigDNC8sV7UEe%E2%9C%A4Bs244MkMaQXivO2UR0ZGWpek1G3wLvJ%E2%9C%BFtcvcaPnnJPErYpE6nxryem1F%E2%9C%A4wwdcshGvAXdLdMfxp%E2%9C%A49jF0K4K2fGW%E2%9C%A4k4Fa%E2%9C%A4kswYrHNG%E2%9C%A4%E2%9C%BFruhnIdXzXDdGDfg%E2%99%AC%E2%99%AC",
+      "publisher": "Department of Science and Technology, Government of Gujarat",
+      "title": "Launch and operational modalities of AI Innovation Challenge; circular DST/AIE/e-file/24/2025/1433/E-Governance",
+      "published_date": null,
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Approved Date: 13-02-2026",
+      "evidence_summary": "13 February 2026 approved-date footer and e-sign. Retrospectively confirms CoE launch 27 January 2025. Sets KPIs, PoC evaluation, indicative funding up to ₹7.5/10 lakh and production support up to ₹50 lakh/₹1 crore; disbursement and acceptance rules. Annexure internally dated July 19 2025, distinct from circular approval.",
+      "source_type": "primary_government",
+      "retrieval_status": "retrieved"
+    },
+    {
+      "id": "west-s21",
+      "url": "https://www.thehindu.com/news/national/gujarat/gujarat-approves-action-plan-for-artificial-intelligence-implementation-in-governance/article69861853.ece",
+      "publisher": "The Hindu",
+      "title": "Gujarat approves action plan for Artificial Intelligence implementation in governance",
+      "published_date": "2025-07-28",
+      "accessed_date": "2026-11-10",
+      "evidence_excerpt": "Published - July 28, 2025 03:10 am IST",
+      "evidence_summary": "Reports six-pillar 2025–2030 action plan, training target of 2.5 lakh and phased implementation. Local published date July 28 03:10 IST differs from index UTC July 27; neither is the official July 24 resolution date.",
+      "source_type": "news",
+      "retrieval_status": "retrieved"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://regulations.ai/regulations/RAI-IN-MA-MAHMA20-2025",
+      "title": "MahaAgri-AI timeline aggregator",
+      "reason": "Search lead gives precise future rollout milestones not verified in primary documents. Do not convert scheduled dates into completed deployments.",
+      "screening": "search_result_only"
+    },
+    {
+      "url": "https://events.eletsonline.com/maharastra-ai-summit",
+      "title": "Maharashtra AI Summit 2026",
+      "reason": "Event promotional page is insufficient evidence of a concrete new policy action or completed implementation.",
+      "screening": "search_result_only"
+    },
+    {
+      "url": "https://in.newsroom.ibm.com/2024-01-12-IBM-collaborates-with-CTE-Gujarat-to-propel-skilling",
+      "title": "IBM global skills target",
+      "reason": "IBM global targets are not Gujarat training outcomes; excluded from state metrics.",
+      "screening": "retrieved"
+    },
+    {
+      "url": "https://cmogujarat.gov.in/en/news-clip/gujarat-ai-action-plan-2025-30-approved",
+      "title": "Gujarat CMO action plan clipping",
+      "reason": "Fetched HTML exposed title and an image, not readable clipping or exact event date; underlying official circular used instead.",
+      "screening": "retrieved_title_only"
+    },
+    {
+      "url": "https://krishi.maharashtra.gov.in/LandingPage.aspx",
+      "title": "MahaAgri AI call for proposals",
+      "reason": "Official page confirms an open call but lacks a publication or launch date; retained as discovery path to policy, not a dated standalone event.",
+      "screening": "retrieved"
+    },
+    {
+      "url": "https://blog.google/intl/en-in/company-news/technology/applying-ai-to-big-problemssix-research",
+      "title": "Google supported AI research",
+      "reason": "Search results do not establish in-window state-government action; private or research activity alone fails inclusion test.",
+      "screening": "search_result_only"
+    }
+  ],
+  "queries": [
+    {
+      "id": "west-q01",
+      "query": "Maharashtra artificial intelligence policy government 2024 2025 2026",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q02",
+      "query": "Gujarat government artificial intelligence action plan 2025 2026",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q03",
+      "query": "Maharashtra government Google artificial intelligence memorandum February 2024",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q04",
+      "query": "Maharashtra MahaAgri AI policy cabinet approved April 2025 500 crore",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q05",
+      "query": "Gujarat IBM Microsoft AI centre excellence memorandum 2024 2025 government",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q06",
+      "query": "Maharashtra government Microsoft AI centres excellence January 2025",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q07",
+      "query": "Gujarat AI centre excellence inaugurated January 27 2025 government GIFT",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q08",
+      "query": "Gujarat AI action plan approved July 2025 29",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q09",
+      "query": "Maharashtra MahaAgri AI policy approved June 17 2025 cabinet",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q10",
+      "query": "Maharashtra MARVEL AI company established March 2024 government",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q11",
+      "query": "site:gujarat.gov.in AI 2026 February",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q12",
+      "query": "Maharashtra government AI 2026 policy deployment Vistaar Sarvam",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q13",
+      "query": "site:blog.google Maharashtra 2024",
+      "provider": "Tavily",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q14",
+      "query": "Gujarat Department Science Technology Action Plan AI 24 July 2025 DST DGT 0581 Government Resolution AI Taskforce December 10 2024",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q15",
+      "query": "Maharashtra Microsoft signed MoU April 1 2025 three centres excellence Nagpur Pune Mumbai",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    },
+    {
+      "id": "west-q16",
+      "query": "Sarvam Maharashtra Indus Government Resolution August 2026 11.26 crore date",
+      "provider": "Exa",
+      "searched_date": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "Seven Maharashtra and eight Gujarat events. Selected for traceable government action, not news volume. All substantive inclusion sources were retrieved, with concise evidence summaries rather than copyrighted full-text redistribution.",
+    "Raw search strings may contain a hypothesis date; final records use retrieved evidence. Search hints were not silently promoted to facts.",
+    "Each row is a distinct governmental milestone. Maharashtra AI policy cabinet approval and subsequent resolution share an initiative but remain distinct milestones; Gujarat CoE signing and inauguration likewise.",
+    "IBM and Microsoft agreements signed at the same Gujarat ceremony are distinct counterpart commitments. News articles repeated across publishers are attached to their event instead of duplicated as rows.",
+    "Public broadcasters and IndiaAI-style reports are treated as news, not the state issuing authority. Partner releases establish first-party claims, not independent outcome evaluations.",
+    "Dates use local displayed India time where available. The Hindu 28 July 03:10 IST is 27 July UTC, explaining a search index discrepancy.",
+    "Maharashtra policy date conflict: official index 16 May 2026 versus PDF header 06 May 2026. Document date wins but confidence reduced.",
+    "IBM CTE date conflict: publication display 11 January 2024 versus release dateline 12 January. Explicit dateline retained with medium confidence.",
+    "Sarvam approval date is unknown; publication date 7 August 2026 is not substituted. MARVEL establishment month is preserved as 2024-03, not invented as the first of the month.",
+    "Gujarat's 2026 implementation-cell circular gives traceable references for original action plan and taskforce dates. Direct original taskforce document also inspected.",
+    "No independent impact or benefit claims are asserted. Budget targets, proposed allocations, commitment ceilings and contract outlays are never aggregated into total spending.",
+    "Tavily briefly returned 429; connector Tavily required reauthentication, while direct Tavily worked. Exa retrieval provided fallback. Firecrawl failed due to zero available credits; no Firecrawl evidence was fabricated.",
+    "Firecrawl tool requested disclosure: For more credits, you can upgrade your plan at https://firecrawl.dev/pricing or try changing the request limit to a lower value.",
+    "Coverage is a purposeful verified sample, not an exhaustive census. Recent-event searches included 2026; latest included western-state announcement is reported August 2026. Absence of later rows is not absence of later activity."
+  ]
+}
