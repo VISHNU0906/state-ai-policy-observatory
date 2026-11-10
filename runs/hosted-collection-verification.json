@@ -1,0 +1,229 @@
+{
+  "run_url": "https://github.com/VISHNU0906/state-ai-policy-observatory/actions/runs/42844796557",
+  "observations": 357,
+  "unique_urls": 320,
+  "provider_runs": [
+    {
+      "provider": "google-rss",
+      "state": "Andhra Pradesh",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Assam",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Gujarat",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Karnataka",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Kerala",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Madhya Pradesh",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Maharashtra",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Odisha",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Rajasthan",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Tamil Nadu",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Telangana",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "google-rss",
+      "state": "Uttar Pradesh",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "gdelt",
+      "state": "Andhra Pradesh",
+      "status": "failed",
+      "error": "HTTP 429"
+    },
+    {
+      "provider": "tavily",
+      "state": "Andhra Pradesh",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Assam",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Gujarat",
+      "status": "ok",
+      "count": 9
+    },
+    {
+      "provider": "tavily",
+      "state": "Karnataka",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Kerala",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Madhya Pradesh",
+      "status": "ok",
+      "count": 9
+    },
+    {
+      "provider": "tavily",
+      "state": "Maharashtra",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Odisha",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Rajasthan",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Tamil Nadu",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Telangana",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "tavily",
+      "state": "Uttar Pradesh",
+      "status": "ok",
+      "count": 9
+    },
+    {
+      "provider": "exa",
+      "state": "Andhra Pradesh",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Assam",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Gujarat",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Karnataka",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Kerala",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Madhya Pradesh",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Maharashtra",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Odisha",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Rajasthan",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Tamil Nadu",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Telangana",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "provider": "exa",
+      "state": "Uttar Pradesh",
+      "status": "ok",
+      "count": 10
+    }
+  ]
+}

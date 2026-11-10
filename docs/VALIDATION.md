@@ -36,3 +36,9 @@ Firecrawl's connected account reported exhausted credits. Tavily extraction enco
 ## Verification boundary
 
 The research audit independently re-fetched eight difficult evidence pages in addition to initial retrieval. It did not independently re-fetch every source. Browser interaction results and deployment verification are recorded in the release checklist. Scheduled collection is best-effort; a successful first run does not guarantee future delivery. Candidate artifacts expire after 30 days unless downloaded or otherwise archived.
+
+## First hosted multi-provider run
+
+The [10 November hosted run](https://github.com/VISHNU0906/state-ai-policy-observatory/actions/runs/42844796557) completed on GitHub without the laptop running the job. Google News RSS, Tavily and Exa each completed 12 state queries. GDELT returned HTTP 429 on its first state after bounded retries; the adapter stopped that provider and the others continued. The run saved 357 provider observations and 320 unique URL candidates. They were not automatically accepted or counted as additional policy events. This verifies the live Tavily and Exa adapters, as well as the free baseline's failure isolation. NewsAPI, GNews and Crustdata still lack live account tests.
+
+The current dashboard was checked in a browser for search, source expansion, unknown-date filtering, reset and empty-state behaviour. Filtered CSV download produced four rows, all with empty event dates, matching the four unknown-date records. Consecutive unchanged builds produced identical hashes for the event CSV, full JSON and browser data payload. All nine regression tests passed locally and in the first hosted build.

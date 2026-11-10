@@ -2,7 +2,7 @@
 
 85 reviewed AI-related government milestones across 12 Indian states, supported by 113 source documents. Window: 1 January 2024 to 10 November 2026. This is a selected research sample, not a national census or state ranking.
 
-[Public repository](https://github.com/VISHNU0906/state-ai-policy-observatory). The verified live dashboard link is recorded in `docs/RELEASE.md` after deployment.
+[Live dashboard](https://vishnu0906.github.io/state-ai-policy-observatory/) · [Public repository](https://github.com/VISHNU0906/state-ai-policy-observatory) · [Release verification](docs/RELEASE.md)
 
 ## Deliverables
 

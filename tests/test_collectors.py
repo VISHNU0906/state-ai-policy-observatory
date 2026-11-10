@@ -1,8 +1,16 @@
 import unittest
+import tempfile
+from pathlib import Path
 from unittest.mock import patch
 import collectors
 
 class AdapterContractTests(unittest.TestCase):
+    def test_monthly_attempt_budget_stops_before_request(self):
+        with tempfile.TemporaryDirectory() as directory,patch('collectors.ROOT',Path(directory)),patch.dict('os.environ',{'TAVILY_MONTHLY_REQUEST_CAP':'2'}):
+            collectors.reserve_attempt('https://api.tavily.com/search')
+            collectors.reserve_attempt('https://api.tavily.com/search')
+            with self.assertRaisesRegex(RuntimeError,'request_cap'):
+                collectors.reserve_attempt('https://api.tavily.com/search')
     def test_exa_date_is_not_event_date_and_author_not_publisher(self):
         fixture={'results':[{'title':'Policy','url':'https://example.org/p','publishedDate':'2026-11-01','author':'Reporter'}]}
         with patch.dict('os.environ',{'EXA_API_KEY':'test-only'}),patch('collectors.api',return_value=fixture):

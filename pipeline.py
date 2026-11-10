@@ -102,6 +102,8 @@ def build():
         e.update({'date':e['event_date'],'source_name':primary['publisher'],'source_url':primary['url'],'source_count':len(e['source_ids']),'has_primary_source':any(sources[sid]['source_type'].startswith('primary_') for sid in e['source_ids'])})
         normalized.append(e)
     groups=deduplicate(candidates)
+    missing=set(STATES)-{e['state'] for e in normalized}
+    if missing:raise ValueError('Selected states missing from reviewed corpus: '+', '.join(sorted(missing)))
     normalized.sort(key=lambda e:(e['event_date'] or '',e['id']),reverse=True)
     audit=[{'event_id':k,'candidate_count':len(v),'source_ids':[c['source_id'] for c in v],'decision':'merge source observations, retain one milestone'} for k,v in sorted(groups.items())]
     payload={'meta':{'title':'State AI Policy Observatory','window_start':START,'research_cutoff':CUTOFF,'states':STATES,'events':len(normalized),'sources':len(sources),'source_observations':len(candidates),'additional_source_links':len(candidates)-len(groups),'with_primary_source':sum(e['has_primary_source'] for e in normalized),'categories':dict(Counter(e['category'] for e in normalized)),'stages':dict(Counter(e['stage'] for e in normalized)),'coverage_note':'Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance.'},'events':normalized,'sources':list(sources.values()),'notes':notes}

@@ -118,6 +118,14 @@ def run(args):
     now=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
     result={'run_id':now,'window':{'from':str(start),'to':str(end),'boundary_note':'Provider endpoints differ on inclusive boundaries; overlapping runs and URL dedup handle repeats.'},'query_cap_per_provider':args.max_calls,'max_attempts_per_query':3,'automatic_paid_fallback':False,'candidates':list(groups.values()),'provider_runs':runs,'observations':len(all_rows),'unique_urls':len(groups),'note':'URL dedup only. Cross-provider article identity and event identity require review. No coverage or accuracy estimate is implied. Query caps do not override provider-side billing; disable automatic top-ups in the account.'}
     path=ROOT/args.output_dir/f'multiprovider-{now}.json';dump(path,result)
+    if os.environ.get('GITHUB_STEP_SUMMARY'):
+        from collections import Counter
+        counts=Counter((r['provider'],r['status']) for r in runs)
+        lines=['## Collection result',f'{len(all_rows)} provider observations; {len(groups)} unique URL candidates. All remain pending.','', '| Provider | Query status | Count |','|---|---|---:|']
+        lines.extend(f'| {provider} | {status} | {count} |' for (provider,status),count in sorted(counts.items()))
+        failures=[r for r in runs if r['status']=='failed']
+        if failures:lines+=['','Degraded collection: one or more provider queries failed. Inspect the saved run artifact.']
+        with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:out.write('\n'.join(lines)+'\n')
     print(json.dumps({'path':str(path),'observations':len(all_rows),'unique_urls':len(groups),'failed_queries':sum(r['status']=='failed' for r in runs),'skipped_providers':[r['provider'] for r in runs if r['status']=='skipped_missing_key']}))
     if not any(r['status']=='ok' for r in runs):raise SystemExit('No provider completed a query; inspect saved run log')
 
