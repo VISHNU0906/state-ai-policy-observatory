@@ -2782,10 +2782,10 @@
       "git_blob": "ffa7f5655521b827eec9a7ba29f6432f02d1e4ce"
     },
     {
-      "sha256": "8c10feb56d4caf64751d140b2c3796c8284622f6baa2c4d7ce9dd45fc6855e4c",
+      "sha256": "773056bcbcab376a1975cf925a0b630df2f05c2371a33ff8c4620dff2cb026db",
       "bytes": 65536,
-      "path": "block-8c10feb56d4caf64751d140b2c3796c8284622f6baa2c4d7ce9dd45fc6855e4c.gz",
-      "git_blob": "215c490781dbd94304d7d1d530b15ab3376b7386"
+      "path": "block-773056bcbcab376a1975cf925a0b630df2f05c2371a33ff8c4620dff2cb026db.gz",
+      "git_blob": "984892257659bab564645f06204a2894516a12f3"
     },
     {
       "sha256": "4802787ebdab33166004f9104ae192a802ba41e7cb211140ff0c8cb360fdd2cb",
@@ -2806,10 +2806,10 @@
       "git_blob": "0b68309f629d9b649516dc41ce1ec0a89647d788"
     }
   ],
-  "new_compressed_block_bytes": 706805,
-  "reused_blocks": 437,
-  "created_at": "2026-11-10T17:01:13.553564+00:00",
-  "database_sha256": "f57a97d11940b87f04d8478e766936e4d45263ab9e097217e26fa14d152e070a",
+  "new_compressed_block_bytes": 12848,
+  "reused_blocks": 466,
+  "created_at": "2026-11-10T17:02:06.570492+00:00",
+  "database_sha256": "52d6f8a6fa33cd5bdb8108f668d7ff818b8ab79eb0a33e1043173755464a5fd9",
   "audit": {
     "schema_version": 2,
     "counts": {
@@ -2837,7 +2837,7 @@
     "pending_documents": 2136,
     "approved_events": 85,
     "latest_external_proposals": 543,
-    "unfinished_queries": 36
+    "unfinished_queries": 35
   },
   "source_commit": "a0aab56c67b6d43815664050c38271b40f709945",
   "boundary": "Includes unverified discovery metadata and external proposals. Only approved events are publication-ready. No full publisher article bodies or credentials."
