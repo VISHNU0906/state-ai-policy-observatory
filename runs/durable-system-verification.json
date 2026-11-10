@@ -1,0 +1,138 @@
+{
+  "workflow_run": "https://github.com/VISHNU0906/state-ai-policy-observatory/actions/runs/42860077094",
+  "workflow_conclusion": "success",
+  "interrupted_run": "https://github.com/VISHNU0906/state-ai-policy-observatory/actions/runs/42858624366",
+  "interruption_reason": "Deliberate cancellation to replace whole-file snapshots with content-addressed blocks",
+  "recovered_observations_before_resume": 188,
+  "retained_attempt_reservations_before_resume": 8,
+  "unfinished_queries_before_resume": 17,
+  "restored_history_commit": "a6703020baf18f6796f4bab16dbd16fe466fcbcb",
+  "audit": {
+    "schema_version": 2,
+    "counts": {
+      "imports": 6,
+      "runs": 5,
+      "queries": 137,
+      "documents": 2136,
+      "document_links": 522,
+      "observations": 3751,
+      "sources": 113,
+      "events": 85,
+      "event_sources": 137,
+      "proposals": 1093,
+      "proposal_documents": 2662,
+      "external_rejections": 16784,
+      "review_actions": 0,
+      "retrievals": 3,
+      "matches": 2570,
+      "provider_attempts": 73
+    },
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_failures": [],
+    "semantic_failures": [],
+    "pending_documents": 2136,
+    "approved_events": 85,
+    "latest_external_proposals": 543,
+    "unfinished_queries": 0
+  },
+  "runs": [
+    {
+      "id": "a69a6f74-99c2-4375-a50d-a25914013510",
+      "started_at": "2026-11-10T16:30:49.782041+00:00",
+      "finished_at": "2026-11-10T16:30:50.686546+00:00",
+      "status": "complete",
+      "providers": [
+        {
+          "provider": "google-rss",
+          "status": "ok",
+          "queries": 2,
+          "capped": 2
+        }
+      ],
+      "observations": 10,
+      "distinct_document_urls": 10
+    },
+    {
+      "id": "80397097-f055-4545-ab1d-c3f8fdbc88e4",
+      "started_at": "2026-11-10T16:50:24.783803+00:00",
+      "finished_at": "2026-11-10T17:00:33.165000+00:00",
+      "status": "partial",
+      "providers": [
+        {
+          "provider": "exa",
+          "status": "ok",
+          "queries": 12,
+          "capped": 12
+        },
+        {
+          "provider": "gdelt",
+          "status": "failed",
+          "queries": 1,
+          "capped": 0
+        },
+        {
+          "provider": "gdelt",
+          "status": "skipped_provider_stopped",
+          "queries": 11,
+          "capped": 0
+        },
+        {
+          "provider": "google-rss",
+          "status": "ok",
+          "queries": 12,
+          "capped": 12
+        },
+        {
+          "provider": "tavily",
+          "status": "ok",
+          "queries": 12,
+          "capped": 10
+        }
+      ],
+      "observations": 358,
+      "distinct_document_urls": 328
+    },
+    {
+      "id": "752d6a81-4228-41ef-9d78-45b4945a947b",
+      "started_at": "2026-11-10T17:00:35.698294+00:00",
+      "finished_at": "2026-11-10T17:04:40.180260+00:00",
+      "status": "partial",
+      "providers": [
+        {
+          "provider": "exa",
+          "status": "ok",
+          "queries": 12,
+          "capped": 12
+        },
+        {
+          "provider": "gdelt",
+          "status": "failed",
+          "queries": 1,
+          "capped": 0
+        },
+        {
+          "provider": "gdelt",
+          "status": "skipped_provider_stopped",
+          "queries": 11,
+          "capped": 0
+        },
+        {
+          "provider": "google-rss",
+          "status": "ok",
+          "queries": 12,
+          "capped": 12
+        },
+        {
+          "provider": "tavily",
+          "status": "ok",
+          "queries": 12,
+          "capped": 10
+        }
+      ],
+      "observations": 358,
+      "distinct_document_urls": 328
+    }
+  ]
+}

@@ -120,8 +120,21 @@ class LedgerTests(unittest.TestCase):
         event=json.loads(self.store.db.execute('SELECT payload FROM events LIMIT 1').fetchone()[0])
         event.update(id='test-new',source_ids=['missing-source'])
         before=self.store.counts()
-        with self.assertRaises(sqlite3.IntegrityError):self.store.approve_event(event,'tester','Synthetic failure',0)
+        with self.assertRaises(ValueError):self.store.approve_event(event,'tester','Synthetic failure',0)
         self.assertEqual(before,self.store.counts())
+
+    def test_approval_derives_attribution_and_export_refuses_semantic_drift(self):
+        self.store.seed(ROOT/'data/events.json')
+        event=json.loads(self.store.db.execute('SELECT payload FROM events LIMIT 1').fetchone()[0])
+        event.update(id='test-new',source_name='wrong',source_count=999,stage='reversed')
+        self.store.approve_event(event,'test reviewer','Synthetic reversal record')
+        self.assertEqual(self.store.audit()['semantic_failures'],[])
+        exported=Path(self.store.export(self.root/'exports'))
+        event['source_count']=999
+        self.store.db.execute('UPDATE events SET payload=? WHERE id=?',(json.dumps(event),'test-new'))
+        self.assertTrue(self.store.audit()['semantic_failures'])
+        with self.assertRaisesRegex(ValueError,'validation failed'):self.store.export(self.root/'exports')
+        self.assertEqual((self.root/'exports/CURRENT').read_text().strip(),exported.name)
 
 
 if __name__=='__main__':unittest.main()

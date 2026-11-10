@@ -2,6 +2,18 @@
 
 Research cutoff: 10 November 2026. Public release verified on the same date.
 
+## Persistent data system release
+
+The [durable hosted verification](https://github.com/VISHNU0906/state-ai-policy-observatory/actions/runs/42860077094) succeeded after restoring and resuming an intentionally interrupted run. The first attempt was cancelled to replace repeated 12 MB whole-file snapshots with 64 KiB content-addressed blocks. Before interruption, 188 new observations and eight request reservations were already durable; 17 queries remained unfinished. The replacement workflow resumed those queries, then completed a fresh window. The recovered database passed integrity, foreign-key and semantic checks locally.
+
+Both complete collection passes retained 358 provider observations across 328 distinct document URLs. In each pass, RSS, Tavily and Exa completed 12 state queries each. GDELT returned HTTP 429 and the remaining 11 planned states were explicitly marked skipped. Each pass is therefore marked partial in the ledger even though the workflow succeeded. Thirty-four of 36 successful queries reached their requested limit. These runs establish recovery and retention, not exhaustive coverage. `runs/durable-system-verification.json` records the underlying run IDs and per-provider outcomes.
+
+The restored ledger contains 2,136 document URLs and 3,751 retained observations. The latest companion-tracker snapshot has 543 unverified proposals across 13 states. There are 1,093 proposal versions across two imported snapshots; those are not 1,093 distinct events. The publication corpus remains 85 reviewed events across 12 states, with 113 sources and 137 evidence associations. No new discovery was silently approved.
+
+The local suite now has 40 passing Python tests plus a JavaScript sorting check. The hosted recovery run used its then-current 39 Python tests. Checks cover transaction rollback, replay, conflict preservation, stale review revisions, reversible merges, archive corruption, interrupted collection, request reservations, block reuse, tracker versions, source-attribution consistency and stable date ordering. The new semantic export check refuses inconsistent event/source fields while retaining the previous valid export pointer. The updated architecture PDF was rendered and visually inspected.
+
+The active workflow uses the approved public [data-history branch](https://github.com/VISHNU0906/state-ai-policy-observatory/tree/data-history), rather than expiring artifacts or Actions cache, for history and request reservations. It runs daily at 07:47 IST with a 30-minute timeout. Candidate data is public, clearly unverified, and excludes credentials and full extracted article text. Collection failure does not replace the reviewed dashboard. The local source bundle contains the complete main-branch development history; candidate history remains separately available from GitHub and the bundled database checkpoint.
+
 - [Live dashboard](https://vishnu0906.github.io/state-ai-policy-observatory/)
 - [Public repository and commit history](https://github.com/VISHNU0906/state-ai-policy-observatory)
 - [First successful Pages publication](https://github.com/VISHNU0906/state-ai-policy-observatory/actions/runs/42844745699)
@@ -27,7 +39,7 @@ The 137 associations are not 137 independent articles. Some documents support mu
 
 The first run completed 12 state queries each for RSS, Tavily and Exa. GDELT returned HTTP 429 and stopped after bounded retries; other providers continued. Output: 357 provider observations and 320 unique URL candidates, all pending review. The run verifies redundancy, not relevance or completeness of those candidates. A compact result is in `runs/hosted-collection-verification.json`.
 
-The scheduled workflow runs at 07:47 IST daily on a GitHub-hosted runner. Tavily and Exa secrets were installed with explicit approval. No paid subscription or automatic top-up was activated. Request caps do not control other usage or provider-side billing. Candidate artifacts expire after 30 days. Keep a separate archive for long-term monitoring.
+The original workflow ran at 07:47 IST daily on a GitHub-hosted runner. Tavily and Exa secrets were installed with explicit approval. No paid subscription or automatic top-up was activated. Request caps do not control other usage or provider-side billing. Its candidate artifacts expire after 30 days. The persistent release described above replaces cache-dependent history with the data-history branch.
 
 ## Local submission
 

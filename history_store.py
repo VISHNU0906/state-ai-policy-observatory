@@ -81,7 +81,7 @@ def persist(path,initialize=False):
         raise RuntimeError('Remote history advanced or local baseline is absent. Restore to a fresh database and reconcile local imports; refusing to overwrite newer state.')
     with Ledger(path) as ledger:
         audit=ledger.audit()
-        if audit['integrity_check']!=['ok'] or audit['foreign_key_failures']:raise ValueError('Ledger validation failed')
+        if audit['integrity_check']!=['ok'] or audit['foreign_key_failures'] or audit['semantic_failures']:raise ValueError('Ledger validation failed')
         temporary=Path(path).parent/('archive-'+uuid.uuid4().hex+'.sqlite')
         ledger.backup(temporary)
     try:raw=temporary.read_bytes()

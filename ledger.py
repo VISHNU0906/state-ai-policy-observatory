@@ -310,12 +310,19 @@ class Ledger:
 
     def approve_event(self, event, reviewer, reason, expected_revision=0):
         self._validate_event(event)
+        event=dict(event)
         with self.transaction():
             row = self.db.execute('SELECT * FROM events WHERE id=?', (event['id'],)).fetchone()
             if (row['revision'] if row else 0) != expected_revision:
                 raise ValueError('Stale event revision')
             if row and row['review_status'] == 'superseded':
                 raise ValueError('Cannot approve a superseded event without explicit restoration')
+            if len(event['source_ids'])!=len(set(event['source_ids'])):raise ValueError('Repeated source within event')
+            source_rows=[self.db.execute('SELECT payload FROM sources WHERE id=?',(sid,)).fetchone() for sid in event['source_ids']]
+            if any(s is None for s in source_rows):raise ValueError('Unknown source reference')
+            evidence=[json.loads(s[0]) for s in source_rows]
+            event.update(date=event.get('event_date'),source_name=evidence[0]['publisher'],source_url=canonical_url(evidence[0]['url']),
+                         source_count=len(evidence),has_primary_source=any(s['source_type'].startswith('primary_') for s in evidence))
             self._action('event',event['id'],reviewer,reason,dict(row) if row else {},event)
             self.db.execute("INSERT INTO events(id,payload,review_status,revision) VALUES (?,?,'approved',?) "
                             "ON CONFLICT(id) DO UPDATE SET payload=excluded.payload,review_status='approved',revision=excluded.revision",
@@ -408,9 +415,22 @@ class Ledger:
         return {name:self.db.execute('SELECT count(*) FROM '+name).fetchone()[0] for name in tables}
 
     def audit(self):
+        semantic=[]
+        for row in self.db.execute("SELECT id,payload FROM events WHERE review_status='approved'"):
+            try:
+                event=json.loads(row['payload']);self._validate_event(event)
+                links={r[0] for r in self.db.execute('SELECT source_id FROM event_sources WHERE event_id=?',(row['id'],))}
+                if links!=set(event['source_ids']) or len(event['source_ids'])!=len(links):raise ValueError('Event/source association drift')
+                if event.get('source_count')!=len(links):raise ValueError('Source count drift')
+                first=self.db.execute('SELECT payload FROM sources WHERE id=?',(event['source_ids'][0],)).fetchone()
+                if first:
+                    source=json.loads(first[0])
+                    if event.get('source_name')!=source['publisher'] or event.get('source_url')!=canonical_url(source['url']):raise ValueError('Source attribution drift')
+            except (ValueError,KeyError,TypeError) as ex:semantic.append({'event_id':row['id'],'error':str(ex)})
         return {'schema_version':VERSION,'counts':self.counts(),
                 'integrity_check':[r[0] for r in self.db.execute('PRAGMA integrity_check')],
                 'foreign_key_failures':[list(r) for r in self.db.execute('PRAGMA foreign_key_check')],
+                'semantic_failures':semantic,
                 'pending_documents':self.db.execute("SELECT count(*) FROM documents WHERE review_status='pending'").fetchone()[0],
                 'approved_events':self.db.execute("SELECT count(*) FROM events WHERE review_status='approved'").fetchone()[0],
                 'latest_external_proposals':self.db.execute("SELECT count(*) FROM proposals WHERE import_digest=(SELECT digest FROM imports WHERE kind='external_tracker' ORDER BY imported_at DESC,digest DESC LIMIT 1)").fetchone()[0],
@@ -479,7 +499,13 @@ class Ledger:
                 cur = self.db.execute('SELECT * FROM '+table+' ORDER BY 1')
                 csv_write(generation/(table+'.csv'),[dict(r) for r in cur], [c[0] for c in cur.description])
             report = self.audit()
+            if report['semantic_failures'] or report['foreign_key_failures'] or report['integrity_check']!=['ok']:
+                raise ValueError('Export validation failed; previous CURRENT pointer preserved')
             (generation/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+            schema={}
+            for row in self.db.execute("SELECT name,sql FROM sqlite_master WHERE type='table' ORDER BY name"):
+                schema[row['name']]={'sql':row['sql'],'columns':[dict(c) for c in self.db.execute('PRAGMA table_info('+row['name']+')')]}
+            (generation/'schema.json').write_text(json.dumps(schema,indent=2),encoding='utf-8')
             observations=[]
             for row in self.db.execute('SELECT o.*,d.url,d.review_status FROM observations o JOIN documents d ON d.id=o.document_id ORDER BY o.observed_at,o.id'):
                 item=json.loads(row['payload']);publication=item.get('publication_candidate',{})

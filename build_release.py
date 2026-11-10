@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib, json, shutil, subprocess, zipfile
 ROOT=Path(__file__).resolve().parent
-DEST=ROOT.parent/'State_AI_Policy_Submission_2026-11-10'
+DEST=ROOT/'release'/'State_AI_Policy_Submission_2026-11-10'
 
 def run(*args):return subprocess.check_output(args,cwd=ROOT).decode().strip()
 
@@ -33,6 +33,8 @@ Public source and commit history: https://github.com/VISHNU0906/state-ai-policy-
 Start with reports/Research_Report.pdf and reports/Rationale.pdf.
 The main dataset is data/events.csv. Source evidence is data/sources.csv.
 Provider comparison and integration details are in reports/Collection_Architecture.pdf.
+The persistent ledger, candidate tables and recovery tools are in reports/Data_System_Checkpoint_2026-11-10.zip.
+Read docs/LEDGER_OPERATIONS.md and docs/RELEASE.md for the verified collection and review boundaries.
 Open offline-dashboard/index.html for a local copy of the dashboard.
 
 Extract state-ai-policy-source.zip to run the code. Python 3.11+ is sufficient:

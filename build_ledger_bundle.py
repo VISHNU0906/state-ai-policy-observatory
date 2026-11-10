@@ -21,7 +21,9 @@ def main():
            'README.md','requirements-extraction.txt','docs/LEDGER_OPERATIONS.md','docs/TRACKER_INTEGRATION_FINDINGS.md',
            'docs/DATA_SYSTEM_REVIEW.md','docs/COLLECTION_RELIABILITY.md','docs/DEDUP_EVALUATION.md',
            'evaluation/event_pairs.json','evaluation/source_titles.json','evaluation/title_matching_results.json','data/tracker_integration_audit.json',
-           'data/events.json','dist/app.js','proposals/durable-collection.yml']
+           'data/events.json','dist/app.js','proposals/durable-collection.yml',
+           '.github/workflows/collect.yml','.github/workflows/pages.yml','CONTEXT_AND_HANDOFF.md',
+           'docs/VALIDATION.md','docs/RELEASE.md','runs/durable-system-verification.json']
     names += [p.relative_to(ROOT).as_posix() for p in (ROOT/'tests').glob('test_*') if p.is_file()]
     for name in names:
         target=destination/'project'/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ROOT/name,target)

@@ -19,7 +19,7 @@ CUTOFF = '2026-11-10'
 START = '2024-01-01'
 STATES = ['Andhra Pradesh', 'Assam', 'Gujarat', 'Karnataka', 'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Odisha', 'Rajasthan', 'Tamil Nadu', 'Telangana', 'Uttar Pradesh']
 CATEGORIES = ['Policy & strategy', 'Institutions & capacity', 'Partnerships', 'Public-sector deployment', 'Funding', 'Responsible AI']
-STAGES = ['announced', 'approved', 'signed', 'launched', 'pilot', 'operational']
+STAGES = ['announced', 'approved', 'signed', 'launched', 'pilot', 'operational', 'reversed']
 UA = 'StateAIPolicyResearch/1.0 (+manual-reviewed academic research)'
 ALIASES = {'up':'Uttar Pradesh','uttarpradesh':'Uttar Pradesh','tn':'Tamil Nadu','tamilnadu':'Tamil Nadu','ts':'Telangana','tg':'Telangana','telangana':'Telangana','ka':'Karnataka','karnataka':'Karnataka','mh':'Maharashtra','maharashtra':'Maharashtra','gj':'Gujarat','gujarat':'Gujarat'}
 ALIASES.update({'ap':'Andhra Pradesh','andhrapradesh':'Andhra Pradesh','assam':'Assam','as':'Assam','kerala':'Kerala','kl':'Kerala','mp':'Madhya Pradesh','madhyapradesh':'Madhya Pradesh','odisha':'Odisha','orissa':'Odisha','od':'Odisha','rajasthan':'Rajasthan','rj':'Rajasthan'})

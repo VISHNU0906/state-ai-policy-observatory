@@ -1,6 +1,6 @@
 # Data system review and implementation requirements
 
-Status: design review, not implemented. Reviewed 10 November 2026 against `pipeline.py`, `collectors.py`, `extract_documents.py`, tests, sample runs and the scheduled workflow. Preserve the existing 85 reviewed events and 113 sources. The changes below concern durable collection and review, not automatic publication.
+Historical design review of the pre-ledger implementation, recorded on 10 November 2026. Several requirements below are now implemented in `ledger.py`, `collect_durable.py` and `history_store.py`; see `LEDGER_OPERATIONS.md` and `VALIDATION.md` for current behavior and tests. This document preserves the original requirements and includes work that remains open, such as atomic multi-event splitting. The 85 reviewed events and 113 sources are preserved. The changes concern durable collection and review, not automatic publication.
 
 ## Deficiencies to fix first
 

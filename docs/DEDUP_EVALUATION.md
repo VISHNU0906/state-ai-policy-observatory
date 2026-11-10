@@ -1,6 +1,6 @@
 # Duplicate-event evaluation protocol
 
-This checkpoint contains a completed, bounded diagnostic set: **12 same-event report pairs, 22 hard negative pairs and 8 unscored context cases** in `evaluation/event_pairs.json`. No matching-system metrics have been computed. The labels were manually assigned by the research agent using the reviewed production evidence ledger. They await independent human review; they are not an assertion of perfect web truth.
+This checkpoint contains a completed, bounded diagnostic set: **12 same-event report pairs, 22 hard negative pairs and 8 unscored context cases** in `evaluation/event_pairs.json`. A source-headline review-queue baseline is now measured in `evaluation/title_matching_results.json`: at threshold 0.45 it retrieves 3 of 12 positive pairs and suggests 6 distinct pairs. This is weak diagnostic performance, not a production event-matching claim. The labels were manually assigned by the research agent using the reviewed production evidence ledger. They await independent human review; they are not an assertion of perfect web truth. Frozen source titles prevent silent evaluation drift. Shared event IDs and canonical event summaries are not matching features.
 
 ## What is being compared
 
