@@ -8,3 +8,6 @@ release/
 *.bundle
 .sites/
 node_modules/
+.env
+.env.local
+*.log

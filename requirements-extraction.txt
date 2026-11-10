@@ -1,0 +1,3 @@
+# Optional. Offline build, dashboard and discovery use Python standard library only.
+trafilatura>=2.0,<3
+pypdf>=5,<7

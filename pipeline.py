@@ -95,14 +95,16 @@ def build():
             if sid not in sources: raise ValueError('Missing source: '+sid)
             s=sources[sid]
             if not s.get('evidence_summary'): raise ValueError('Missing evidence summary: '+sid)
-            candidates.append({'candidate_id':e['id']+'::'+sid,'event_id':e['id'],'source_id':sid,'state':e['state'],'title':s['title'],'url':s['url'],'review_status':'accepted','merge_reason':'Same reviewed action and milestone; not merely similar topic'})
-        primary=next((sources[sid] for sid in e['source_ids'] if sources[sid]['source_type']=='primary_government'),sources[e['source_ids'][0]])
+            candidates.append({'candidate_id':e['id']+'::'+sid,'event_id':e['id'],'source_id':sid,'state':e['state'],'title':s['title'],'url':s['url'],'review_status':'accepted','merge_reason':'Reviewed evidence association for this milestone; may corroborate only part of the claim'})
+        # The reviewed first source anchors the event. An official contextual page
+        # must not silently replace the report establishing the action/date.
+        primary=sources[e['source_ids'][0]]
         e.update({'date':e['event_date'],'source_name':primary['publisher'],'source_url':primary['url'],'source_count':len(e['source_ids']),'has_primary_source':any(sources[sid]['source_type'].startswith('primary_') for sid in e['source_ids'])})
         normalized.append(e)
     groups=deduplicate(candidates)
     normalized.sort(key=lambda e:(e['event_date'] or '',e['id']),reverse=True)
     audit=[{'event_id':k,'candidate_count':len(v),'source_ids':[c['source_id'] for c in v],'decision':'merge source observations, retain one milestone'} for k,v in sorted(groups.items())]
-    payload={'meta':{'title':'State AI Policy Observatory','window_start':START,'research_cutoff':CUTOFF,'states':STATES,'events':len(normalized),'sources':len(sources),'source_observations':len(candidates),'duplicate_observations_collapsed':len(candidates)-len(groups),'with_primary_source':sum(e['has_primary_source'] for e in normalized),'categories':dict(Counter(e['category'] for e in normalized)),'stages':dict(Counter(e['stage'] for e in normalized)),'coverage_note':'Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance.'},'events':normalized,'sources':list(sources.values()),'notes':notes}
+    payload={'meta':{'title':'State AI Policy Observatory','window_start':START,'research_cutoff':CUTOFF,'states':STATES,'events':len(normalized),'sources':len(sources),'source_observations':len(candidates),'additional_source_links':len(candidates)-len(groups),'with_primary_source':sum(e['has_primary_source'] for e in normalized),'categories':dict(Counter(e['category'] for e in normalized)),'stages':dict(Counter(e['stage'] for e in normalized)),'coverage_note':'Purposive 12-state sample. Counts reflect reviewed evidence, not total state activity or performance.'},'events':normalized,'sources':list(sources.values()),'notes':notes}
     dump(ROOT/'data/events.json',payload)
     fields=['id','state','title','date','date_precision','date_basis','publication_date','source_name','source_url','summary','category','stage','initiative','confidence','limitations','source_count','has_primary_source','source_ids']
     csv_write(ROOT/'data/events.csv',normalized,fields)
