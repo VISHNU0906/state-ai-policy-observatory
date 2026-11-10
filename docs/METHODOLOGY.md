@@ -51,10 +51,13 @@ Announced means a stated intention, proposal, consultation or pre-procurement ac
 ## Deduplication and provenance
 
 1. Canonicalize URLs: lowercase host, remove fragments and known tracking parameters; preserve document IDs and other query parameters.
-2. Live collection merges identical canonical URL candidates and retains provider and query-state associations. Google aggregator redirects are not automatically equivalent to publisher URLs.
+2. Durable collection gives identical canonical URLs one document identity but retains each provider/query observation separately. Legacy JSON collectors collapse more metadata; the ledger cannot reconstruct observations already lost in those older exports. Google aggregator redirects are not automatically equivalent to publisher URLs.
 3. Research review assigns event identity using state, institution/counterparty, initiative, action and date. Distinct agreements and later milestones remain distinct. Where an original source does not identify agreement-level boundaries, retain an explicit grouped record and caveat rather than invent instruments.
 4. The build joins reviewed source associations by event ID. The audit records all linked sources. Additional source links are not automatically 'duplicate articles': a document may corroborate only part of a claim or support several events.
-5. The similarity command produces suggestions only. It does not change records. Review decisions must be made in the research input and committed.
+5. Similarity produces review suggestions only, with stage, reversal and numeric-conflict warnings. The current diagnostic retrieves 3 of 12 positive pairs and suggests 6 of 22 distinct pairs at threshold 0.45. Its precision is 0.333 and recall is 0.25 on 34 development pairs. This is not a held-out accuracy estimate and does not justify automatic merging.
+6. New ledger reviews require a reviewer, reason and expected revision. Manual merges preserve source associations and the superseded ID; a guarded restore can undo them. Re-imports do not erase rejections. The frozen dashboard still builds from versioned research JSON; ledger approval alone does not publish a new dashboard event. An approved release must reconcile those inputs and review the resulting diff.
+
+See [normalization rules](NORMALIZATION.md) for explicit state aliases, typo handling, ambiguous dates and missing values; [ledger operations](LEDGER_OPERATIONS.md) for commands; and [tracker integration findings](TRACKER_INTEGRATION_FINDINGS.md) for the external dataset audit.
 
 Each row can be traced CSV -> event ID -> research file -> source IDs -> original URLs. Source counts are neither independent-witness counts nor recall estimates. Syndicated copies may corroborate a date but do not create independent confirmation.
 

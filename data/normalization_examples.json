@@ -1,0 +1,127 @@
+{
+  "states": [
+    {
+      "raw": "U.P.",
+      "value": "Uttar Pradesh",
+      "status": "normalized",
+      "method": "explicit_alias_or_format",
+      "suggestions": []
+    },
+    {
+      "raw": "Uttar-Pradesh",
+      "value": "Uttar Pradesh",
+      "status": "normalized",
+      "method": "explicit_alias_or_format",
+      "suggestions": []
+    },
+    {
+      "raw": "Telengana",
+      "value": "Telangana",
+      "status": "normalized",
+      "method": "explicit_alias_or_format",
+      "suggestions": []
+    },
+    {
+      "raw": "Maharastra",
+      "value": "Maharashtra",
+      "status": "normalized",
+      "method": "explicit_alias_or_format",
+      "suggestions": []
+    },
+    {
+      "raw": "Karnatakaa",
+      "value": null,
+      "status": "needs_review",
+      "method": null,
+      "suggestions": [
+        "Karnataka"
+      ]
+    }
+  ],
+  "dates": [
+    {
+      "raw": "March 2025",
+      "value": "2025-03",
+      "precision": "month",
+      "lower_bound": "2025-03-01",
+      "upper_bound": "2025-03-31",
+      "status": "normalized",
+      "method": "named_month",
+      "reason": null,
+      "numeric_order": null,
+      "anchor": null
+    },
+    {
+      "raw": "02/03/2025",
+      "value": null,
+      "precision": "unknown",
+      "lower_bound": null,
+      "upper_bound": null,
+      "status": "needs_review",
+      "method": null,
+      "reason": "ambiguous_numeric_date",
+      "numeric_order": null,
+      "anchor": null
+    },
+    {
+      "raw": "13/02/2025",
+      "value": "2025-02-13",
+      "precision": "day",
+      "lower_bound": "2025-02-13",
+      "upper_bound": "2025-02-13",
+      "status": "normalized",
+      "method": "numeric_unambiguous",
+      "reason": null,
+      "numeric_order": null,
+      "anchor": null
+    },
+    {
+      "raw": "early 2025",
+      "value": null,
+      "precision": "unknown",
+      "lower_bound": null,
+      "upper_bound": null,
+      "status": "needs_review",
+      "method": null,
+      "reason": "unsupported_or_approximate",
+      "numeric_order": null,
+      "anchor": null
+    },
+    {
+      "raw": "2025-02-29",
+      "value": null,
+      "precision": "unknown",
+      "lower_bound": null,
+      "upper_bound": null,
+      "status": "needs_review",
+      "method": null,
+      "reason": "invalid_date",
+      "numeric_order": null,
+      "anchor": null
+    },
+    {
+      "raw": "2025-01-01T22:00:00Z",
+      "value": "2025-01-02",
+      "precision": "day",
+      "lower_bound": "2025-01-02",
+      "upper_bound": "2025-01-02",
+      "status": "normalized",
+      "method": "timestamp_to_IST",
+      "reason": null,
+      "numeric_order": null,
+      "anchor": null
+    },
+    {
+      "raw": null,
+      "value": null,
+      "precision": "unknown",
+      "lower_bound": null,
+      "upper_bound": null,
+      "status": "missing",
+      "method": "missing_marker",
+      "reason": null,
+      "numeric_order": null,
+      "anchor": null
+    }
+  ]
+}
