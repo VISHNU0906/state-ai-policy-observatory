@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "block_size": 65536,
-  "database_bytes": 30605312,
+  "database_bytes": 30609408,
   "blocks": [
     {
-      "sha256": "aadb6efbb116e32205f41280cc524aeeedea0f0f1d744190f9378d3771c9d3fc",
+      "sha256": "67b7d04c997ee39619f6a687520c962710efdc59285e698f931a5b1c550afffe",
       "bytes": 65536,
-      "path": "block-aadb6efbb116e32205f41280cc524aeeedea0f0f1d744190f9378d3771c9d3fc.gz",
-      "git_blob": "699a9fe9bb41e2647160e17284a84025288f2308"
+      "path": "block-67b7d04c997ee39619f6a687520c962710efdc59285e698f931a5b1c550afffe.gz",
+      "git_blob": "37ff3b4a289b04acd204e5650f54f77e1cd84522"
     },
     {
       "sha256": "97d0e374f5d1cf7ce51f1bf429872338d6a4428149997ca16f0b7aa94361b091",
@@ -2782,10 +2782,10 @@
       "git_blob": "ffa7f5655521b827eec9a7ba29f6432f02d1e4ce"
     },
     {
-      "sha256": "773056bcbcab376a1975cf925a0b630df2f05c2371a33ff8c4620dff2cb026db",
+      "sha256": "990f0f558b4b8af7bb3f0df2446514d0799709ccfd9ac50840fe8204c896e459",
       "bytes": 65536,
-      "path": "block-773056bcbcab376a1975cf925a0b630df2f05c2371a33ff8c4620dff2cb026db.gz",
-      "git_blob": "984892257659bab564645f06204a2894516a12f3"
+      "path": "block-990f0f558b4b8af7bb3f0df2446514d0799709ccfd9ac50840fe8204c896e459.gz",
+      "git_blob": "89450016e37cf475b142e73c8af50d5fe7a2a767"
     },
     {
       "sha256": "4802787ebdab33166004f9104ae192a802ba41e7cb211140ff0c8cb360fdd2cb",
@@ -2804,12 +2804,18 @@
       "bytes": 65536,
       "path": "block-bc10d0cc8a6a246b44b76c297bf8bd305ff3021fec111d6a1561ba585d842414.gz",
       "git_blob": "0b68309f629d9b649516dc41ce1ec0a89647d788"
+    },
+    {
+      "sha256": "210932058869bdaf17dd78842d03872a6d9690c7b37f44546712fe4a6d179a5f",
+      "bytes": 4096,
+      "path": "block-210932058869bdaf17dd78842d03872a6d9690c7b37f44546712fe4a6d179a5f.gz",
+      "git_blob": "536881421a52b60ed898775bb8d7e1e8795a8f9f"
     }
   ],
-  "new_compressed_block_bytes": 12848,
-  "reused_blocks": 466,
-  "created_at": "2026-11-10T17:02:06.570492+00:00",
-  "database_sha256": "52d6f8a6fa33cd5bdb8108f668d7ff818b8ab79eb0a33e1043173755464a5fd9",
+  "new_compressed_block_bytes": 35526,
+  "reused_blocks": 465,
+  "created_at": "2026-11-10T17:02:15.209618+00:00",
+  "database_sha256": "4220310720e8ad9c71b810863e0f642590a481bb092c6aef69126afcfc389080",
   "audit": {
     "schema_version": 2,
     "counts": {
@@ -2837,7 +2843,7 @@
     "pending_documents": 2136,
     "approved_events": 85,
     "latest_external_proposals": 543,
-    "unfinished_queries": 35
+    "unfinished_queries": 24
   },
   "source_commit": "a0aab56c67b6d43815664050c38271b40f709945",
   "boundary": "Includes unverified discovery metadata and external proposals. Only approved events are publication-ready. No full publisher article bodies or credentials."
