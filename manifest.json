@@ -1,6 +1,6 @@
 {
-  "created_at": "2026-11-10T16:52:05.127123+00:00",
-  "database_sha256": "90a26e0a6f7ca93b1c6a76ce7817f843df16bc95aa67ed326418d1d5bd0c9761",
+  "created_at": "2026-11-10T16:52:15.660154+00:00",
+  "database_sha256": "7ef863ba135483750122ac228374bd538cd1142e2aa4bb2861b065bba753beb3",
   "audit": {
     "schema_version": 2,
     "counts": {
@@ -28,7 +28,7 @@
     "pending_documents": 2042,
     "approved_events": 85,
     "latest_external_proposals": 543,
-    "unfinished_queries": 35
+    "unfinished_queries": 24
   },
   "source_commit": "f6b335887a28b6bf8f0e85c254e1475d7825e83e",
   "boundary": "Includes unverified discovery metadata and external proposals. Only approved events are publication-ready. No full publisher article bodies or credentials."
