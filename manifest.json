@@ -1,15 +1,15 @@
 {
-  "created_at": "2026-11-10T16:51:07.905183+00:00",
-  "database_sha256": "e3d9016b912b807446c0891e9100059ebbc68db240b57b4dd7209dc0396dae9d",
+  "created_at": "2026-11-10T16:51:13.270480+00:00",
+  "database_sha256": "ab5d78fdb3f3604bdebdb231893ae81dd122aed1dcdefa7eeb3d8ece5611c1a6",
   "audit": {
     "schema_version": 2,
     "counts": {
       "imports": 6,
       "runs": 4,
       "queries": 89,
-      "documents": 2031,
+      "documents": 2033,
       "document_links": 522,
-      "observations": 3125,
+      "observations": 3135,
       "sources": 113,
       "events": 85,
       "event_sources": 137,
@@ -25,10 +25,10 @@
       "ok"
     ],
     "foreign_key_failures": [],
-    "pending_documents": 2031,
+    "pending_documents": 2033,
     "approved_events": 85,
     "latest_external_proposals": 543,
-    "unfinished_queries": 39
+    "unfinished_queries": 38
   },
   "source_commit": "f6b335887a28b6bf8f0e85c254e1475d7825e83e",
   "boundary": "Includes unverified discovery metadata and external proposals. Only approved events are publication-ready. No full publisher article bodies or credentials."
