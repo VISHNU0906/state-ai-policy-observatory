@@ -31,7 +31,7 @@ def main():
     status=subprocess.check_output(['git','status','--porcelain'],cwd=ROOT).decode()
     intro='''# Data system checkpoint
 
-This is a local checkpoint, not a claim that the proposed hosted workflow is active.
+This is a local snapshot of the data system. The hosted recovery results are recorded in project/docs/RELEASE.md.
 
 Read project/docs/LEDGER_OPERATIONS.md and project/docs/TRACKER_INTEGRATION_FINDINGS.md.
 datasets/reviewed_events.csv contains approved events. All candidate and external proposal files remain unverified.
@@ -48,7 +48,9 @@ python ledger.py --db ../observatory.sqlite audit
 Do not run init over the supplied database. Keep the original checkpoint as a backup before making reviews.
 '''
     (destination/'START_HERE.md').write_text(intro,encoding='utf-8')
+    baseline=Path(str(DEFAULT_DB)+'.history.json')
     (destination/'CHECKPOINT.json').write_text(json.dumps({'created_at':now(),'source_commit':source_commit,
+        'history_baseline':json.loads(baseline.read_text(encoding='utf-8')) if baseline.exists() else None,
         'working_tree_status':status,'audit':audit,'hosted_durable_history':'enabled on approved public data-history branch; see release verification for run outcomes'},indent=2),encoding='utf-8')
     manifest={p.relative_to(destination).as_posix():digest(p.read_bytes()) for p in sorted(destination.rglob('*')) if p.is_file() and p.name!='SHA256_MANIFEST.json'}
     (destination/'SHA256_MANIFEST.json').write_text(json.dumps({'files':manifest},indent=2),encoding='utf-8')
