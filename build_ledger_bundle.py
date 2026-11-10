@@ -37,9 +37,9 @@ observatory.sqlite preserves observation history, imported proposal versions and
 The database includes public-source titles, URLs, short snippets, rejection reasons and local import-path provenance.
 It excludes API credentials and full extracted publisher article bodies.
 
-The workflow under project/proposals/ is INACTIVE. Publishing this candidate ledger to a public data-history branch
-and granting the scheduled workflow repository write access require explicit approval. The current live dashboard
-and its research release are not expanded automatically by this checkpoint.
+The file under project/proposals/ preserves the originally reviewed workflow proposal. Public candidate history and
+workflow writes were explicitly approved. The active workflow is in the source repository under .github/workflows/collect.yml.
+The live dashboard and its research release are not expanded automatically by this checkpoint.
 
 Run python -m unittest discover -s tests -v from project/. To inspect the bundled database:
 python ledger.py --db ../observatory.sqlite audit
@@ -47,7 +47,7 @@ Do not run init over the supplied database. Keep the original checkpoint as a ba
 '''
     (destination/'START_HERE.md').write_text(intro,encoding='utf-8')
     (destination/'CHECKPOINT.json').write_text(json.dumps({'created_at':now(),'source_commit':source_commit,
-        'working_tree_status':status,'audit':audit,'hosted_durable_history':'not activated; approval pending'},indent=2),encoding='utf-8')
+        'working_tree_status':status,'audit':audit,'hosted_durable_history':'enabled on approved public data-history branch; see release verification for run outcomes'},indent=2),encoding='utf-8')
     manifest={p.relative_to(destination).as_posix():digest(p.read_bytes()) for p in sorted(destination.rglob('*')) if p.is_file() and p.name!='SHA256_MANIFEST.json'}
     (destination/'SHA256_MANIFEST.json').write_text(json.dumps({'files':manifest},indent=2),encoding='utf-8')
     archive=ROOT/'output/Data_System_Checkpoint_2026-11-10.zip'

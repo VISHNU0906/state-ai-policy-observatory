@@ -12,7 +12,8 @@ def main():
     sha=run('git','rev-parse','HEAD')
     source=DEST/'state-ai-policy-source.zip';bundle=DEST/'state-ai-policy-history.bundle'
     subprocess.run(['git','archive','--format=zip','--output',str(source),'HEAD'],cwd=ROOT,check=True)
-    subprocess.run(['git','bundle','create',str(bundle),'--all'],cwd=ROOT,check=True)
+    # The source bundle includes development history. Candidate data history is a separate remote branch and checkpoint.
+    subprocess.run(['git','bundle','create',str(bundle),'main'],cwd=ROOT,check=True)
     subprocess.run(['git','bundle','verify',str(bundle)],cwd=ROOT,check=True,capture_output=True)
     for dirname in ['data','docs','dist']:
         shutil.copytree(ROOT/dirname,DEST/({'output':'reports','dist':'offline-dashboard'}.get(dirname,dirname)),dirs_exist_ok=True)

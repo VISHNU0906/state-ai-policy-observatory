@@ -2,7 +2,7 @@
 
 85 reviewed AI-related government milestones across 12 Indian states, supported by 113 source documents. Window: 1 January 2024 to 10 November 2026. This is a selected research sample, not a national census or state ranking.
 
-The project now also has a persistent SQLite evidence ledger, resumable collection, immutable provider observations, versioned local extraction and audited review decisions. Start with [ledger operations](docs/LEDGER_OPERATIONS.md) for the new data system and [tracker integration findings](docs/TRACKER_INTEGRATION_FINDINGS.md) for independent checks of the companion pipeline. The 85-event research release remains separate from unverified discoveries and external proposals. The replacement hosted workflow is an inactive proposal pending approval; the existing hosted workflow described below is still active.
+The project now also has a persistent SQLite evidence ledger, resumable collection, immutable provider observations, versioned local extraction and audited review decisions. Start with [ledger operations](docs/LEDGER_OPERATIONS.md) for the new data system and [tracker integration findings](docs/TRACKER_INTEGRATION_FINDINGS.md) for independent checks of the companion pipeline. The 85-event research release remains separate from unverified discoveries and external proposals. Public candidate history and scheduled workflow writes were explicitly approved on 10 November 2026. Durable snapshots are stored on the separate [data-history branch](https://github.com/VISHNU0906/state-ai-policy-observatory/tree/data-history).
 
 [Live dashboard](https://vishnu0906.github.io/state-ai-policy-observatory/) · [Public repository](https://github.com/VISHNU0906/state-ai-policy-observatory) · [Release verification](docs/RELEASE.md)
 
@@ -78,9 +78,9 @@ The initial corpus was assembled through retrieved-source research and manual ad
 
 ## Hosting and schedule
 
-GitHub Pages serves the static dashboard. `pages.yml` runs tests and rebuilds before publication. `collect.yml` collects daily at **02:17 UTC / 07:47 IST**, with manual dispatch and a 15-minute timeout. It uses RSS, GDELT, Tavily and Exa. The latter two have encrypted repository secrets provisioned with permission. Free sources continue if their keys fail.
+GitHub Pages serves the static dashboard. `pages.yml` runs tests and rebuilds before publication. `collect.yml` collects daily at **02:17 UTC / 07:47 IST**, with manual dispatch and a 30-minute timeout. It uses RSS, GDELT, Tavily and Exa. The latter two have encrypted repository secrets provisioned with permission. Free sources continue if their keys fail.
 
-The job preserves usage through Actions cache and includes it in run artifacts. Artifacts expire after 30 days; download or archive them for longer retention. Cache eviction can reset local counters. Scheduled Actions are best-effort, may be delayed, and public schedules may be disabled after 60 days of inactivity. No guaranteed uptime, automatic event publication or missed-run notification service is claimed. Verified first-run outcomes are in `docs/RELEASE.md`.
+The job restores SQLite state from the data-history branch. It publishes request reservations before keyed attempts and checkpoints completed queries. Fixed-size compressed blocks reuse unchanged database pages rather than uploading a whole compressed database each time. Artifacts still expire after 30 days, but history and request budgets no longer rely on cache or artifact retention. Restoration failures stop collection. Scheduled Actions are best-effort and may be delayed. No guaranteed uptime, automatic event publication or missed-run notification service is claimed. Verified run outcomes are in `docs/RELEASE.md`.
 
 ## Scope and limits
 

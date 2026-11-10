@@ -1,6 +1,6 @@
 # Durable collection and evidence ledger
 
-Implemented locally on 10 November 2026. The active hosted workflow is still the original read-only collector. The replacement workflow in `proposals/durable-collection.yml` is inactive pending explicit approval to publish candidate history and grant the workflow repository write access. Do not confuse local implementation with a verified hosted deployment.
+Implemented on 10 November 2026. The user explicitly approved public candidate history and workflow repository write access. The replacement collector is enabled in `.github/workflows/collect.yml`; `proposals/durable-collection.yml` preserves the original reviewable proposal. Verified hosted outcomes and remaining limitations are recorded in `docs/RELEASE.md`.
 
 ## Data boundaries
 
@@ -85,13 +85,15 @@ Partial event dates stay `YYYY-MM` or `YYYY`. Sorting uses the interval's lower 
 
 `extract_ledger.py` checks robots rules before local retrieval. It records every attempt, including failures, and stores extracted text privately by its SHA-256 hash. A changed page retains the older text and sets a change flag. The public ledger holds hashes and metadata, not article bodies. The private text cache is excluded from Git and release archives. Changed evidence creates a flag for review, not automatic fact revision. Hosted extraction in this ledger CLI is currently disabled until it has query-scoped budget reservations.
 
-## Durable hosting proposal
+## Durable hosting
 
-`history_store.py` uses SQLite's backup API, validates integrity and foreign keys, compresses the snapshot, and checks its checksum on restore. It does not copy a live SQLite file blindly. This follows the [SQLite backup documentation](https://www.sqlite.org/backup.html) and enables [foreign key checks](https://www.sqlite.org/foreignkeys.html) on every connection.
+`history_store.py` uses SQLite's backup API, validates integrity and foreign keys, and divides a consistent snapshot into 64 KiB blocks. Each block is compressed separately and identified by its uncompressed SHA-256. Unchanged blocks reuse their existing Git objects. The ordered manifest retains a whole-database checksum. Restore checks every block and the reconstructed database, then runs integrity and foreign-key checks. This follows the [SQLite backup documentation](https://www.sqlite.org/backup.html), enables [foreign key checks](https://www.sqlite.org/foreignkeys.html), and uses [Git batch object reads](https://git-scm.com/docs/git-cat-file) to avoid starting a process for every restored block.
 
-The inactive workflow would publish a snapshot before each keyed request reservation is used and after each query. It would use a separate `data-history` branch without switching the source checkout. A missing history branch, network failure, checksum mismatch, unexpected remote revision or concurrent push stops stateful collection. It never force-pushes and never silently resets the request ledger. The existing main branch and reviewed dashboard are separate from the data branch.
+The workflow publishes a snapshot before each keyed request reservation is used and after each query. It uses a separate `data-history` branch without switching the source checkout. A missing history branch, network failure, checksum mismatch, unexpected remote revision or concurrent push stops stateful collection. It never force-pushes and never silently resets the request ledger. The main branch and reviewed dashboard are separate from the data branch. Shallow fetching retrieves the current data snapshot without downloading every prior version. Historical snapshots remain available from GitHub.
 
-A paid call may finish just before a runner disappears. Its reservation survives, but its response may need fetching again. A hard cancellation can interrupt the current checkpoint. GitHub schedules are best-effort and do not promise a specific start time. Large binary histories are a bounded starter solution: publication stops above 45 MB compressed or 250 MB uncompressed; move to object storage before approaching those limits. Restores require Git and the repository remote. The current archive implementation has local tests but no live hosted run until approval and deployment.
+A paid call may finish just before a runner disappears. Its reservation survives, but its response may need fetching again. A hard cancellation can interrupt the current checkpoint. GitHub schedules are best-effort and do not promise a specific start time. Archive publication stops above a 250 MB working database; move to object storage before approaching that bound or if Git history growth becomes excessive. Block reuse reduces repeated transfer but does not make history growth free or unbounded. Restores require Git and the repository remote.
+
+To adopt hosted updates locally, run `python history_store.py refresh`. It first saves a local backup and compares local state to the last published/restored baseline. Unpublished local changes cause refusal, not replacement. Reconcile those changes in a separately restored database. `python history_store.py restore --db state/fresh.sqlite` always requires a new destination. Keep one collection writer active at a time.
 
 ## What is not established
 
