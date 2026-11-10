@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.cache/
+release/
+*.tar.gz
+*.zip
+*.bundle
+.sites/
+node_modules/
