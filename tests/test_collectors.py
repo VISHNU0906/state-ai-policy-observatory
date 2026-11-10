@@ -6,7 +6,9 @@ import collectors
 
 class AdapterContractTests(unittest.TestCase):
     def test_monthly_attempt_budget_stops_before_request(self):
-        with tempfile.TemporaryDirectory() as directory,patch('collectors.ROOT',Path(directory)),patch.dict('os.environ',{'TAVILY_MONTHLY_REQUEST_CAP':'2'}):
+        temporary_root=Path(__file__).resolve().parents[1]/'tmp'
+        temporary_root.mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=temporary_root) as directory,patch('collectors.ROOT',Path(directory)),patch.dict('os.environ',{'TAVILY_MONTHLY_REQUEST_CAP':'2'}):
             collectors.reserve_attempt('https://api.tavily.com/search')
             collectors.reserve_attempt('https://api.tavily.com/search')
             with self.assertRaisesRegex(RuntimeError,'request_cap'):
