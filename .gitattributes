@@ -2,3 +2,5 @@
 *.png binary
 *.zip binary
 *.bundle binary
+# Dataset manifest hashes cover exact bytes, including line endings.
+huggingface_dataset/** -text
